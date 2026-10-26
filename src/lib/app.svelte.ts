@@ -114,6 +114,24 @@ class AppState {
     return this.seconds[`${date}|${lang}|${mode}`] ?? 0;
   }
 
+  /** Czy cel dnia (20 min nowej nauki) został osiągnięty w danym dniu. */
+  dayDone(dateIso: string): boolean {
+    const p = this.plan(dateIso);
+    return !!p && !!this.index && this.secondsFor(p.learn, 'new', dateIso) >= this.index.rotation.minutesNew * 60;
+  }
+
+  /** Ile dni z rzędu (do dziś albo do wczoraj) osiągnięto cel dnia. */
+  streak(today = new Date()): number {
+    let n = 0;
+    const d = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+    if (!this.dayDone(localIsoDate(d))) d.setDate(d.getDate() - 1);
+    while (this.dayDone(localIsoDate(d)) && n < 3650) {
+      n++;
+      d.setDate(d.getDate() - 1);
+    }
+    return n;
+  }
+
   async addSeconds(lang: string, mode: 'new' | 'review', s: number) {
     const key = `${localIsoDate()}|${lang}|${mode}`;
     this.seconds[key] = (this.seconds[key] ?? 0) + s;

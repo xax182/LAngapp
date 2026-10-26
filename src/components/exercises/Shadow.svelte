@@ -56,7 +56,7 @@
   <section class="card stack">
     <strong>1. Słuchaj i mów na głos razem ze wzorem</strong>
     <div class="row">
-      <button onclick={() => playReference(phrase, language, app.settings.ttsRate)} disabled={kind === 'none'}>▶ Odtwórz</button>
+      <button data-ref onclick={() => playReference(phrase, language, app.settings.ttsRate)} disabled={kind === 'none'}>▶ Odtwórz</button>
       <button onclick={() => playReference(phrase, language, 0.6)} disabled={kind === 'none'}>▶ Wolno</button>
       <button onclick={loop} disabled={kind === 'none' || looping}>{looping ? 'Mów po każdym odtworzeniu…' : '↻ 3× z przerwą na powtórzenie'}</button>
     </div>
@@ -79,6 +79,6 @@
   </section>
 
   <div class="row">
-    <button class="primary big" onclick={finish}>Dalej →</button>
+    <button class="primary big" data-next onclick={finish}>Dalej →</button>
   </div>
 </div>

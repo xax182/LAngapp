@@ -13,7 +13,7 @@ const ph = (i: number, lesson = 1): Phrase => ({
   status: 'niezweryfikowane',
 });
 const pack = (exercises: LanguagePack['language']['exercises'], phrases: Phrase[]): LanguagePack => ({
-  language: { code: 'fr', name: 'fr', inLanguage: 'po francusku', bcp47: 'fr-FR', whisper: 'french', asr: 'dobre', dir: 'ltr', limits: '', exercises },
+  language: { code: 'fr', name: 'fr', seal: 'FR', inLanguage: 'po francusku', bcp47: 'fr-FR', whisper: 'french', asr: 'dobre', dir: 'ltr', limits: '', exercises },
   lessons: [{ id: 1, title: 'a' }],
   phrases,
   gaps: [],

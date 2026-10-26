@@ -72,7 +72,7 @@
     <p class="small muted">Rekord: {best} pkt</p>
     <div class="row">
       <button class="primary big" onclick={begin} disabled={busy}>{busy ? 'Ładuję rozpoznawanie…' : 'Graj'}</button>
-      <button onclick={ondone}>Pomiń</button>
+      <button data-next onclick={ondone}>Pomiń</button>
     </div>
     {#if error}<p class="notice">{error}</p>{/if}
   {:else}
@@ -86,8 +86,8 @@
         <PhraseView phrase={last.phrase} {language} compact />
         <p class="small">Rozpoznano: „{last.heard || '—'}”</p>
         <div class="row">
-          <button onclick={() => playReference(last!.phrase, language, app.settings.ttsRate)}>▶ Wzór</button>
-          <button class="primary" onclick={next}>Dalej →</button>
+          <button data-ref onclick={() => playReference(last!.phrase, language, app.settings.ttsRate)}>▶ Wzór</button>
+          <button class="primary" data-next onclick={next}>Dalej →</button>
         </div>
       </section>
     {:else}

@@ -3,6 +3,13 @@
   import * as db from '../lib/db.ts';
   import { voiceFor } from '../lib/speech/tts.ts';
   import type { ModelSize } from '../lib/speech/asr.ts';
+  import { ACCENTS, chime, look, type Theme } from '../lib/look.svelte.ts';
+
+  const THEMES: { id: Theme; label: string }[] = [
+    { id: 'auto', label: 'Auto' },
+    { id: 'krem', label: 'Krem' },
+    { id: 'noc', label: 'Noc' },
+  ];
 
   const plan = $derived(app.plan());
   let todayLang = $state(app.plan()?.learn ?? 'fr');
@@ -37,6 +44,41 @@
 
 <h1>Ustawienia</h1>
 <div class="stack">
+  <section class="card stack">
+    <h3>Wygląd</h3>
+    <div class="row" role="group" aria-label="Motyw">
+      <span class="small muted lbl">Motyw</span>
+      <div class="seg">
+        {#each THEMES as t (t.id)}
+          <button aria-pressed={look.theme === t.id} onclick={() => (look.theme = t.id)}>{t.label}</button>
+        {/each}
+      </div>
+    </div>
+    <div class="row" role="group" aria-label="Kolor akcentu">
+      <span class="small muted lbl">Akcent</span>
+      {#each ACCENTS as a (a.id)}
+        <button class="swatch" aria-pressed={look.accent === a.id} aria-label={a.label} title={a.label} onclick={() => (look.accent = a.id)}>
+          <span style="background: {a.swatch}"></span>
+        </button>
+      {/each}
+    </div>
+    <label class="row">
+      <span class="small muted lbl">Szkło</span>
+      <input type="range" min="0.5" max="0.95" step="0.01" bind:value={look.glass} aria-label="Przezroczystość szkła" />
+      <span class="small mono">{Math.round(look.glass * 100)}%</span>
+    </label>
+    <div class="row">
+      <span class="small muted lbl">Efekty</span>
+      <button aria-pressed={look.fx} onclick={() => (look.fx = !look.fx)}>{look.fx ? 'Włączone' : 'Wyłączone'}</button>
+      <span class="small muted">ruch tła, stempel</span>
+    </div>
+    <div class="row">
+      <span class="small muted lbl">Dźwięki</span>
+      <button aria-pressed={look.sounds} onclick={() => { look.sounds = !look.sounds; chime('bell'); }}>{look.sounds ? 'Włączone' : 'Wyłączone'}</button>
+      <span class="small muted">ciche: stempel, dzwonek</span>
+    </div>
+  </section>
+
   <section class="card stack">
     <h3>Plan</h3>
     <p class="small">Dziś: dzień {plan?.dayNumber}, nowy język: {app.language(plan?.learn ?? '')?.name}.</p>
@@ -91,9 +133,48 @@
 </div>
 
 <style>
+  .lbl {
+    min-width: 4.5rem;
+  }
+  .seg {
+    display: inline-flex;
+    gap: 2px;
+    padding: 3px;
+    border-radius: 999px;
+    background: var(--bg-el3);
+    border: 0.5px solid var(--sep);
+  }
+  .seg button {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    min-height: 36px;
+    padding: 0.3rem 0.9rem;
+  }
+  .seg button[aria-pressed='true'] {
+    background: var(--bg-el);
+    box-shadow: var(--sh-s);
+    outline: none;
+    font-weight: 600;
+  }
+  .swatch {
+    width: 44px;
+    padding: 0;
+    display: grid;
+    place-items: center;
+  }
+  .swatch span {
+    width: 22px;
+    height: 22px;
+    border-radius: 999px;
+  }
   .button-like {
-    border: 1px solid var(--border);
-    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    border: 0.5px solid var(--sep);
+    background: var(--bg-el);
+    border-radius: 999px;
     padding: 0.6rem 1rem;
     cursor: pointer;
   }

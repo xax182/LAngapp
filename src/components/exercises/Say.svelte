@@ -11,7 +11,7 @@
   import Recorder from '../Recorder.svelte';
   import Attempt from '../Attempt.svelte';
 
-  let { phrase, language, ondone }: { phrase: Phrase; language: Language; ondone: () => void } = $props();
+  let { phrase, language, ondone }: { phrase: Phrase; language: Language; ondone: (grade?: number) => void } = $props();
 
   let recording = $state<Recording | null>(null);
   let revealed = $state(false);
@@ -21,8 +21,19 @@
 
   async function grade(g: Grade) {
     await app.grade(phrase.id, language.code, g, score ?? undefined);
-    ondone();
+    ondone(g);
   }
+
+  // Klawisze 1–4 = ocena (po odsłonięciu odpowiedzi).
+  $effect(() => {
+    if (!revealed) return;
+    const onKey = (e: KeyboardEvent) => {
+      const n = Number(e.key);
+      if (n >= 1 && n <= 4 && !(e.target as HTMLElement).matches('input, select, textarea')) void grade(n as Grade);
+    };
+    addEventListener('keydown', onKey);
+    return () => removeEventListener('keydown', onKey);
+  });
 </script>
 
 <div class="stack">
@@ -47,14 +58,14 @@
       {#if recording}
         <Attempt {phrase} {language} {recording} onscore={(s) => (score = s)} />
       {:else}
-        <button onclick={() => playReference(phrase, language, app.settings.ttsRate)}>▶ Wzór</button>
+        <button data-ref onclick={() => playReference(phrase, language, app.settings.ttsRate)}>▶ Wzór</button>
       {/if}
     </section>
     <div class="stack">
       <strong>Jak poszło?</strong>
       <div class="row">
         {#each GRADES as g (g.grade)}
-          <button class:primary={suggested === g.grade} onclick={() => grade(g.grade)}>{g.label}</button>
+          <button class:primary={suggested === g.grade} aria-pressed={suggested === g.grade} onclick={() => grade(g.grade)}><kbd>{g.grade}</kbd> {g.label}</button>
         {/each}
       </div>
       {#if suggested}<p class="small muted">Podświetlona ocena to sugestia z rozpoznawania mowy. Decydujesz Ty.</p>{/if}

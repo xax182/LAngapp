@@ -69,7 +69,7 @@
 
 <div class="stack">
   <div class="row">
-    <button onclick={() => playReference(phrase, language, app.settings.ttsRate)}>▶ Wzór</button>
+    <button data-ref onclick={() => playReference(phrase, language, app.settings.ttsRate)}>▶ Wzór</button>
     <button onclick={() => playBlobUrl(recording.url)}>▶ Ja</button>
     <button onclick={both}>▶ Wzór, potem ja</button>
   </div>

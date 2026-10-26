@@ -6,6 +6,7 @@
   import * as db from '../lib/db.ts';
   import PhraseView from './PhraseView.svelte';
   import Recorder from './Recorder.svelte';
+  import Seal from './Seal.svelte';
 
   let { code }: { code: string | null } = $props();
 
@@ -40,17 +41,25 @@
   <h1>Języki</h1>
   <div class="stack">
     {#each app.index!.languages as l (l.code)}
+      {@const c = counts[l.code]}
+      {@const total = c.phrases + c.gaps}
       <a class="card lang" href="#/jezyki/{l.code}">
-        <strong>{l.name}</strong>
-        <span class="small muted">
-          {counts[l.code].phrases} fraz · {counts[l.code].verified} zweryfikowanych · luki: {counts[l.code].gaps}
+        <Seal glyph={l.seal} on={c.gaps === 0 && c.phrases > 0} size={44} title={l.name} />
+        <span class="grow">
+          <strong>{l.name}</strong>
+          <span class="small muted">{c.phrases} fraz · {c.verified} zweryfikowanych · luki: {c.gaps}</span>
+          <span class="progress" aria-hidden="true"><span style="width: {total ? (c.phrases / total) * 100 : 0}%"></span></span>
         </span>
+        <span class="muted" aria-hidden="true">›</span>
       </a>
     {/each}
   </div>
 {:else if pack}
   <a href="#/jezyki">← Języki</a>
-  <h1>{pack.language.name}</h1>
+  <div class="row title">
+    <Seal glyph={pack.language.seal} size={48} title={pack.language.name} />
+    <h1>{pack.language.name}</h1>
+  </div>
   {#if pack.language.variety}<p class="small muted">{pack.language.variety}</p>{/if}
   <p class="small">
     Fraz: {pack.phrases.length}, zweryfikowanych: {pack.phrases.filter((p) => p.status === 'zweryfikowane').length}, luk: {pack.gaps.length}.
@@ -97,12 +106,37 @@
 <style>
   .lang {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
     text-decoration: none;
     color: inherit;
+    transition: transform var(--t-fast) var(--ease);
+  }
+  .lang:hover {
+    transform: translateY(-1px);
+  }
+  .grow {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .progress > span {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+    border-radius: 999px;
   }
   .lesson {
     margin-top: 1.5rem;
+  }
+  .title {
+    margin: 0.6rem 0 0.3rem;
+    flex-wrap: nowrap;
+  }
+  .title h1 {
+    margin: 0;
   }
   .gaps {
     display: flex;

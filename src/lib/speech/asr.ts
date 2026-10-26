@@ -19,6 +19,16 @@ const pending = new Map<number, { resolve: (t: string) => void; reject: (e: Erro
 const fileProgress = new Map<string, number>();
 let nextId = 1;
 let readyPromise: Promise<void> | null = null;
+const DOWNLOADED_KEY = 'poliglota-asr-downloaded';
+
+/** Czy model był już kiedyś pobrany (jest w pamięci przeglądarki), więc można go cicho załadować. */
+export function wasDownloaded(size: ModelSize): boolean {
+  try {
+    return localStorage.getItem(DOWNLOADED_KEY) === size;
+  } catch {
+    return false;
+  }
+}
 
 function set(s: Partial<AsrStatus>) {
   status = { ...status, ...s };
@@ -44,6 +54,11 @@ export function loadAsr(size: ModelSize): Promise<void> {
         set({ progress: Math.round(vals.reduce((a, b) => a + b, 0) / vals.length) });
       } else if (m.type === 'ready') {
         set({ state: 'ready', progress: 100, device: m.device });
+        try {
+          localStorage.setItem(DOWNLOADED_KEY, size);
+        } catch {
+          /* bez zapamiętania */
+        }
         resolve();
       } else if (m.type === 'result') {
         pending.get(m.id)?.resolve(m.text);

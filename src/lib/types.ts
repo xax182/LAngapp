@@ -36,6 +36,8 @@ export interface Phrase {
 export interface Language {
   code: string;
   name: string;
+  /** Znak na pieczęci języka (1–2 litery). */
+  seal: string;
   /** Np. „po francusku”, do poleceń w ćwiczeniach. */
   inLanguage: string;
   /** Kod BCP-47 dla syntezy mowy i rozpoznawania w przeglądarce. */

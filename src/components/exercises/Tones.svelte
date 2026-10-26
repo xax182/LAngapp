@@ -88,7 +88,7 @@
     <div class="row">
       <button class="primary" onclick={() => start('listen')} disabled={!tts || !drills.length}>Słuchaj: jaki to ton?</button>
       <button class="primary" onclick={() => start('speak')} disabled={!drills.length}>Mów: trafiasz w ton?</button>
-      <button onclick={ondone}>Dalej →</button>
+      <button data-next onclick={ondone}>Dalej →</button>
     </div>
     {#if !tts}<p class="small notice">Brak chińskiego głosu syntezatora na tym urządzeniu, więc gra w słuchanie jest wyłączona.</p>{/if}
     {#if app.settings.toneRefHz}
@@ -103,7 +103,7 @@
     <p class="small muted">{i + 1} / {items.length} · trafione: {correct}</p>
     {#if mode === 'listen'}
       <div class="big">{answer === null ? '?' : `${d.hanzi} ${d.pinyin}`}</div>
-      <button onclick={say}>▶ Jeszcze raz</button>
+      <button data-ref onclick={say}>▶ Jeszcze raz</button>
       <div class="tones">
         {#each [1, 2, 3, 4] as t (t)}
           <button
@@ -132,7 +132,7 @@
         <button onclick={() => { answer = null; guess = null; attempt++; }}>Spróbuj jeszcze raz</button>
       {/if}
     {/if}
-    {#if answer !== null}<button class="primary" onclick={next}>Dalej →</button>{/if}
+    {#if answer !== null}<button class="primary" data-next onclick={next}>Dalej →</button>{/if}
   {/if}
 </div>
 

@@ -15,6 +15,15 @@ Działa w przeglądarce (komputer, telefon, iPad), bez konta i serwera. Postępy
   - *Szybka odpowiedź*: gra na czas z punktami.
   - *Tony* (mandaryński): słuchanie i mówienie par mā/má/mǎ/mà, pomiar wysokości głosu.
 - **Powtórki** układa algorytm FSRS (biblioteka ts-fsrs).
+- **Pieczęcie**: każdy język ma swoją pieczęć; wypełnia się, gdy zrobisz 20 min. Tydzień cyklu widać na ekranie „Dziś”,
+  a osiągnięcie celu kończy się stemplem.
+- **Skróty** (komputer): Spacja = nagraj/stop, R = wzór, Enter = dalej, 1–4 = ocena.
+
+## Wygląd
+
+Styl „creamygloss”: kremowy papier, szkło, tusz. Ustawienia → Wygląd: motyw Krem / Noc / Auto,
+akcent (indygo, cynober, matcha, sakura, złoto), przezroczystość szkła, efekty ruchu, ciche dźwięki.
+Kontrast sprawdza test axe we wszystkich motywach i akcentach (`tests/e2e/a11y.spec.ts`).
 
 ## Granice
 
