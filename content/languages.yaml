@@ -1,0 +1,109 @@
+# Ustawienia języków i rotacji. Zmiana tutaj nie wymaga zmiany kodu.
+
+rotation:
+  # Kolejność cyklu 7 dni (dzień 1 = pierwszy na liście).
+  order: [fr, zh, es, de, ar, ru, aii]
+  # Powtórka = język sprzed tylu dni.
+  reviewOffsetDays: 3
+  # Tych par nie wolno łączyć w jednym dniu. Test pilnuje tej reguły.
+  forbiddenPairs:
+    - [fr, es]
+    - [ar, aii]
+  minutesNew: 20
+  minutesReview: 5
+  # Ile nowych fraz wprowadzić w jednej sesji 20 min.
+  newPerSession: 10
+
+languages:
+  - code: fr
+    inLanguage: po francusku
+    name: francuski
+    bcp47: fr-FR
+    whisper: french
+    asr: dobre
+    dir: ltr
+    exercises: [shadow, say, quick]
+    limits: >-
+      Rozpoznawanie mowy (Whisper) sprawdza, czy z Twojej wymowy da się odczytać właściwe zdanie.
+      To miara zrozumiałości, nie akcentu. Brzmienie porównujesz sam: odsłuch wzór / Ty.
+
+  - code: zh
+    inLanguage: po chińsku (mandaryński)
+    name: mandaryński
+    bcp47: zh-CN
+    whisper: chinese
+    asr: dobre
+    dir: ltr
+    romanizationLabel: pinyin
+    exercises: [shadow, say, quick, tones]
+    limits: >-
+      Tony: dla pojedynczych sylab aplikacja mierzy wysokość głosu i rozpoznaje ton dość pewnie.
+      W całych zdaniach tony zmieniają się w mowie ciągłej (np. dwa 3. tony obok siebie), więc
+      pokazuje tylko wykres obok wzoru, bez oceny. Rozpoznawanie zdania pośrednio sprawdza tony,
+      ale model często „zgaduje” dobrze mimo błędu.
+
+  - code: es
+    inLanguage: po hiszpańsku
+    name: hiszpański
+    bcp47: es-ES
+    whisper: spanish
+    asr: dobre
+    dir: ltr
+    exercises: [shadow, say, quick]
+    limits: >-
+      Rozpoznawanie mowy sprawdza zrozumiałość, nie akcent. Brzmienie porównujesz sam.
+
+  - code: de
+    inLanguage: po niemiecku
+    name: niemiecki
+    bcp47: de-DE
+    whisper: german
+    asr: dobre
+    dir: ltr
+    exercises: [shadow, say, quick]
+    limits: >-
+      Rozpoznawanie mowy sprawdza zrozumiałość, nie akcent. Brzmienie porównujesz sam.
+
+  - code: ar
+    inLanguage: po arabsku (palestyński)
+    name: arabski lewantyński (palestyński)
+    bcp47: ar
+    whisper: arabic
+    asr: słabe
+    dir: rtl
+    variety: >-
+      Cel: dialekt palestyński. Tatoeba oznacza zdania lewantyńskie kodem apc/ajp, ale nie zawsze
+      podaje kraj. Każde zdanie trzeba sprawdzić, czy jest palestyńskie.
+    romanizationLabel: romanizacja
+    exercises: [shadow, say, quick]
+    limits: >-
+      Rozpoznawanie mowy zna tylko „arabski ogólny” i często zamienia dialekt na arabski standardowy.
+      Wynik jest tylko pomocniczy. Głos syntezatora czyta zwykle po standardowemu, nie po palestyńsku:
+      wzorem powinno być nagranie native speakera.
+
+  - code: ru
+    inLanguage: po rosyjsku
+    name: rosyjski
+    bcp47: ru-RU
+    whisper: russian
+    asr: dobre
+    dir: ltr
+    exercises: [shadow, say, quick]
+    limits: >-
+      Rozpoznawanie mowy sprawdza zrozumiałość, nie akcent. Akcent wyrazowy widać na wykresie
+      głosu tylko orientacyjnie. Brzmienie porównujesz sam.
+
+  - code: aii
+    inLanguage: w Suret
+    name: aramejski Suret (asyryjski)
+    bcp47: aii
+    whisper: null
+    asr: brak
+    dir: rtl
+    variety: Asyryjski neoaramejski (Suret). Dialekt do ustalenia przy dodawaniu źródeł.
+    romanizationLabel: romanizacja
+    exercises: [shadow, say]
+    limits: >-
+      Nie istnieje rozpoznawanie mowy ani syntezator dla Suret. Aplikacja NIE ocenia wymowy:
+      tylko nagrywa Ciebie i pozwala porównać ze wzorem (nagraniem). Wzorzec musi pochodzić
+      od native speakera; możesz go nagrać w aplikacji.

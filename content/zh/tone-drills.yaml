@@ -1,0 +1,162 @@
+# Wygenerowane przez scripts/build-tone-drills.ts z CC-CEDICT. Nie edytuj ręcznie.
+drills:
+  - hanzi: 妈
+    pinyin: mā
+    tone: 1
+    meaning: ma; mom
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 麻
+    pinyin: má
+    tone: 2
+    meaning: generic name for hemp, flax etc; hemp or flax fiber for textile materials
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 马
+    pinyin: mǎ
+    tone: 3
+    meaning: horse; horse or cavalry piece in Chinese chess
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 骂
+    pinyin: mà
+    tone: 4
+    meaning: to scold; to abuse
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 八
+    pinyin: bā
+    tone: 1
+    meaning: eight
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 拔
+    pinyin: bá
+    tone: 2
+    meaning: to pull up; to pull out
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 把
+    pinyin: bǎ
+    tone: 3
+    meaning: to hold; to grasp; to hold a baby in position to help it urinate or defecate
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 爸
+    pinyin: bà
+    tone: 4
+    meaning: father; dad
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 一
+    pinyin: yī
+    tone: 1
+    meaning: one; single
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 姨
+    pinyin: yí
+    tone: 2
+    meaning: mother's sister; aunt
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 椅
+    pinyin: yǐ
+    tone: 3
+    meaning: chair
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 意
+    pinyin: yì
+    tone: 4
+    meaning: idea; meaning
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 屋
+    pinyin: wū
+    tone: 1
+    meaning: (bound form) house; (bound form) room
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 无
+    pinyin: wú
+    tone: 2
+    meaning: not to have; no
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 五
+    pinyin: wǔ
+    tone: 3
+    meaning: five; 5
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 雾
+    pinyin: wù
+    tone: 4
+    meaning: fog; mist
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 汤
+    pinyin: tāng
+    tone: 1
+    meaning: soup; hot or boiling water
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 糖
+    pinyin: táng
+    tone: 2
+    meaning: sugar; sweets
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 躺
+    pinyin: tǎng
+    tone: 3
+    meaning: to recline; to lie down
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 烫
+    pinyin: tàng
+    tone: 4
+    meaning: to scald; to burn (by scalding)
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 诗
+    pinyin: shī
+    tone: 1
+    meaning: poem; poetry
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 十
+    pinyin: shí
+    tone: 2
+    meaning: ten; 10
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 使
+    pinyin: shǐ
+    tone: 3
+    meaning: to make; to cause
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 是
+    pinyin: shì
+    tone: 4
+    meaning: to be (followed by substantives only); correct; right; true
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 突
+    pinyin: tū
+    tone: 1
+    meaning: to dash; to move forward quickly
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 图
+    pinyin: tú
+    tone: 2
+    meaning: diagram; picture
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 土
+    pinyin: tǔ
+    tone: 3
+    meaning: earth; dust
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 兔
+    pinyin: tù
+    tone: 4
+    meaning: rabbit
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 鸡
+    pinyin: jī
+    tone: 1
+    meaning: fowl; chicken
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 急
+    pinyin: jí
+    tone: 2
+    meaning: urgent; pressing
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 几
+    pinyin: jǐ
+    tone: 3
+    meaning: how much; how many
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0
+  - hanzi: 记
+    pinyin: jì
+    tone: 4
+    meaning: to record; to note
+    source: CC-CEDICT (MDBG), CC BY-SA 4.0

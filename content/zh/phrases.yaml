@@ -1,0 +1,985 @@
+# Frazy do nauki. Każda fraza MUSI mieć "source" i "status".
+# status: zweryfikowane | niezweryfikowane
+# Importer nigdy nie zmienia fraz ze statusem "zweryfikowane" ani z "locked: true".
+# Brak frazy dla klucza z programu = luka, widoczna w aplikacji.
+phrases:
+  - id: zh-and-you
+    lesson: 1
+    key: and-you
+    original: 你呢？
+    romanization: nǐ ne
+    meaning:
+      en: And you?
+    audio: null
+    source: "Tatoeba, zdanie #691992 (tłumaczenie ang. #524168), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/691992
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-good-evening
+    lesson: 1
+    key: good-evening
+    original: 晚上好！
+    romanization: wǎn shàng hǎo
+    meaning:
+      en: Good evening.
+    audio: null
+    source: "Tatoeba, zdanie #6559016 (tłumaczenie ang. #333156), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/6559016
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-good-morning
+    lesson: 1
+    key: good-morning
+    original: 早上好！
+    romanization: zǎo shang hǎo
+    meaning:
+      en: Good morning!
+    audio: null
+    source: "Tatoeba, zdanie #335381 (tłumaczenie ang. #329713), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/335381
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-good-night
+    lesson: 1
+    key: good-night
+    original: 晚安！
+    romanization: wǎn ān
+    meaning:
+      en: Good night!
+    audio: null
+    source: "Tatoeba, zdanie #465913 (tłumaczenie ang. #426950), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/465913
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-goodbye
+    lesson: 1
+    key: goodbye
+    original: 再见！
+    romanization: zài jiàn
+    meaning:
+      en: Goodbye!
+    audio: null
+    source: "Tatoeba, zdanie #336477 (tłumaczenie ang. #516745), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/336477
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-hello
+    lesson: 1
+    key: hello
+    original: 你好。
+    romanization: nǐ hǎo
+    meaning:
+      en: Hello!
+    audio: null
+    source: "Tatoeba, zdanie #4857568 (tłumaczenie ang. #373330), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4857568
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-how-are-you
+    lesson: 1
+    key: how-are-you
+    original: 你好吗？
+    romanization: nǐ hǎo ma
+    meaning:
+      en: How are you doing?
+    audio: null
+    source: "Tatoeba, zdanie #475781 (tłumaczenie ang. #38926), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/475781
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-fine
+    lesson: 1
+    key: im-fine
+    original: 我很好。
+    romanization: wǒ hěn hǎo
+    meaning:
+      en: I'm fine.
+    audio: null
+    source: "Tatoeba, zdanie #794004 (tłumaczenie ang. #257272), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/794004
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-see-you-tomorrow
+    lesson: 1
+    key: see-you-tomorrow
+    original: 明天见！
+    romanization: míng tiān jiàn
+    meaning:
+      en: See you tomorrow!
+    audio: null
+    source: "Tatoeba, zdanie #10966735 (tłumaczenie ang. #1108683), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/10966735
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-excuse-me
+    lesson: 2
+    key: excuse-me
+    original: 不好意思……
+    romanization: bù hǎo yì si
+    meaning:
+      en: Excuse me.
+    audio: null
+    source: "Tatoeba, zdanie #339975 (tłumaczenie ang. #433504), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/339975
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-sorry
+    lesson: 2
+    key: im-sorry
+    original: 对不起。
+    romanization: duì bu qǐ
+    meaning:
+      en: I'm sorry.
+    audio: null
+    source: "Tatoeba, zdanie #472304 (tłumaczenie ang. #38387), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/472304
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-no
+    lesson: 2
+    key: no
+    original: 不是。
+    romanization: bù shì
+    meaning:
+      en: No.
+    audio: null
+    source: "Tatoeba, zdanie #3189864 (tłumaczenie ang. #477061), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3189864
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-no-problem
+    lesson: 2
+    key: no-problem
+    original: 没关系。
+    romanization: méi guān xi
+    meaning:
+      en: No problem.
+    audio: null
+    source: "Tatoeba, zdanie #333730 (tłumaczenie ang. #551443), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/333730
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-please
+    lesson: 2
+    key: please
+    original: 拜托了！
+    romanization: bài tuō le
+    meaning:
+      en: Please!
+    audio: null
+    source: "Tatoeba, zdanie #13174838 (tłumaczenie ang. #7825834), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/13174838
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-thank-you
+    lesson: 2
+    key: thank-you
+    original: 谢谢你。
+    romanization: xiè xie nǐ
+    meaning:
+      en: Thank you!
+    audio: null
+    source: "Tatoeba, zdanie #374825 (tłumaczenie ang. #374827), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/374825
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-thank-you-very-much
+    lesson: 2
+    key: thank-you-very-much
+    original: 十分感谢。
+    romanization: shí fēn gǎn xiè
+    meaning:
+      en: Thank you very much.
+    audio: null
+    source: "Tatoeba, zdanie #330585 (tłumaczenie ang. #1839560), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/330585
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-yes
+    lesson: 2
+    key: yes
+    original: 是的。
+    romanization: shì de
+    meaning:
+      en: Yes.
+    audio: null
+    source: "Tatoeba, zdanie #478749 (tłumaczenie ang. #477086), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/478749
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-youre-welcome
+    lesson: 2
+    key: youre-welcome
+    original: 不客气。
+    romanization: bù kè qi
+    meaning:
+      en: You're welcome.
+    audio: null
+    source: "Tatoeba, zdanie #700670 (tłumaczenie ang. #403068), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/700670
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-how-old-are-you
+    lesson: 3
+    key: how-old-are-you
+    original: 你几岁了？
+    romanization: nǐ jǐ suì le
+    meaning:
+      en: How old are you?
+    audio: null
+    source: "Tatoeba, zdanie #345427 (tłumaczenie ang. #436243), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/345427
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-a-student
+    lesson: 3
+    key: im-a-student
+    original: 我是个学生。
+    romanization: wǒ shì gè xué sheng
+    meaning:
+      en: I am a student.
+    audio: null
+    source: "Tatoeba, zdanie #7768226 (tłumaczenie ang. #252287), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/7768226
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-my-name-is-tom
+    lesson: 3
+    key: my-name-is-tom
+    original: 我的名字是汤姆。
+    romanization: wǒ de míng zi shì tāng mǔ
+    meaning:
+      en: My name is Tom.
+    audio: null
+    source: "Tatoeba, zdanie #1850482 (tłumaczenie ang. #1173265), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1850482
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-nice-to-meet-you
+    lesson: 3
+    key: nice-to-meet-you
+    original: 很高兴认识你。
+    romanization: hěn gāo xìng rèn shi nǐ
+    meaning:
+      en: Nice to meet you.
+    audio: null
+    source: "Tatoeba, zdanie #493913 (tłumaczenie ang. #499617), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/493913
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-what-do-you-do
+    lesson: 3
+    key: what-do-you-do
+    original: 你做什么工作?
+    romanization: nǐ zuò shén me gōng zuò
+    meaning:
+      en: What's your job?
+    audio: null
+    source: "Tatoeba, zdanie #333602 (tłumaczenie ang. #36809), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/333602
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-whats-your-name
+    lesson: 3
+    key: whats-your-name
+    original: 你叫什么名字？
+    romanization: nǐ jiào shén me míng zi
+    meaning:
+      en: What is your name?
+    audio: null
+    source: "Tatoeba, zdanie #346883 (tłumaczenie ang. #70623), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/346883
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-where-are-you-from
+    lesson: 3
+    key: where-are-you-from
+    original: 你是哪里人？
+    romanization: nǐ shì nǎ lǐ rén
+    meaning:
+      en: Where are you from?
+    audio: null
+    source: "Tatoeba, zdanie #374862 (tłumaczenie ang. #370703), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/374862
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-where-do-you-live
+    lesson: 3
+    key: where-do-you-live
+    original: 你住在哪里？
+    romanization: nǐ zhù zài nǎ lǐ
+    meaning:
+      en: Where do you live?
+    audio: null
+    source: "Tatoeba, zdanie #136401 (tłumaczenie ang. #370708), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/136401
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-do-you-speak-english
+    lesson: 4
+    key: do-you-speak-english
+    original: 你会说英语吗？
+    romanization: nǐ huì shuō yīng yǔ ma
+    meaning:
+      en: Can you speak English?
+    audio: null
+    source: "Tatoeba, zdanie #342074 (tłumaczenie ang. #26170), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/342074
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-i-dont-know
+    lesson: 4
+    key: i-dont-know
+    original: 我不知道。
+    romanization: wǒ bù zhī dào
+    meaning:
+      en: I don't know.
+    audio: null
+    source: "Tatoeba, zdanie #10 (tłumaczenie ang. #349064), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/10
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-i-dont-understand
+    lesson: 4
+    key: i-dont-understand
+    original: 我不明白。
+    romanization: wǒ bù míng bái
+    meaning:
+      en: I do not understand.
+    audio: null
+    source: "Tatoeba, zdanie #340435 (tłumaczenie ang. #376610), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/340435
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-i-understand
+    lesson: 4
+    key: i-understand
+    original: 我明白了。
+    romanization: wǒ míng bai le
+    meaning:
+      en: I understand.
+    audio: null
+    source: "Tatoeba, zdanie #819294 (tłumaczenie ang. #433468), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/819294
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-say-again
+    lesson: 4
+    key: say-again
+    original: 你能不能再说一遍？
+    romanization: nǐ néng bù néng zài shuō yī biàn
+    meaning:
+      en: Could you say that again?
+    audio: null
+    source: "Tatoeba, zdanie #1050430 (tłumaczenie ang. #1060025), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1050430
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-speak-slowly
+    lesson: 4
+    key: speak-slowly
+    original: 请说慢一点。
+    romanization: qǐng shuō màn yī diǎn
+    meaning:
+      en: Please speak slowly.
+    audio: null
+    source: "Tatoeba, zdanie #2076249 (tłumaczenie ang. #403059), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2076249
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-what-does-this-mean
+    lesson: 4
+    key: what-does-this-mean
+    original: 这是什么意思？
+    romanization: zhè shì shén me yì si
+    meaning:
+      en: What does it mean?
+    audio: null
+    source: "Tatoeba, zdanie #469553 (tłumaczenie ang. #43211), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/469553
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-how-much-is-this
+    lesson: 5
+    key: how-much-is-this
+    original: 这个几块？
+    romanization: zhè ge jǐ kuài
+    meaning:
+      en: How much is this?
+    audio: null
+    source: "Tatoeba, zdanie #10052320 (tłumaczenie ang. #925040), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/10052320
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-what-is-this
+    lesson: 5
+    key: what-is-this
+    original: 这是什么？
+    romanization: zhè shì shén me
+    meaning:
+      en: What is this?
+    audio: null
+    source: "Tatoeba, zdanie #347292 (tłumaczenie ang. #392210), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/347292
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-what-time-is-it
+    lesson: 5
+    key: what-time-is-it
+    original: 现在几点？
+    romanization: xiàn zài jǐ diǎn
+    meaning:
+      en: What time is it?
+    audio: null
+    source: "Tatoeba, zdanie #8293429 (tłumaczenie ang. #428402), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8293429
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-when
+    lesson: 5
+    key: when
+    original: 什么时候？
+    romanization: shén me shí hou
+    meaning:
+      en: When?
+    audio: null
+    source: "Tatoeba, zdanie #5214215 (tłumaczenie ang. #4625694), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5214215
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-who-is-that
+    lesson: 5
+    key: who-is-that
+    original: 这是谁啊？
+    romanization: zhè shì shéi a
+    meaning:
+      en: Who's that?
+    audio: null
+    source: "Tatoeba, zdanie #9958407 (tłumaczenie ang. #742806), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/9958407
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-why
+    lesson: 5
+    key: why
+    original: 为什么？
+    romanization: wèi shén me
+    meaning:
+      en: Why?
+    audio: null
+    source: "Tatoeba, zdanie #378955 (tłumaczenie ang. #36419), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/378955
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-help
+    lesson: 6
+    key: help
+    original: 救命！
+    romanization: jiù mìng
+    meaning:
+      en: Help!
+    audio: null
+    source: "Tatoeba, zdanie #459378 (tłumaczenie ang. #435084), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/459378
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-i-need-help
+    lesson: 6
+    key: i-need-help
+    original: 我需要你的帮助。
+    romanization: wǒ xū yào nǐ de bāng zhù
+    meaning:
+      en: I need your help.
+    audio: null
+    source: "Tatoeba, zdanie #385201 (tłumaczenie ang. #257113), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/385201
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-hungry
+    lesson: 6
+    key: im-hungry
+    original: 我饿了！
+    romanization: wǒ è le
+    meaning:
+      en: I'm hungry.
+    audio: null
+    source: "Tatoeba, zdanie #378886 (tłumaczenie ang. #1839531), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/378886
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-thirsty
+    lesson: 6
+    key: im-thirsty
+    original: 我渴了。
+    romanization: wǒ kě le
+    meaning:
+      en: I'm thirsty.
+    audio: null
+    source: "Tatoeba, zdanie #465911 (tłumaczenie ang. #1814), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/465911
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-tired
+    lesson: 6
+    key: im-tired
+    original: 我很累。
+    romanization: wǒ hěn lèi
+    meaning:
+      en: I'm tired.
+    audio: null
+    source: "Tatoeba, zdanie #397734 (tłumaczenie ang. #1705), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/397734
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-wait-a-moment
+    lesson: 6
+    key: wait-a-moment
+    original: 等一下。
+    romanization: děng yī xià
+    meaning:
+      en: Wait a moment.
+    audio: null
+    source: "Tatoeba, zdanie #9007563 (tłumaczenie ang. #410597), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/9007563
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-where-is-the-toilet
+    lesson: 6
+    key: where-is-the-toilet
+    original: 厕所在哪里？
+    romanization: cè suǒ zài nǎ lǐ
+    meaning:
+      en: Where is the toilet?
+    audio: null
+    source: "Tatoeba, zdanie #493902 (tłumaczenie ang. #38937), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/493902
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-i-dont-like-it
+    lesson: 7
+    key: i-dont-like-it
+    original: 我不喜欢。
+    romanization: wǒ bù xǐ huan
+    meaning:
+      en: I don't like it.
+    audio: null
+    source: "Tatoeba, zdanie #1361974 (tłumaczenie ang. #2271878), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1361974
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-its-delicious
+    lesson: 7
+    key: its-delicious
+    original: 很美味。
+    romanization: hěn měi wèi
+    meaning:
+      en: This is delicious.
+    audio: null
+    source: "Tatoeba, zdanie #3739208 (tłumaczenie ang. #463302), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3739208
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-the-bill-please
+    lesson: 7
+    key: the-bill-please
+    original: 买单。
+    romanization: mǎi dān
+    meaning:
+      en: The check, please.
+    audio: null
+    source: "Tatoeba, zdanie #338786 (tłumaczenie ang. #1710), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/338786
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-great
+    lesson: 8
+    key: great
+    original: 很棒！
+    romanization: hěn bàng
+    meaning:
+      en: Wonderful!
+    audio: null
+    source: "Tatoeba, zdanie #5092136 (tłumaczenie ang. #433510), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5092136
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-its-ok
+    lesson: 8
+    key: its-ok
+    original: 可以。
+    romanization: kě yǐ
+    meaning:
+      en: That's okay.
+    audio: null
+    source: "Tatoeba, zdanie #2265425 (tłumaczenie ang. #2123558), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2265425
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-me-too
+    lesson: 8
+    key: me-too
+    original: 我也是。
+    romanization: wǒ yě shì
+    meaning:
+      en: Me, too.
+    audio: null
+    source: "Tatoeba, zdanie #793651 (tłumaczenie ang. #321985), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/793651
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-no-way
+    lesson: 8
+    key: no-way
+    original: 不可能！
+    romanization: bù kě néng
+    meaning:
+      en: No way!
+    audio: null
+    source: "Tatoeba, zdanie #503298 (tłumaczenie ang. #2175), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/503298
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-of-course
+    lesson: 8
+    key: of-course
+    original: 当然是的。
+    romanization: dāng rán shì de
+    meaning:
+      en: Of course.
+    audio: null
+    source: "Tatoeba, zdanie #421347 (tłumaczenie ang. #433492), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/421347
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-really
+    lesson: 8
+    key: really
+    original: 真的？
+    romanization: zhēn de
+    meaning:
+      en: Really?
+    audio: null
+    source: "Tatoeba, zdanie #1397360 (tłumaczenie ang. #373216), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1397360
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-thats-right
+    lesson: 8
+    key: thats-right
+    original: 对！
+    romanization: duì
+    meaning:
+      en: That's right.
+    audio: null
+    source: "Tatoeba, zdanie #4952918 (tłumaczenie ang. #1216015), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4952918
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-come-here
+    lesson: 9
+    key: come-here
+    original: 您到这边来！
+    romanization: nín dào zhè biān lái
+    meaning:
+      en: Come here!
+    audio: null
+    source: "Tatoeba, zdanie #7774362 (tłumaczenie ang. #5295840), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/7774362
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-i-have-time
+    lesson: 9
+    key: i-have-time
+    original: 我有时间。
+    romanization: wǒ yǒu shí jiān
+    meaning:
+      en: I have time.
+    audio: null
+    source: "Tatoeba, zdanie #4859550 (tłumaczenie ang. #2245901), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4859550
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-busy
+    lesson: 9
+    key: im-busy
+    original: 我很忙。
+    romanization: wǒ hěn máng
+    meaning:
+      en: I'm busy.
+    audio: null
+    source: "Tatoeba, zdanie #819333 (tłumaczenie ang. #261721), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/819333
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-lets-go
+    lesson: 9
+    key: lets-go
+    original: 走吧。
+    romanization: zǒu ba
+    meaning:
+      en: Let's go!
+    audio: null
+    source: "Tatoeba, zdanie #334277 (tłumaczenie ang. #241077), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/334277
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-see-you-later
+    lesson: 9
+    key: see-you-later
+    original: 等会见！
+    romanization: děng huì jiàn
+    meaning:
+      en: See you later!
+    audio: null
+    source: "Tatoeba, zdanie #10696089 (tłumaczenie ang. #360558), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/10696089
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-what-are-you-doing
+    lesson: 9
+    key: what-are-you-doing
+    original: 你现在在做什么？
+    romanization: nǐ xiàn zài zài zuò shén me
+    meaning:
+      en: What are you doing?
+    audio: null
+    source: "Tatoeba, zdanie #420046 (tłumaczenie ang. #16492), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/420046
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-congratulations
+    lesson: 10
+    key: congratulations
+    original: 祝贺你。
+    romanization: zhù hè nǐ
+    meaning:
+      en: Congratulations!
+    audio: null
+    source: "Tatoeba, zdanie #335058 (tłumaczenie ang. #1437), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/335058
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-dont-worry
+    lesson: 10
+    key: dont-worry
+    original: 你不要着急。
+    romanization: nǐ bù yào zháo jí
+    meaning:
+      en: Don't worry.
+    audio: null
+    source: "Tatoeba, zdanie #394139 (tłumaczenie ang. #506446), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/394139
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-good-luck
+    lesson: 10
+    key: good-luck
+    original: 祝你好运。
+    romanization: zhù nǐ hǎo yùn
+    meaning:
+      en: Good luck.
+    audio: null
+    source: "Tatoeba, zdanie #812490 (tłumaczenie ang. #239431), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/812490
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-i-love-you
+    lesson: 10
+    key: i-love-you
+    original: 我爱你。
+    romanization: wǒ ài nǐ
+    meaning:
+      en: I love you.
+    audio: null
+    source: "Tatoeba, zdanie #139673 (tłumaczenie ang. #1434), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/139673
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-i-miss-you
+    lesson: 10
+    key: i-miss-you
+    original: 我很想你。
+    romanization: wǒ hěn xiǎng nǐ
+    meaning:
+      en: I miss you.
+    audio: null
+    source: "Tatoeba, zdanie #29 (tłumaczenie ang. #1308), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/29
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-cold
+    lesson: 10
+    key: im-cold
+    original: 我冷。
+    romanization: wǒ lěng
+    meaning:
+      en: I am cold.
+    audio: null
+    source: "Tatoeba, zdanie #471387 (tłumaczenie ang. #436325), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/471387
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-im-happy
+    lesson: 10
+    key: im-happy
+    original: 我很高兴。
+    romanization: wǒ hěn gāo xìng
+    meaning:
+      en: I am happy.
+    audio: null
+    source: "Tatoeba, zdanie #924590 (tłumaczenie ang. #436371), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/924590
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.
+  - id: zh-its-hot
+    lesson: 10
+    key: its-hot
+    original: 今天天气很热。
+    romanization: jīn tiān tiān qì hěn rè
+    meaning:
+      en: It's hot today.
+    audio: null
+    source: "Tatoeba, zdanie #450940 (tłumaczenie ang. #242881), CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/450940
+    status: niezweryfikowane
+    generated:
+      - romanization
+    notes: Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.

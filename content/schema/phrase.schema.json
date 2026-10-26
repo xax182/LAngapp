@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fraza",
+  "type": "object",
+  "required": ["id", "lesson", "original", "meaning", "source", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z]{2,3}-[a-z0-9-]+$" },
+    "lesson": { "type": "integer", "minimum": 1 },
+    "key": { "type": "string" },
+    "original": { "type": "string" },
+    "romanization": { "type": "string" },
+    "ipa": { "type": "string" },
+    "meaning": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": { "en": { "type": "string" }, "pl": { "type": "string" } },
+      "anyOf": [{ "required": ["en"] }, { "required": ["pl"] }]
+    },
+    "audio": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["url", "author", "license"],
+          "additionalProperties": false,
+          "properties": {
+            "url": { "type": "string" },
+            "author": { "type": "string" },
+            "license": { "type": "string" },
+            "source_url": { "type": "string" }
+          }
+        }
+      ]
+    },
+    "source": { "type": "string", "minLength": 3 },
+    "source_url": { "type": "string" },
+    "status": { "enum": ["zweryfikowane", "niezweryfikowane"] },
+    "generated": { "type": "array", "items": { "enum": ["romanization", "ipa", "meaning"] } },
+    "notes": { "type": "string" },
+    "locked": { "type": "boolean" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "original": { "const": "" } } },
+      "then": { "required": ["romanization"] }
+    }
+  ]
+}

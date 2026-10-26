@@ -1,0 +1,200 @@
+# Wspólny program rozmówek dla wszystkich 7 języków.
+# To NIE są frazy do nauki. To lista angielskich zdań-kluczy: importer szuka w Tatoeba
+# zdań w danym języku, które są tłumaczeniami tych zdań. Dzięki temu każdy język
+# dostaje ten sam program, a każda fraza ma prawdziwe źródło (numer zdania w Tatoeba).
+# "match": warianty angielskiego zapisu, jakie występują w Tatoeba.
+lessons:
+  - id: 1
+    title: Powitania
+    items:
+      - key: hello
+        match: ["Hello.", "Hello!", "Hi.", "Hi!"]
+      - key: good-morning
+        match: ["Good morning.", "Good morning!"]
+      - key: good-evening
+        match: ["Good evening.", "Good evening!"]
+      - key: how-are-you
+        match: ["How are you?", "How are you doing?"]
+      - key: im-fine
+        match: ["I'm fine.", "I'm fine, thank you.", "I'm fine, thanks.", "I am fine."]
+      - key: and-you
+        match: ["And you?", "What about you?"]
+      - key: goodbye
+        match: ["Goodbye.", "Goodbye!", "Bye.", "Bye!"]
+      - key: see-you-tomorrow
+        match: ["See you tomorrow.", "See you tomorrow!"]
+      - key: good-night
+        match: ["Good night.", "Good night!"]
+  - id: 2
+    title: Grzeczności
+    items:
+      - key: thank-you
+        match: ["Thank you.", "Thanks.", "Thank you!", "Thanks!"]
+      - key: thank-you-very-much
+        match: ["Thank you very much.", "Thanks a lot.", "Thank you so much."]
+      - key: youre-welcome
+        match: ["You're welcome.", "You are welcome."]
+      - key: please
+        match: ["Please.", "Please!"]
+      - key: excuse-me
+        match: ["Excuse me.", "Excuse me!"]
+      - key: im-sorry
+        match: ["I'm sorry.", "I am sorry.", "Sorry."]
+      - key: no-problem
+        match: ["No problem.", "No problem!"]
+      - key: yes
+        match: ["Yes.", "Yes!"]
+      - key: no
+        match: ["No.", "No!"]
+  - id: 3
+    title: Przedstawianie się
+    items:
+      - key: whats-your-name
+        match: ["What's your name?", "What is your name?"]
+      - key: my-name-is-tom
+        match: ["My name is Tom.", "I'm Tom.", "I am Tom."]
+      - key: nice-to-meet-you
+        match: ["Nice to meet you.", "Pleased to meet you.", "Nice to meet you!"]
+      - key: where-are-you-from
+        match: ["Where are you from?", "Where do you come from?"]
+      - key: where-do-you-live
+        match: ["Where do you live?"]
+      - key: how-old-are-you
+        match: ["How old are you?"]
+      - key: im-a-student
+        match: ["I'm a student.", "I am a student."]
+      - key: what-do-you-do
+        match: ["What do you do?", "What's your job?", "What is your job?"]
+  - id: 4
+    title: Gdy nie rozumiesz
+    items:
+      - key: i-dont-understand
+        match: ["I don't understand.", "I do not understand."]
+      - key: i-understand
+        match: ["I understand.", "I see."]
+      - key: i-dont-know
+        match: ["I don't know.", "I do not know."]
+      - key: speak-slowly
+        match: ["Please speak more slowly.", "Please speak slowly.", "Speak more slowly, please.", "Could you speak more slowly?"]
+      - key: say-again
+        match: ["Please say it again.", "Could you say that again?", "Say it again.", "Can you repeat that?", "Could you repeat that?"]
+      - key: do-you-speak-english
+        match: ["Do you speak English?", "Can you speak English?"]
+      - key: what-does-this-mean
+        match: ["What does this mean?", "What does it mean?"]
+      - key: i-speak-a-little
+        match: ["I speak a little.", "Only a little."]
+  - id: 5
+    title: Pytania podstawowe
+    items:
+      - key: what-is-this
+        match: ["What is this?", "What's this?"]
+      - key: where-is-it
+        match: ["Where is it?"]
+      - key: when
+        match: ["When?"]
+      - key: why
+        match: ["Why?"]
+      - key: who-is-that
+        match: ["Who is that?", "Who's that?"]
+      - key: how-much-is-this
+        match: ["How much is this?", "How much does this cost?", "How much is it?", "How much?"]
+      - key: what-time-is-it
+        match: ["What time is it?", "What time is it now?"]
+      - key: whats-going-on
+        match: ["What's going on?", "What's happening?"]
+  - id: 6
+    title: Potrzeby
+    items:
+      - key: im-hungry
+        match: ["I'm hungry.", "I am hungry."]
+      - key: im-thirsty
+        match: ["I'm thirsty.", "I am thirsty."]
+      - key: im-tired
+        match: ["I'm tired.", "I am tired."]
+      - key: i-want-water
+        match: ["I want water.", "I'd like some water.", "Water, please."]
+      - key: where-is-the-toilet
+        match: ["Where is the toilet?", "Where's the toilet?", "Where is the bathroom?", "Where's the bathroom?"]
+      - key: help
+        match: ["Help!", "Help me!"]
+      - key: i-need-help
+        match: ["I need help.", "I need your help."]
+      - key: wait-a-moment
+        match: ["Wait a moment.", "Just a moment.", "Wait a minute.", "One moment, please."]
+  - id: 7
+    title: Jedzenie
+    items:
+      - key: i-like-it
+        match: ["I like it.", "I like this."]
+      - key: i-dont-like-it
+        match: ["I don't like it."]
+      - key: its-delicious
+        match: ["It's delicious.", "This is delicious.", "Delicious!"]
+      - key: lets-eat
+        match: ["Let's eat.", "Let's eat!"]
+      - key: the-bill-please
+        match: ["The check, please.", "The bill, please.", "Check, please."]
+      - key: i-drink-coffee
+        match: ["I drink coffee.", "I like coffee."]
+      - key: do-you-want-tea
+        match: ["Do you want some tea?", "Would you like some tea?", "Do you want tea?"]
+  - id: 8
+    title: Rozmowa
+    items:
+      - key: really
+        match: ["Really?"]
+      - key: of-course
+        match: ["Of course.", "Of course!", "Sure."]
+      - key: i-think-so
+        match: ["I think so."]
+      - key: i-dont-think-so
+        match: ["I don't think so."]
+      - key: thats-right
+        match: ["That's right.", "That's right!", "Right."]
+      - key: no-way
+        match: ["No way!"]
+      - key: me-too
+        match: ["Me too.", "Me, too."]
+      - key: its-ok
+        match: ["It's OK.", "It's okay.", "That's OK.", "That's okay."]
+      - key: great
+        match: ["Great!", "Excellent!", "Wonderful!"]
+  - id: 9
+    title: Czas i plany
+    items:
+      - key: today
+        match: ["Today."]
+      - key: tomorrow
+        match: ["Tomorrow."]
+      - key: what-are-you-doing
+        match: ["What are you doing?"]
+      - key: lets-go
+        match: ["Let's go.", "Let's go!"]
+      - key: see-you-later
+        match: ["See you later.", "See you later!", "See you."]
+      - key: im-busy
+        match: ["I'm busy.", "I am busy."]
+      - key: i-have-time
+        match: ["I have time."]
+      - key: come-here
+        match: ["Come here.", "Come here!"]
+  - id: 10
+    title: Uczucia i stan
+    items:
+      - key: im-happy
+        match: ["I'm happy.", "I am happy."]
+      - key: im-cold
+        match: ["I'm cold.", "I am cold."]
+      - key: its-hot
+        match: ["It's hot.", "It's hot today."]
+      - key: i-love-you
+        match: ["I love you."]
+      - key: i-miss-you
+        match: ["I miss you."]
+      - key: dont-worry
+        match: ["Don't worry.", "Don't worry!", "Don't worry about it."]
+      - key: congratulations
+        match: ["Congratulations!", "Congratulations."]
+      - key: good-luck
+        match: ["Good luck!", "Good luck."]
