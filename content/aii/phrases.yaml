@@ -2,4 +2,316 @@
 # status: zweryfikowane | niezweryfikowane
 # Importer nigdy nie zmienia fraz ze statusem "zweryfikowane" ani z "locked: true".
 # Brak frazy dla klucza z programu = luka, widoczna w aplikacji.
-phrases: []
+phrases:
+  - id: aii-good-evening
+    lesson: 1
+    key: good-evening
+    original: ܪܡܫܘܟ ܒܪܝܟܐ
+    romanization: ramšōḵ brīḵā
+    ipa: "[ra.mʃoːx‿briːxɑː]"
+    meaning:
+      en: good evening
+    audio: null
+    source: Wiktionary, hasło „ܪܡܫܘܟ ܒܪܝܟܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%AA%DC%A1%DC%AB%DC%98%DC%9F_%DC%92%DC%AA%DC%9D%DC%9F%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-what-time-is-it
+    lesson: 5
+    key: what-time-is-it
+    original: ܫܥܬ ܟܡܐ ܝܠܗ
+    romanization: šāˁaṯ kmā ìlāh?
+    ipa: "[ˈʃɑːʕaθ.‿kmɑː‿jlɑːh]"
+    meaning:
+      en: what time is it?
+    audio: null
+    source: Wiktionary, hasło „ܫܥܬ ܟܡܐ ܝܠܗ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%AB%DC%A5%DC%AC_%DC%9F%DC%A1%DC%90_%DC%9D%DC%A0%DC%97#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-a-hand-cannot-clap-by-itself-cooperation
+    lesson: 11
+    original: ܐܝܕܐ ܒܠܚܘܕܗ ܠܐ ܟܐ ܛܪܦܐ
+    romanization: īḏā blḥōḏāh lā kē ṭārpā
+    ipa: "[ʔiːðaː‿bəlxoːðaːh‿laː‿keː‿tˤaːrpaː]"
+    meaning:
+      en: a hand cannot clap by itself; cooperation is necessary
+    audio: null
+    source: Wiktionary, hasło „ܐܝܕܐ ܒܠܚܘܕܗ ܠܐ ܟܐ ܛܪܦܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%90%DC%9D%DC%95%DC%90_%DC%92%DC%A0%DC%9A%DC%98%DC%95%DC%97_%DC%A0%DC%90_%DC%9F%DC%90_%DC%9B%DC%AA%DC%A6%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-at-first-initially
+    lesson: 11
+    original: ܒܩܕܡܝܬܐ
+    romanization: bqammāytā
+    ipa: "[bqamaːjtaː]"
+    meaning:
+      en: at first, initially
+    audio: null
+    source: Wiktionary, hasło „ܒܩܕܡܝܬܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%92%DC%A9%DC%95%DC%A1%DC%9D%DC%AC%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-don-t-get-wet-before-it-starts-raining-h
+    lesson: 11
+    original: ܠܐ ܬܪܝܬ ܡܢ ܩܕܡ ܕܐܬܐ ܡܛܪܐ
+    romanization: lā tārēt min qām d-āṯē miṭrā
+    meaning:
+      en: Don’t get wet before it starts raining; have patience
+    audio: null
+    source: Wiktionary, hasło „ܠܐ ܬܪܝܬ ܡܢ ܩܕܡ ܕܐܬܐ ܡܛܪܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%AC%DC%AA%DC%9D%DC%AC_%DC%A1%DC%A2_%DC%A9%DC%95%DC%A1_%DC%95%DC%90%DC%AC%DC%90_%DC%A1%DC%9B%DC%AA%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-every-so-often-some-days-sometimes-occas
+    lesson: 11
+    original: ܝܘܡܐ ܡܢ ܝܘܡܐ
+    romanization: yawmā min yawmā
+    meaning:
+      en: every so often, some days, sometimes, occasionally
+    audio: null
+    source: Wiktionary, hasło „ܝܘܡܐ ܡܢ ܝܘܡܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%9D%DC%98%DC%A1%DC%90_%DC%A1%DC%A2_%DC%9D%DC%98%DC%A1%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-exclamation-of-disbelief-no-way-impossib
+    lesson: 11
+    original: ܠܐ ܟܐ ܗܘܐ
+    romanization: lā kē hāwē!
+    ipa: "[laː‿keː‿haːweː]"
+    meaning:
+      en: "exclamation of disbelief: no way!, impossible!"
+    audio: null
+    source: Wiktionary, hasło „ܠܐ ܟܐ ܗܘܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%9F%DC%90_%DC%97%DC%98%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-good-afternoon
+    lesson: 11
+    original: ܛܗܪܘܟ ܒܪܝܟܐ
+    romanization: ṭahrōḵ brīḵā
+    ipa: "[tˤa.hroːx‿briːxɑː]"
+    meaning:
+      en: good afternoon
+    audio: null
+    source: Wiktionary, hasło „ܛܗܪܘܟ ܒܪܝܟܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%9B%DC%97%DC%AA%DC%98%DC%9F_%DC%92%DC%AA%DC%9D%DC%9F%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-how-are-you-singular-masculine
+    lesson: 11
+    original: ܕܐܟܝ ܝܘܬ
+    romanization: dāḵī ìwet?
+    ipa: "[dɑːxiː‿iːwɪt.]"
+    meaning:
+      en: How are you? (singular masculine)
+    audio: null
+    source: Wiktionary, hasło „ܕܐܟܝ ܝܘܬ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%95%DC%90%DC%9F%DC%9D_%DC%9D%DC%98%DC%AC#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-isn-t-it-so-don-t-you-agree
+    lesson: 11
+    original: ܠܐ ܝܠܗ ܗܕܟ
+    romanization: lā ìlēh hādaḵ?
+    ipa: "[laː‿jleː‿haːdax]"
+    meaning:
+      en: isn’t it so?; don’t you agree?
+    audio: null
+    source: Wiktionary, hasło „ܠܐ ܝܠܗ ܗܕܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%9D%DC%A0%DC%97_%DC%97%DC%95%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-literally-it-dosen-t-cost-youre-welcome-
+    lesson: 11
+    original: ܠܐ ܟܐ ܕܩܪܐ
+    romanization: lā kē dāqrā
+    ipa: "[lɑːkeː‿dɑːqrɑː]"
+    meaning:
+      en: Literally, “It dosen’t cost”; you're welcome, no worries
+    audio: null
+    source: Wiktionary, hasło „ܠܐ ܟܐ ܕܩܪܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%9F%DC%90_%DC%95%DC%A9%DC%AA%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-literally-may-god-be-with-you-god-be-wit
+    lesson: 11
+    original: ܐܠܗܐ ܥܡܘܟ
+    romanization: allāhā ˁamōḵ
+    ipa: "[ʔalaːhaː‿ʕammoːx]"
+    meaning:
+      en: Literally, “May God be with you”; God be with you, goodbye, farewell
+    audio: null
+    source: Wiktionary, hasło „ܐܠܗܐ ܥܡܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%90%DC%A0%DC%97%DC%90_%DC%A5%DC%A1%DC%98%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-literally-may-god-heal-you-get-well-soon
+    lesson: 11
+    original: ܐܠܗܐ ܡܒܣܡ ܠܘܟ
+    romanization: allāhā mbassim lōḵ
+    ipa: "[ʔalaːhaː‿məbassɪm.‿loːx]"
+    meaning:
+      en: Literally, “May God heal you”; get well soon
+    audio: null
+    source: Wiktionary, hasło „ܐܠܗܐ ܡܒܣܡ ܠܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%90%DC%A0%DC%97%DC%90_%DC%A1%DC%92%DC%A3%DC%A1_%DC%A0%DC%98%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-may-you-come-in-peace-a-phrase-used-to-w
+    lesson: 11
+    original: ܐܬܝܬ ܒܫܝܢܐ
+    romanization: āṯēt bšaynā
+    ipa: "[ʔaːθeːt‿bʃajnaː]"
+    meaning:
+      en: May you come in peace; a phrase used to welcome someone in anticipation of their visit
+    audio: null
+    source: Wiktionary, hasło „ܐܬܝܬ ܒܫܝܢܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%90%DC%AC%DC%9D%DC%AC_%DC%92%DC%AB%DC%9D%DC%A2%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-peace-harmony-freedom-from-disturbance
+    lesson: 11
+    original: ܫܠܡܐ
+    romanization: šlāmā
+    ipa: "[ˈʃlɑːmɑː]"
+    meaning:
+      en: peace, harmony (freedom from disturbance)
+    audio: null
+    source: Wiktionary, hasło „ܫܠܡܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%AB%DC%A0%DC%A1%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-pleased-to-meet-you-nice-to-meet-you-lit
+    lesson: 11
+    original: ܚܕܐ ܠܝ ܒܚܙܝܬܘܟ
+    romanization: ḥdē lī bḥzāytōḵ
+    ipa: "[xədeː‿liː‿bəxzaj.tuxː]"
+    meaning:
+      en: pleased to meet you, nice to meet you (literally “I became happy by your sight”)
+    audio: null
+    source: Wiktionary, hasło „ܚܕܐ ܠܝ ܒܚܙܝܬܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%9A%DC%95%DC%90_%DC%A0%DC%9D_%DC%92%DC%9A%DC%99%DC%9D%DC%AC%DC%98%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-stop-talking-shut-up-shut-it-be-quiet
+    lesson: 11
+    original: ܫܬܘܩ
+    romanization: štōq!
+    ipa: "[ʃtoq.]"
+    meaning:
+      en: Stop talking, shut up, shut it, be quiet
+    audio: null
+    source: Wiktionary, hasło „ܫܬܘܩ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%AB%DC%AC%DC%98%DC%A9#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-thank-you-thanks
+    lesson: 11
+    original: ܬܘܕܝ
+    romanization: tawdī
+    ipa: "[tɑw.diː]"
+    meaning:
+      en: thank you, thanks
+    audio: null
+    source: Wiktionary, hasło „ܬܘܕܝ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%AC%DC%98%DC%95%DC%9D#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-there-is-no-proverb-made-in-falsehood
+    lesson: 11
+    original: ܠܝܬ ܡܬܠܐ ܒܕܘܓܠܐ
+    romanization: layt maṯlā bduglā
+    ipa: "[lajtː‿maθlaː‿bduɡlaː]"
+    meaning:
+      en: there is no proverb [made] in falsehood
+    audio: null
+    source: Wiktionary, hasło „ܠܝܬ ܡܬܠܐ ܒܕܘܓܠܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%9D%DC%AC_%DC%A1%DC%AC%DC%A0%DC%90_%DC%92%DC%95%DC%98%DC%93%DC%A0%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-to-be-in-a-state-of-worry-to-have-prolon
+    lesson: 11
+    original: ܦܐܫ ܠܒܗ
+    romanization: pāˀēš libbēh
+    ipa: "[paːʔeːʃ‿lɪbbeːh]"
+    meaning:
+      en: to be in a state of worry; to have prolonged worry
+    audio: null
+    source: Wiktionary, hasło „ܦܐܫ ܠܒܗ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A6%DC%90%DC%AB_%DC%A0%DC%92%DC%97#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-to-hold-a-grudge
+    lesson: 11
+    original: ܥܪܐ ܒܠܒܗ
+    romanization: ˁārē blibbēh
+    ipa: "[ʕaːreː.‿blɪbbeːh]"
+    meaning:
+      en: to hold a grudge
+    audio: null
+    source: Wiktionary, hasło „ܥܪܐ ܒܠܒܗ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A5%DC%AA%DC%90_%DC%92%DC%A0%DC%92%DC%97#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-to-stand-with-support
+    lesson: 11
+    original: ܥܪܐ ܚܨܐ
+    romanization: ˁārē ḥaṣṣā
+    ipa: "[ʕaːreː.‿xasˤsˤaː]"
+    meaning:
+      en: to stand with, support
+    audio: null
+    source: Wiktionary, hasło „ܥܪܐ ܚܨܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A5%DC%AA%DC%90_%DC%9A%DC%A8%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-to-take-care-of-look-after-tend-to
+    lesson: 11
+    original: ܕܪܐ ܒܠܐ
+    romanization: dārē bālā
+    ipa: "[daːreː.‿baːlaː]"
+    meaning:
+      en: to take care of, look after, tend to
+    audio: null
+    source: Wiktionary, hasło „ܕܪܐ ܒܠܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%95%DC%AA%DC%90_%DC%92%DC%A0%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-whats-the-matter-with-you-what-s-wrong
+    lesson: 11
+    original: ܡܐ ܠܘܟ
+    romanization: mā lōḵ?
+    ipa: "[maː‿loːx]"
+    meaning:
+      en: what's the matter with you?; what’s wrong?
+    audio: null
+    source: Wiktionary, hasło „ܡܐ ܠܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A1%DC%90_%DC%A0%DC%98%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-whats-up-how-are-you-what-s-new-how-have
+    lesson: 11
+    original: ܡܐ ܡܢܘܟ
+    romanization: mā minōḵ?
+    ipa: "[maː‿mɪnnoːx]"
+    meaning:
+      en: what's up?; how are you?; what’s new?; how have you been?
+    audio: null
+    source: Wiktionary, hasło „ܡܐ ܡܢܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A1%DC%90_%DC%A1%DC%A2%DC%98%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-wikt-youre-welcome-no-worries-literally-its-n
+    lesson: 11
+    original: ܠܐ ܝܠܗ ܚܕ ܡܢܕܝ
+    romanization: lā ìlēh ḥa mindī
+    ipa: "[leː‿leː‿xa.‿min.diː]"
+    meaning:
+      en: you're welcome, no worries (literally, "it's nothing")
+    audio: null
+    source: Wiktionary, hasło „ܠܐ ܝܠܗ ܚܕ ܡܢܕܝ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%9D%DC%A0%DC%97_%DC%9A%DC%95_%DC%A1%DC%A2%DC%95%DC%9D#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
