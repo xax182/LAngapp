@@ -16,6 +16,7 @@ import type { Phrase } from '../src/lib/types.ts';
 import { numberedToMarked } from '../src/lib/pinyin.ts';
 import { normEn, pickBest, textKey, variantIndex, type Candidate, type CurriculumLesson } from './lib/select.ts';
 import { mergeImported, readPhrases, writePhrases } from './lib/phrases-file.ts';
+import { buildIndex, isSimplified, sentencePinyin } from './lib/cedict.ts';
 
 const BASE = 'https://downloads.tatoeba.org/exports';
 const CACHE = '.cache/tatoeba';
@@ -29,6 +30,13 @@ const LANGS: Record<string, string[]> = {
   ar: ['apc', 'ajp'],
   ru: ['rus'],
   aii: ['aii'],
+};
+/** Zdanie musi być zapisane pismem danego języka (w Tatoeba trafiają się np. angielskie „Bye!”). */
+const SCRIPT: Record<string, RegExp> = {
+  zh: /\p{Script=Han}/u,
+  ar: /\p{Script=Arabic}/u,
+  ru: /\p{Script=Cyrillic}/u,
+  aii: /\p{Script=Syriac}|\p{Script=Latin}/u,
 };
 const ESPEAK_VOICE: Record<string, string> = { fr: 'fr', es: 'es', de: 'de', ru: 'ru' };
 
@@ -121,7 +129,7 @@ async function main() {
   }
   const translit = new Map<string, string>();
   for await (const [sid, lang, script, , text] of rows(transTar, 5)) {
-    if (lang === 'cmn' && script === 'Latn' && cand.has(sid)) translit.set(sid, /\d/.test(text) ? numberedToMarked(text) : text);
+    if (lang === 'cmn' && script === 'Latn' && cand.has(sid)) translit.set(sid, text.replace(/([a-zA-Zü:]+?)([1-5])/g, (_, b: string, t: string) => numberedToMarked(b + t)));
   }
 
   const hasEspeak = spawnSync('espeak-ng', ['--version']).status === 0;
@@ -130,6 +138,10 @@ async function main() {
     const r = spawnSync('espeak-ng', ['-q', '--ipa', '-v', ESPEAK_VOICE[code], text], { encoding: 'utf8' });
     return r.status === 0 ? r.stdout.trim().replace(/\s+/g, ' ') : undefined;
   };
+
+  // Pinyin: sylaby rozdzielone spacją z CC-CEDICT (spójny zapis, potrzebny do wykresu tonów);
+  // transkrypcja z Tatoeba tylko awaryjnie.
+  const cedict = targets.includes('zh') ? buildIndex() : null;
 
   // 6. Wybór i zapis per język.
   for (const code of targets) {
@@ -143,7 +155,12 @@ async function main() {
         groups.set(info.key, [...(groups.get(info.key) ?? []), { id: e, text: info.text }]);
       }
       for (const [key, english] of groups) {
-        byKey.set(key, [...(byKey.get(key) ?? []), { id, text: s.text, english, hasAudio: audio.has(id) }]);
+        const wrongScript = SCRIPT[code] ? !SCRIPT[code].test(s.text) : false;
+        const traditional = code === 'zh' && cedict ? !isSimplified(s.text, cedict) : false;
+        byKey.set(key, [
+          ...(byKey.get(key) ?? []),
+          { id, text: s.text, english, hasAudio: audio.has(id), rejected: wrongScript || traditional },
+        ]);
       }
     }
 
@@ -159,7 +176,9 @@ async function main() {
       const generated: string[] = [];
       const phonetic = ipa(best.text, code);
       if (phonetic) generated.push('ipa');
-      const roman = code === 'zh' ? translit.get(best.id) : undefined;
+      const fromCedict = code === 'zh' && cedict ? sentencePinyin(best.text, cedict) : null;
+      const roman = code === 'zh' ? (fromCedict ?? translit.get(best.id)) : undefined;
+      if (fromCedict) generated.push('romanization');
       imported.push({
         id: `${code}-${key}`,
         lesson: lessonOf.get(key)!,
@@ -182,6 +201,7 @@ async function main() {
         ...(generated.length ? { generated } : {}),
         ...(code === 'ar' ? { notes: `Kod Tatoeba: ${s.lang}. Sprawdź, czy to dialekt palestyński.` } : {}),
         ...(phonetic ? { notes: 'IPA wygenerowane przez eSpeak NG (przybliżenie).' } : {}),
+        ...(fromCedict ? { notes: 'Pinyin wygenerowany z CC-CEDICT (CC BY-SA 4.0); przy znakach o kilku odczytach może być błędny.' } : {}),
       });
     }
     const path = `content/${code}/phrases.yaml`;

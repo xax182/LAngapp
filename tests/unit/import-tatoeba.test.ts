@@ -42,6 +42,6 @@ describe('import z Tatoeba', () => {
     expect(thanks.status).toBe('niezweryfikowane');
 
     const de = YAML.parse(readFileSync(join(dir, 'content/de/phrases.yaml'), 'utf8')).phrases;
-    expect(de[0]).toMatchObject({ original: 'Danke.', meaning: { en: 'Thank you.' } });
+    expect(de.find((p: { key: string }) => p.key === 'thank-you')).toMatchObject({ original: 'Danke.', meaning: { en: 'Thank you.' } });
   });
 });
