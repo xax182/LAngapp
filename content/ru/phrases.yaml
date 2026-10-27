@@ -1,4 +1,1290 @@
 # Frazy do nauki. Każda fraza MUSI mieć "source" i "status".
-# Na razie pusto: wypełni to import z Tatoeba (GitHub Actions) albo Ty, ze swojego źródła.
-# Wzór wpisu: docs/dodawanie-tresci.md
-phrases: []
+# status: zweryfikowane | niezweryfikowane
+# Importer nigdy nie zmienia fraz ze statusem "zweryfikowane" ani z "locked: true".
+# Brak frazy dla klucza z programu = luka, widoczna w aplikacji.
+phrases:
+  - id: ru-and-you
+    lesson: 1
+    key: and-you
+    original: А ты?
+    ipa: ˈɑ tˈy
+    meaning:
+      en: And you?
+      pl: A ty?
+    audio:
+      url: https://tatoeba.org/audio/download/1267432
+      author: EugeneGS
+      license: CC BY 4.0
+    source: "Tatoeba #1038677, autor: afyodor, CC BY 2.0 FR; polskie tłumaczenie #756951 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/1038677
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-good-evening
+    lesson: 1
+    key: good-evening
+    original: Добрый вечер!
+    ipa: dˈobryj vʲˈetʃʲir
+    meaning:
+      en: Good evening.
+    audio: null
+    source: "Tatoeba #797215, autor: afyodor, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/797215
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-good-morning
+    lesson: 1
+    key: good-morning
+    original: Доброе утро!
+    ipa: dˈobrʌjɪ ˈutrʌ
+    meaning:
+      en: Good morning!
+      pl: Dzień dobry!
+    audio:
+      url: https://tatoeba.org/audio/download/25296
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #329715, autor: YURY0608, CC BY 2.0 FR; polskie tłumaczenie #403047 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/329715
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-good-night
+    lesson: 1
+    key: good-night
+    original: Спокойной ночи.
+    ipa: spʌkˈojnʌj nˈotʃʲɪ
+    meaning:
+      en: Good night!
+    audio: null
+    source: "Tatoeba #467012, autor: Aqn, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/467012
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-goodbye
+    lesson: 1
+    key: goodbye
+    original: Чао!
+    ipa: tʃʲˈɑʌ
+    meaning:
+      en: Bye!
+    audio:
+      url: https://tatoeba.org/audio/download/928450
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #4638324, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4638324
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-hello
+    lesson: 1
+    key: hello
+    original: Привет!
+    ipa: prʲivʲˈet
+    meaning:
+      en: Hello!
+      pl: Cześć.
+    audio:
+      url: https://tatoeba.org/audio/download/35632
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #466968, autor: katjka, CC BY 2.0 FR; polskie tłumaczenie #405641 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/466968
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-how-are-you
+    lesson: 1
+    key: how-are-you
+    original: Как дела?
+    ipa: kˈɑk dʲˈeɭa
+    meaning:
+      en: How are you doing?
+    audio:
+      url: https://tatoeba.org/audio/download/35722
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #473035, autor: OlgaElwen, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/473035
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-fine
+    lesson: 1
+    key: im-fine
+    original: Я в порядке.
+    ipa: ˈja f pʌrʲˈɑtkʲi
+    meaning:
+      en: I'm fine.
+    audio: null
+    source: "Tatoeba #1509878, autor: Biga, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1509878
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-see-you-tomorrow
+    lesson: 1
+    key: see-you-tomorrow
+    original: До завтра.
+    ipa: dˈo zˈɑftra
+    meaning:
+      en: See you tomorrow.
+      pl: Do jutra.
+    audio:
+      url: https://tatoeba.org/audio/download/107511
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #2215338, autor: marafon, CC BY 2.0 FR; polskie tłumaczenie #6154754 (arie)"
+    source_url: https://tatoeba.org/sentences/show/2215338
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-excuse-me
+    lesson: 2
+    key: excuse-me
+    original: Извините.
+    ipa: ɪzvʲinʲˈitʲi
+    meaning:
+      en: Excuse me.
+    audio:
+      url: https://tatoeba.org/audio/download/40346
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #586592, autor: ae5s, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/586592
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-sorry
+    lesson: 2
+    key: im-sorry
+    original: Мне жаль.
+    ipa: mnʲˈe ʒˈɑɭ
+    meaning:
+      en: I'm sorry.
+    audio:
+      url: https://tatoeba.org/audio/download/75073
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #1554088, autor: Biga, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1554088
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-no
+    lesson: 2
+    key: no
+    original: Неа.
+    ipa: nʲˈea
+    meaning:
+      en: No.
+    audio:
+      url: https://tatoeba.org/audio/download/1265925
+      author: EugeneGS
+      license: CC BY 4.0
+    source: "Tatoeba #11056889, autor: ZegPhig, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/11056889
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-no-problem
+    lesson: 2
+    key: no-problem
+    original: Нет проблем.
+    ipa: nʲˈet prʌbɭʲˈem
+    meaning:
+      en: No problem.
+    audio: null
+    source: "Tatoeba #469113, autor: OlgaElwen, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/469113
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-please
+    lesson: 2
+    key: please
+    original: Будьте добры!
+    ipa: bˈudʲtʲi dʌbrˈy
+    meaning:
+      en: Please!
+    audio: null
+    source: "Tatoeba #13174832, autor: atitarev, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/13174832
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-thank-you
+    lesson: 2
+    key: thank-you
+    original: Спасибо!
+    ipa: spasʲˈibʌ
+    meaning:
+      en: Thank you!
+      pl: Dziękuję!
+    audio:
+      url: https://tatoeba.org/audio/download/29615
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #374869, autor: zmoo, CC BY 2.0 FR; polskie tłumaczenie #382586 (esperanto)"
+    source_url: https://tatoeba.org/sentences/show/374869
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-thank-you-very-much
+    lesson: 2
+    key: thank-you-very-much
+    original: Большое спасибо!
+    ipa: bʌɭʃˈojɪ spasʲˈibʌ
+    meaning:
+      en: Thank you very much.
+      pl: Bardzo dziękuję!
+    audio:
+      url: https://tatoeba.org/audio/download/727713
+      author: fjay69
+      license: CC BY 4.0
+    source: "Tatoeba #401105, autor: Dorenda, CC BY 2.0 FR; polskie tłumaczenie #365185 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/401105
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-yes
+    lesson: 2
+    key: yes
+    original: Да.
+    ipa: dˈɑ
+    meaning:
+      en: Yes.
+      pl: Tak.
+    audio: null
+    source: "Tatoeba #478743, autor: FeuDRenais, CC BY 2.0 FR; polskie tłumaczenie #531792 (orzechowski)"
+    source_url: https://tatoeba.org/sentences/show/478743
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-youre-welcome
+    lesson: 2
+    key: youre-welcome
+    original: Пожалуйста.
+    ipa: pʌʒˈɑɭujsta
+    meaning:
+      en: You're welcome.
+      pl: Nie ma za co.
+    audio:
+      url: https://tatoeba.org/audio/download/30632
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #379409, autor: Olya, CC BY 2.0 FR; polskie tłumaczenie #349369 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/379409
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-how-old-are-you
+    lesson: 3
+    key: how-old-are-you
+    original: Тебе сколько?
+    ipa: tʲˈebʲi skˈoɭkʌ
+    meaning:
+      en: How old are you?
+    audio: null
+    source: "Tatoeba #7142626, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/7142626
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-a-student
+    lesson: 3
+    key: im-a-student
+    original: Я студент.
+    ipa: ˈja studʲˈent
+    meaning:
+      en: I am a student.
+      pl: Jestem studentem.
+    audio:
+      url: https://tatoeba.org/audio/download/152013
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #2568210, autor: marafon, CC BY 2.0 FR; polskie tłumaczenie #350168 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/2568210
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-my-name-is-tom
+    lesson: 3
+    key: my-name-is-tom
+    original: Я Том.
+    ipa: ˈja tˈom
+    meaning:
+      en: I'm Tom.
+    audio:
+      url: https://tatoeba.org/audio/download/1267530
+      author: EugeneGS
+      license: CC BY 4.0
+    source: "Tatoeba #3300363, autor: Selena777, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3300363
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-nice-to-meet-you
+    lesson: 3
+    key: nice-to-meet-you
+    original: Очень приятно.
+    ipa: ˈotʃʲin prʲiˈjatnʌ
+    meaning:
+      en: Nice to meet you.
+    audio: null
+    source: "Tatoeba #426019, autor: al_ex_an_der, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/426019
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-what-do-you-do
+    lesson: 3
+    key: what-do-you-do
+    original: Кем ты работаешь?
+    ipa: kʲˈem tˈy rabˈotʌjiʃ
+    meaning:
+      en: What do you do?
+    audio: null
+    source: "Tatoeba #1414804, autor: Ishmael, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1414804
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-whats-your-name
+    lesson: 3
+    key: whats-your-name
+    original: Как тебя зовут?
+    ipa: kˈɑk tʲibʲˈɑ zʌvˈut
+    meaning:
+      en: What is your name?
+      pl: Jak masz na imię?
+    audio:
+      url: https://tatoeba.org/audio/download/29081
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #370366, autor: reiji, CC BY 2.0 FR; polskie tłumaczenie #406682 (Dorenda)"
+    source_url: https://tatoeba.org/sentences/show/370366
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-where-are-you-from
+    lesson: 3
+    key: where-are-you-from
+    original: Откуда вы?
+    ipa: ʌtkˈuda vˈy
+    meaning:
+      en: Where do you come from?
+    audio:
+      url: https://tatoeba.org/audio/download/32731
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #418199, autor: Hellerick, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/418199
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-where-do-you-live
+    lesson: 3
+    key: where-do-you-live
+    original: Где ты живёшь?
+    ipa: ɡdʲˈe tˈy ʒyvʲˈɵʃ
+    meaning:
+      en: Where do you live?
+      pl: Gdzie mieszkasz?
+    audio: null
+    source: "Tatoeba #692671, autor: shanghainese, CC BY 2.0 FR; polskie tłumaczenie #353202 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/692671
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-do-you-speak-english
+    lesson: 4
+    key: do-you-speak-english
+    original: Ты говоришь по-английски?
+    ipa: tˈy ɡʌvʌrʲˈiʃ pˈoanɡɭʲˈijskʲɪ
+    meaning:
+      en: Do you speak English?
+      pl: Czy mówisz po angielsku?
+    audio:
+      url: https://tatoeba.org/audio/download/477127
+      author: Alex_M
+      license: CC BY 4.0
+    source: "Tatoeba #3097220, autor: Selena777, CC BY 2.0 FR; polskie tłumaczenie #569897 (Bilberry)"
+    source_url: https://tatoeba.org/sentences/show/3097220
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-dont-know
+    lesson: 4
+    key: i-dont-know
+    original: Я не знаю.
+    ipa: ˈja nʲe znˈɑju
+    meaning:
+      en: I don't know.
+      pl: Nie wiem.
+    audio: null
+    source: "Tatoeba #414650, autor: al_ex_an_der, CC BY 2.0 FR; polskie tłumaczenie #348673 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/414650
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-dont-understand
+    lesson: 4
+    key: i-dont-understand
+    original: Я не понимаю.
+    ipa: ˈja nʲe pʌnʲimˈɑju
+    meaning:
+      en: I do not understand.
+    audio:
+      url: https://tatoeba.org/audio/download/28233
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #338488, autor: rednaxela, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/338488
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-understand
+    lesson: 4
+    key: i-understand
+    original: Понимаю.
+    ipa: pʌnʲimˈɑju
+    meaning:
+      en: I understand.
+    audio:
+      url: https://tatoeba.org/audio/download/195339
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #3247175, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3247175
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-say-again
+    lesson: 4
+    key: say-again
+    original: Повторите.
+    ipa: pʌftʌrʲˈitʲi
+    meaning:
+      en: Say it again.
+    audio:
+      url: https://tatoeba.org/audio/download/928411
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #4250052, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4250052
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-speak-slowly
+    lesson: 4
+    key: speak-slowly
+    original: Говори помедленнее, пожалуйста.
+    ipa: ɡʌvʌrʲˈɪ pʌmʲˈedɭʲinnʲijɪ pʌʒˈɑɭujsta
+    meaning:
+      en: Please speak more slowly.
+    audio: null
+    source: "Tatoeba #2770627, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2770627
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-what-does-this-mean
+    lesson: 4
+    key: what-does-this-mean
+    original: Что это значит?
+    ipa: ʃto ˈɛtʌ znˈɑtʃʲit
+    meaning:
+      en: What does it mean?
+    audio:
+      url: https://tatoeba.org/audio/download/727715
+      author: fjay69
+      license: CC BY 4.0
+    source: "Tatoeba #467039, autor: Aqn, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/467039
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-how-much-is-this
+    lesson: 5
+    key: how-much-is-this
+    original: Сколько?
+    ipa: skˈoɭkʌ
+    meaning:
+      en: How much?
+    audio:
+      url: https://tatoeba.org/audio/download/1264543
+      author: EugeneGS
+      license: CC BY 4.0
+    source: "Tatoeba #3697897, autor: Selena777, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3697897
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-what-is-this
+    lesson: 5
+    key: what-is-this
+    original: Что это?
+    ipa: ʃto ˈɛtʌ
+    meaning:
+      en: What is this?
+      pl: Co to jest?
+    audio:
+      url: https://tatoeba.org/audio/download/1694
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #5412, autor: TRANG, CC BY 2.0 FR; polskie tłumaczenie #557379 (Bilberry)"
+    source_url: https://tatoeba.org/sentences/show/5412
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-what-time-is-it
+    lesson: 5
+    key: what-time-is-it
+    original: Который час?
+    ipa: kʌtˈoryj tʃʲˈɑs
+    meaning:
+      en: What time is it?
+      pl: Która godzina?
+    audio: null
+    source: "Tatoeba #477108, autor: al_ex_an_der, CC BY 2.0 FR; polskie tłumaczenie #449607 (gregloby)"
+    source_url: https://tatoeba.org/sentences/show/477108
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-whats-going-on
+    lesson: 5
+    key: whats-going-on
+    original: Что стряслось?
+    ipa: ʃto strʲasɭˈosʲ
+    meaning:
+      en: What's going on?
+    audio:
+      url: https://tatoeba.org/audio/download/726735
+      author: fjay69
+      license: CC BY 4.0
+    source: "Tatoeba #2373733, autor: Wadimiy, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2373733
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-when
+    lesson: 5
+    key: when
+    original: Когда?
+    ipa: kʌɡdˈɑ
+    meaning:
+      en: When?
+    audio: null
+    source: "Tatoeba #4892141, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4892141
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-where-is-it
+    lesson: 5
+    key: where-is-it
+    original: Где это?
+    ipa: ɡdʲˈe ˈɛtʌ
+    meaning:
+      en: Where is it?
+    audio:
+      url: https://tatoeba.org/audio/download/50691
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #1006932, autor: saiko, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1006932
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-who-is-that
+    lesson: 5
+    key: who-is-that
+    original: Кто это?
+    ipa: ktˈo ˈɛtʌ
+    meaning:
+      en: Who's that?
+    audio:
+      url: https://tatoeba.org/audio/download/40579
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #597469, autor: kobylkin, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/597469
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-why
+    lesson: 5
+    key: why
+    original: Почему?
+    ipa: pʌtʃʲimˈu
+    meaning:
+      en: Why?
+      pl: Dlaczego?
+    audio:
+      url: https://tatoeba.org/audio/download/744916
+      author: yatomoya
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #694104, autor: shanghainese, CC BY 2.0 FR; polskie tłumaczenie #363076 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/694104
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-help
+    lesson: 6
+    key: help
+    original: Спасите!
+    ipa: spasʲˈitʲi
+    meaning:
+      en: Help!
+    audio:
+      url: https://tatoeba.org/audio/download/928050
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #2052469, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2052469
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-need-help
+    lesson: 6
+    key: i-need-help
+    original: Мне нужна помощь.
+    ipa: mnʲˈe nuʒnˈɑ pˈomʌɕ
+    meaning:
+      en: I need help.
+      pl: Potrzebuję pomocy.
+    audio: null
+    source: "Tatoeba #1055155, autor: joulin, CC BY 2.0 FR; polskie tłumaczenie #1591778 (TopMan)"
+    source_url: https://tatoeba.org/sentences/show/1055155
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-want-water
+    lesson: 6
+    key: i-want-water
+    original: Воды, пожалуйста.
+    ipa: vˈody pʌʒˈɑɭujsta
+    meaning:
+      en: Water, please.
+    audio:
+      url: https://tatoeba.org/audio/download/679198
+      author: fjay69
+      license: CC BY 4.0
+    source: "Tatoeba #2430284, autor: sharptoothed, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2430284
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-hungry
+    lesson: 6
+    key: im-hungry
+    original: Я голодна.
+    ipa: ˈja ɡʌɭʌdnˈɑ
+    meaning:
+      en: I am hungry.
+    audio:
+      url: https://tatoeba.org/audio/download/73621
+      author: \N
+      license: \N
+      source_url: \N
+    source: "Tatoeba #1498780, autor: heccele, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1498780
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-thirsty
+    lesson: 6
+    key: im-thirsty
+    original: Пить хочется.
+    ipa: pʲˈitʲ xˈotʃʲitsʌ
+    meaning:
+      en: I'm thirsty.
+    audio:
+      url: https://tatoeba.org/audio/download/679299
+      author: fjay69
+      license: CC BY 4.0
+    source: "Tatoeba #3761247, autor: sharptoothed, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3761247
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-tired
+    lesson: 6
+    key: im-tired
+    original: Я устал!
+    ipa: ˈja ustˈɑɭ
+    meaning:
+      en: I'm tired.
+    audio:
+      url: https://tatoeba.org/audio/download/161568
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #2651902, autor: Olya, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2651902
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-wait-a-moment
+    lesson: 6
+    key: wait-a-moment
+    original: Минутку.
+    ipa: mʲinˈutku
+    meaning:
+      en: Just a moment.
+    audio:
+      url: https://tatoeba.org/audio/download/928360
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #3147349, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3147349
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-where-is-the-toilet
+    lesson: 6
+    key: where-is-the-toilet
+    original: Где туалет?
+    ipa: ɡdʲˈe tuaɭʲˈet
+    meaning:
+      en: Where is the bathroom?
+    audio: null
+    source: "Tatoeba #615493, autor: ae5s, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/615493
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-do-you-want-tea
+    lesson: 7
+    key: do-you-want-tea
+    original: Хочешь чаю?
+    ipa: xˈotʃʲiʃ tʃʲˈɑju
+    meaning:
+      en: Do you want some tea?
+    audio: null
+    source: "Tatoeba #5470088, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5470088
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-dont-like-it
+    lesson: 7
+    key: i-dont-like-it
+    original: Мне это не нравится.
+    ipa: mnʲˈe ˈɛtʌ nʲe nrˈɑvʲitsʌ
+    meaning:
+      en: I don't like it.
+    audio: null
+    source: "Tatoeba #2239319, autor: Biga, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2239319
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-drink-coffee
+    lesson: 7
+    key: i-drink-coffee
+    original: Я пью кофе.
+    ipa: ˈja pjˈju kˈofʲi
+    meaning:
+      en: I drink coffee.
+      pl: Piję kawę.
+    audio: null
+    source: "Tatoeba #1436303, autor: Klenovaja, CC BY 2.0 FR; polskie tłumaczenie #1000606 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/1436303
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-like-it
+    lesson: 7
+    key: i-like-it
+    original: Мне это нравится.
+    ipa: mnʲˈe ˈɛtʌ nrˈɑvʲitsʌ
+    meaning:
+      en: I like it.
+    audio: null
+    source: "Tatoeba #1520244, autor: ABChessel, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1520244
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-its-delicious
+    lesson: 7
+    key: its-delicious
+    original: Это вкусно.
+    ipa: ˈɛtʌ fkˈusnʌ
+    meaning:
+      en: This is delicious.
+    audio: null
+    source: "Tatoeba #1277757, autor: Lich, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1277757
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-lets-eat
+    lesson: 7
+    key: lets-eat
+    original: Давай есть.
+    ipa: davˈɑj jestʲ
+    meaning:
+      en: Let's eat.
+    audio: null
+    source: "Tatoeba #3163376, autor: Selena777, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3163376
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-the-bill-please
+    lesson: 7
+    key: the-bill-please
+    original: Счёт, пожалуйста.
+    ipa: ɕˈɵt pʌʒˈɑɭujsta
+    meaning:
+      en: Check, please.
+      pl: Proszę o rachunek.
+    audio: null
+    source: "Tatoeba #576512, autor: Tonari, CC BY 2.0 FR; polskie tłumaczenie #382593 (esperanto)"
+    source_url: https://tatoeba.org/sentences/show/576512
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-great
+    lesson: 8
+    key: great
+    original: Замечательно!
+    ipa: zʌmʲitʃʲˈɑtʲiɭnʌ
+    meaning:
+      en: Wonderful!
+    audio:
+      url: https://tatoeba.org/audio/download/928072
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #2482860, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2482860
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-dont-think-so
+    lesson: 8
+    key: i-dont-think-so
+    original: Думаю, что нет.
+    ipa: dˈumʌju ʃto nʲˈet
+    meaning:
+      en: I don't think so.
+      pl: Uważam, że nie.
+    audio: null
+    source: "Tatoeba #580641, autor: marafon, CC BY 2.0 FR; polskie tłumaczenie #6327911 (arie)"
+    source_url: https://tatoeba.org/sentences/show/580641
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-think-so
+    lesson: 8
+    key: i-think-so
+    original: Думаю, да.
+    ipa: dˈumʌju dˈɑ
+    meaning:
+      en: I think so.
+    audio:
+      url: https://tatoeba.org/audio/download/140327
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #2513699, autor: marafon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2513699
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-its-ok
+    lesson: 8
+    key: its-ok
+    original: Подойдёт.
+    ipa: pʌdʌjdʲˈɵt
+    meaning:
+      en: That's okay.
+    audio:
+      url: https://tatoeba.org/audio/download/108303
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #2221406, autor: shanghainese, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2221406
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-me-too
+    lesson: 8
+    key: me-too
+    original: Я тоже.
+    ipa: ˈja tˈoʒy
+    meaning:
+      en: Me, too.
+    audio:
+      url: https://tatoeba.org/audio/download/1267433
+      author: EugeneGS
+      license: CC BY 4.0
+    source: "Tatoeba #1124468, autor: saiko, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1124468
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-no-way
+    lesson: 8
+    key: no-way
+    original: Не может быть!
+    ipa: nʲe mˈoʒyt bytʲ
+    meaning:
+      en: No way!
+    audio:
+      url: https://tatoeba.org/audio/download/1885
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #5619, autor: shanghainese, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5619
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-of-course
+    lesson: 8
+    key: of-course
+    original: Конечно.
+    ipa: kʌnʲˈeʃnʌ
+    meaning:
+      en: Of course.
+    audio:
+      url: https://tatoeba.org/audio/download/40340
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #585788, autor: arseniiv, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/585788
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-really
+    lesson: 8
+    key: really
+    original: Правда?
+    ipa: prˈɑvda
+    meaning:
+      en: Really?
+    audio:
+      url: https://tatoeba.org/audio/download/50746
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #1009371, autor: saiko, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1009371
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-thats-right
+    lesson: 8
+    key: thats-right
+    original: Верно!
+    ipa: vʲˈernʌ
+    meaning:
+      en: That's right!
+    audio:
+      url: https://tatoeba.org/audio/download/71199
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #1387383, autor: Balamax, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1387383
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-come-here
+    lesson: 9
+    key: come-here
+    original: Иди сюда!
+    ipa: ɪdʲˈɪ sʲu"dˈɑ
+    meaning:
+      en: Come here.
+    audio:
+      url: https://tatoeba.org/audio/download/72074
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #1430538, autor: elsteris, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1430538
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-have-time
+    lesson: 9
+    key: i-have-time
+    original: У меня есть время.
+    ipa: ˈu mʲinʲˈɑ jestʲ vrʲˈemʲʌ
+    meaning:
+      en: I have time.
+    audio: null
+    source: "Tatoeba #3642317, autor: sharptoothed, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3642317
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-busy
+    lesson: 9
+    key: im-busy
+    original: Я занят.
+    ipa: ˈja zˈɑnʲʌt
+    meaning:
+      en: I'm busy.
+    audio:
+      url: https://tatoeba.org/audio/download/45628
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #810240, autor: Arkadeko, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/810240
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-lets-go
+    lesson: 9
+    key: lets-go
+    original: Идём.
+    ipa: ɪdʲˈɵm
+    meaning:
+      en: Let's go!
+    audio:
+      url: https://tatoeba.org/audio/download/1267545
+      author: EugeneGS
+      license: CC BY 4.0
+    source: "Tatoeba #5702455, autor: odexed, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5702455
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-see-you-later
+    lesson: 9
+    key: see-you-later
+    original: Увидимся.
+    ipa: uvʲˈidʲimsʲʌ
+    meaning:
+      en: See you later!
+    audio:
+      url: https://tatoeba.org/audio/download/63550
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #1103035, autor: shanghainese, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1103035
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-what-are-you-doing
+    lesson: 9
+    key: what-are-you-doing
+    original: Что ты делаешь?
+    ipa: ʃto tˈy dʲˈeɭʌjiʃ
+    meaning:
+      en: What are you doing?
+    audio:
+      url: https://tatoeba.org/audio/download/1693
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #5411, autor: Aleksej, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5411
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-congratulations
+    lesson: 10
+    key: congratulations
+    original: Мои поздравления.
+    ipa: mʌˈɪ pʌzdravɭʲˈenʲija
+    meaning:
+      en: Congratulations!
+    audio:
+      url: https://tatoeba.org/audio/download/1838
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #5571, autor: Ann74, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5571
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-dont-worry
+    lesson: 10
+    key: dont-worry
+    original: Не беспокойся.
+    ipa: nʲe bʲispʌkˈojsʲʌ
+    meaning:
+      en: Don't worry.
+    audio:
+      url: https://tatoeba.org/audio/download/1709
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #5441, autor: Tonari, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5441
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-good-luck
+    lesson: 10
+    key: good-luck
+    original: Удачи!
+    ipa: udˈɑtʃʲɪ
+    meaning:
+      en: Good luck.
+    audio: null
+    source: "Tatoeba #469243, autor: ArsWalrus, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/469243
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-love-you
+    lesson: 10
+    key: i-love-you
+    original: Я люблю тебя!
+    ipa: ˈja ɭʲu"bɭʲˈu" tʲibʲˈɑ
+    meaning:
+      en: I love you.
+      pl: Kocham cię.
+    audio:
+      url: https://tatoeba.org/audio/download/1835
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #5568, autor: al_ex_an_der, CC BY 2.0 FR; polskie tłumaczenie #348818 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/5568
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-i-miss-you
+    lesson: 10
+    key: i-miss-you
+    original: Я скучаю по тебе.
+    ipa: ˈja skutʃʲˈɑju pˈo tʲˈebʲi
+    meaning:
+      en: I miss you.
+    audio:
+      url: https://tatoeba.org/audio/download/1710
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #5442, autor: zmoo, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5442
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-cold
+    lesson: 10
+    key: im-cold
+    original: Мне холодно.
+    ipa: mnʲˈe xˈoɭʌdnʌ
+    meaning:
+      en: I am cold.
+      pl: Zimno mi.
+    audio: null
+    source: "Tatoeba #885130, autor: afyodor, CC BY 2.0 FR; polskie tłumaczenie #533810 (orzechowski)"
+    source_url: https://tatoeba.org/sentences/show/885130
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-im-happy
+    lesson: 10
+    key: im-happy
+    original: Я доволен.
+    ipa: ˈja dʌvˈoɭʲin
+    meaning:
+      en: I'm happy.
+    audio:
+      url: https://tatoeba.org/audio/download/42249
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #659989, autor: shanghainese, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/659989
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: ru-its-hot
+    lesson: 10
+    key: its-hot
+    original: Сегодня жарко.
+    ipa: sʲivˈodnʲʌ ʒˈɑrkʌ
+    meaning:
+      en: It's hot today.
+    audio:
+      url: https://tatoeba.org/audio/download/29686
+      author: Inego
+      license: CC BY 4.0
+    source: "Tatoeba #376032, autor: reiji, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/376032
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).

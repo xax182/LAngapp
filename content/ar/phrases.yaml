@@ -1,4 +1,192 @@
 # Frazy do nauki. Każda fraza MUSI mieć "source" i "status".
-# Na razie pusto: wypełni to import z Tatoeba (GitHub Actions) albo Ty, ze swojego źródła.
-# Wzór wpisu: docs/dodawanie-tresci.md
-phrases: []
+# status: zweryfikowane | niezweryfikowane
+# Importer nigdy nie zmienia fraz ze statusem "zweryfikowane" ani z "locked: true".
+# Brak frazy dla klucza z programu = luka, widoczna w aplikacji.
+phrases:
+  - id: ar-good-evening
+    lesson: 1
+    key: good-evening
+    original: مسا الخير.
+    meaning:
+      en: Good evening.
+    audio: null
+    source: "Tatoeba #12301131, autor: xahmie, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/12301131
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: ajp. Sprawdź, czy to dialekt palestyński."
+  - id: ar-good-morning
+    lesson: 1
+    key: good-morning
+    original: صباح الخير!
+    meaning:
+      en: Good morning!
+    audio: null
+    source: "Tatoeba #12301130, autor: xahmie, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/12301130
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: ajp. Sprawdź, czy to dialekt palestyński."
+  - id: ar-goodbye
+    lesson: 1
+    key: goodbye
+    original: Bye!
+    meaning:
+      en: Bye!
+    audio: null
+    source: "Tatoeba #8430996, autor: peteralaoui, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8430996
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-hello
+    lesson: 1
+    key: hello
+    original: ألو
+    meaning:
+      en: Hello!
+    audio: null
+    source: "Tatoeba #12301105, autor: xahmie, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/12301105
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: ajp. Sprawdź, czy to dialekt palestyński."
+  - id: ar-how-are-you
+    lesson: 1
+    key: how-are-you
+    original: كيفك؟
+    meaning:
+      en: How are you doing?
+    audio: null
+    source: "Tatoeba #7524255, autor: ofxxx, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/7524255
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-no
+    lesson: 2
+    key: no
+    original: La2.
+    meaning:
+      en: No.
+    audio: null
+    source: "Tatoeba #8430993, autor: peteralaoui, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8430993
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-please
+    lesson: 2
+    key: please
+    original: Please.
+    meaning:
+      en: Please.
+    audio: null
+    source: "Tatoeba #8430987, autor: peteralaoui, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8430987
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-thank-you
+    lesson: 2
+    key: thank-you
+    original: Merci!
+    meaning:
+      en: Thank you!
+    audio: null
+    source: "Tatoeba #8430989, autor: peteralaoui, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8430989
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-yes
+    lesson: 2
+    key: yes
+    original: Eh.
+    meaning:
+      en: Yes.
+    audio: null
+    source: "Tatoeba #8430994, autor: peteralaoui, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8430994
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-whats-your-name
+    lesson: 3
+    key: whats-your-name
+    original: شو إسمك؟
+    meaning:
+      en: What is your name?
+    audio: null
+    source: "Tatoeba #8927263, autor: TheTRNQplayz_iM, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8927263
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-i-dont-know
+    lesson: 4
+    key: i-dont-know
+    original: ما بعرفش‎.
+    meaning:
+      en: I don't know.
+    audio: null
+    source: "Tatoeba #9317155, autor: \\N, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/9317155
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: ajp. Sprawdź, czy to dialekt palestyński."
+  - id: ar-i-dont-understand
+    lesson: 4
+    key: i-dont-understand
+    original: مش فاهم.
+    meaning:
+      en: I don't understand.
+    audio: null
+    source: "Tatoeba #10218688, autor: \\N, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/10218688
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: ajp. Sprawdź, czy to dialekt palestyński."
+  - id: ar-why
+    lesson: 5
+    key: why
+    original: Leish?
+    meaning:
+      en: Why?
+    audio: null
+    source: "Tatoeba #8430983, autor: peteralaoui, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8430983
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-help
+    lesson: 6
+    key: help
+    original: مساعدة!
+    meaning:
+      en: Help!
+    audio: null
+    source: "Tatoeba #12301115, autor: xahmie, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/12301115
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: ajp. Sprawdź, czy to dialekt palestyński."
+  - id: ar-of-course
+    lesson: 8
+    key: of-course
+    original: طبعا.
+    meaning:
+      en: Of course.
+    audio: null
+    source: "Tatoeba #12301097, autor: xahmie, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/12301097
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: ajp. Sprawdź, czy to dialekt palestyński."
+  - id: ar-really
+    lesson: 8
+    key: really
+    original: 3anjad?
+    meaning:
+      en: Really?
+    audio: null
+    source: "Tatoeba #8430985, autor: peteralaoui, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8430985
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-congratulations
+    lesson: 10
+    key: congratulations
+    original: Mabrouk!
+    meaning:
+      en: Congratulations!
+    audio: null
+    source: "Tatoeba #8430977, autor: peteralaoui, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8430977
+    status: niezweryfikowane
+    notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."

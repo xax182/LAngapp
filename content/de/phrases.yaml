@@ -1,4 +1,1361 @@
 # Frazy do nauki. Każda fraza MUSI mieć "source" i "status".
-# Na razie pusto: wypełni to import z Tatoeba (GitHub Actions) albo Ty, ze swojego źródła.
-# Wzór wpisu: docs/dodawanie-tresci.md
-phrases: []
+# status: zweryfikowane | niezweryfikowane
+# Importer nigdy nie zmienia fraz ze statusem "zweryfikowane" ani z "locked: true".
+# Brak frazy dla klucza z programu = luka, widoczna w aplikacji.
+phrases:
+  - id: de-and-you
+    lesson: 1
+    key: and-you
+    original: Und du?
+    ipa: ˈʊnt duː
+    meaning:
+      en: And you?
+    audio:
+      url: https://tatoeba.org/audio/download/564145
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #522709, autor: samueldora, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/522709
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-good-evening
+    lesson: 1
+    key: good-evening
+    original: Guten Abend!
+    ipa: ɡˈuːtən ˈɑːbənt
+    meaning:
+      en: Good evening.
+      pl: Dobry wieczór!
+    audio:
+      url: https://tatoeba.org/audio/download/34329
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #438751, autor: xtofu80, CC BY 2.0 FR; polskie tłumaczenie #5951352 (Ricardo14)"
+    source_url: https://tatoeba.org/sentences/show/438751
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-good-morning
+    lesson: 1
+    key: good-morning
+    original: Guten Morgen!
+    ipa: ɡˈuːtən mˈɔɾɡən
+    meaning:
+      en: Good morning!
+      pl: Dzień dobry!
+    audio: null
+    source: "Tatoeba #382123, autor: Dorenda, CC BY 2.0 FR; polskie tłumaczenie #403047 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/382123
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-good-night
+    lesson: 1
+    key: good-night
+    original: Gute Nacht!
+    ipa: ɡˈuːtə nˈaxt
+    meaning:
+      en: Good night!
+      pl: Dobranoc.
+    audio:
+      url: https://tatoeba.org/audio/download/593042
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #438752, autor: xtofu80, CC BY 2.0 FR; polskie tłumaczenie #1068122 (martinka155)"
+    source_url: https://tatoeba.org/sentences/show/438752
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-goodbye
+    lesson: 1
+    key: goodbye
+    original: Tschüss!
+    ipa: tʃˈys
+    meaning:
+      en: Goodbye!
+      pl: Pa!
+    audio:
+      url: https://tatoeba.org/audio/download/42097
+      author: peschiber
+      license: CC BY-NC 4.0
+    source: "Tatoeba #647453, autor: Hans07, CC BY 2.0 FR; polskie tłumaczenie #709902 (koosy)"
+    source_url: https://tatoeba.org/sentences/show/647453
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-hello
+    lesson: 1
+    key: hello
+    original: Hallo!
+    ipa: hˈaloː
+    meaning:
+      en: Hello!
+      pl: Cześć.
+    audio:
+      url: https://tatoeba.org/audio/download/394819
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #380701, autor: cburgmer, CC BY 2.0 FR; polskie tłumaczenie #405641 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/380701
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-how-are-you
+    lesson: 1
+    key: how-are-you
+    original: Wie geht es dir?
+    ipa: viː ɡˈeːt ɛs dˈiːɾ
+    meaning:
+      en: How are you doing?
+      pl: Jak się masz?
+    audio:
+      url: https://tatoeba.org/audio/download/394958
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #358124, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #349992 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/358124
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-fine
+    lesson: 1
+    key: im-fine
+    original: Mir geht es gut.
+    ipa: miːɾ ɡˈeːt ɛs ɡˈuːt
+    meaning:
+      en: I'm fine.
+    audio:
+      url: https://tatoeba.org/audio/download/394398
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #659407, autor: Esperantostern, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/659407
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-see-you-tomorrow
+    lesson: 1
+    key: see-you-tomorrow
+    original: Bis morgen!
+    ipa: bɪs mˈɔɾɡən
+    meaning:
+      en: See you tomorrow.
+      pl: Do jutra.
+    audio:
+      url: https://tatoeba.org/audio/download/394999
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #353258, autor: lilygilder, CC BY 2.0 FR; polskie tłumaczenie #6154754 (arie)"
+    source_url: https://tatoeba.org/sentences/show/353258
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-excuse-me
+    lesson: 2
+    key: excuse-me
+    original: Entschuldigung!
+    ipa: ɛntʃˈʊldɪɡˌʊŋ
+    meaning:
+      en: Excuse me.
+      pl: Przepraszam!
+    audio:
+      url: https://tatoeba.org/audio/download/394764
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #397872, autor: MikeMolto, CC BY 2.0 FR; polskie tłumaczenie #2425830 (bionicboy)"
+    source_url: https://tatoeba.org/sentences/show/397872
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-sorry
+    lesson: 2
+    key: im-sorry
+    original: Es tut mir leid.
+    ipa: ɛs tˈuːt miːɾ lˈaɪt
+    meaning:
+      en: I'm sorry.
+      pl: Przepraszam.
+    audio:
+      url: https://tatoeba.org/audio/download/32002
+      author: BraveSentry
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #397871, autor: MikeMolto, CC BY 2.0 FR; polskie tłumaczenie #507551 (orzage)"
+    source_url: https://tatoeba.org/sentences/show/397871
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-no
+    lesson: 2
+    key: no
+    original: Nö.
+    ipa: nˈøː
+    meaning:
+      en: No.
+      pl: Nie.
+    audio:
+      url: https://tatoeba.org/audio/download/42171
+      author: BraveSentry
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #654786, autor: BraveSentry, CC BY 2.0 FR; polskie tłumaczenie #1913501 (Matatjahu)"
+    source_url: https://tatoeba.org/sentences/show/654786
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-no-problem
+    lesson: 2
+    key: no-problem
+    original: Kein Problem!
+    ipa: kˈaɪn pɾoːblˈeːm
+    meaning:
+      en: No problem!
+      pl: Nie ma problemu!
+    audio:
+      url: https://tatoeba.org/audio/download/394516
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #547401, autor: Espi, CC BY 2.0 FR; polskie tłumaczenie #570401 (Bilberry)"
+    source_url: https://tatoeba.org/sentences/show/547401
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-thank-you
+    lesson: 2
+    key: thank-you
+    original: Danke!
+    ipa: dˈaŋkə
+    meaning:
+      en: Thank you!
+      pl: Dziękuję!
+    audio:
+      url: https://tatoeba.org/audio/download/31993
+      author: peschiber
+      license: CC BY-NC 4.0
+    source: "Tatoeba #397489, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #382586 (esperanto)"
+    source_url: https://tatoeba.org/sentences/show/397489
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-thank-you-very-much
+    lesson: 2
+    key: thank-you-very-much
+    original: Vielen Dank!
+    ipa: fˈiːlən dˈaŋk
+    meaning:
+      en: Thank you very much.
+      pl: Bardzo dziękuję!
+    audio:
+      url: https://tatoeba.org/audio/download/592882
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #368, autor: cburgmer, CC BY 2.0 FR; polskie tłumaczenie #365185 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/368
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-yes
+    lesson: 2
+    key: yes
+    original: Ja.
+    ipa: jˈɑː
+    meaning:
+      en: Yes.
+      pl: Tak.
+    audio:
+      url: https://tatoeba.org/audio/download/496971
+      author: quicksanddiver
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #477087, autor: Pfirsichbaeumchen, CC BY 2.0 FR; polskie tłumaczenie #531792 (orzechowski)"
+    source_url: https://tatoeba.org/sentences/show/477087
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-youre-welcome
+    lesson: 2
+    key: youre-welcome
+    original: Bitte.
+    ipa: bˈɪtə
+    meaning:
+      en: You're welcome.
+      pl: Proszę.
+    audio:
+      url: https://tatoeba.org/audio/download/31992
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #397483, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #403035 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/397483
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-how-old-are-you
+    lesson: 3
+    key: how-old-are-you
+    original: Wie alt bist du?
+    ipa: viː ˈalt bɪst duː
+    meaning:
+      en: How old are you?
+      pl: Ile masz lat?
+    audio:
+      url: https://tatoeba.org/audio/download/226
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #480, autor: ludoviko, CC BY 2.0 FR; polskie tłumaczenie #349120 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/480
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-a-student
+    lesson: 3
+    key: im-a-student
+    original: Ich bin Student.
+    ipa: ɪç bɪn ʃtuːdˈɛnt
+    meaning:
+      en: I am a student.
+      pl: Jestem studentem.
+    audio:
+      url: https://tatoeba.org/audio/download/28914
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #360801, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #350168 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/360801
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-my-name-is-tom
+    lesson: 3
+    key: my-name-is-tom
+    original: Ich heiße Tom.
+    ipa: ɪç hˈaɪsə tˈɔm
+    meaning:
+      en: My name is Tom.
+      pl: Nazywam się Tom.
+    audio:
+      url: https://tatoeba.org/audio/download/88106
+      author: Yeti
+      license: CC BY 4.0
+    source: "Tatoeba #1935119, autor: Pfirsichbaeumchen, CC BY 2.0 FR; polskie tłumaczenie #8750985 (nusia2302)"
+    source_url: https://tatoeba.org/sentences/show/1935119
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-nice-to-meet-you
+    lesson: 3
+    key: nice-to-meet-you
+    original: Schön, Sie kennenzulernen!
+    ipa: ʃˈøːn ziː kˈɛnəntsˌuːlɜnən
+    meaning:
+      en: Nice to meet you.
+      pl: Bardzo mi miło.
+    audio:
+      url: https://tatoeba.org/audio/download/395109
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #181000, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #357596 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/181000
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-what-do-you-do
+    lesson: 3
+    key: what-do-you-do
+    original: Was machen Sie?
+    ipa: vˈas mˈaxən ziː
+    meaning:
+      en: What do you do?
+    audio:
+      url: https://tatoeba.org/audio/download/47953
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #906501, autor: Sudajaengi, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/906501
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-whats-your-name
+    lesson: 3
+    key: whats-your-name
+    original: Wie heißt du?
+    ipa: viː hˈaɪst duː
+    meaning:
+      en: What is your name?
+      pl: Jak masz na imię?
+    audio:
+      url: https://tatoeba.org/audio/download/394641
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #451378, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #406682 (Dorenda)"
+    source_url: https://tatoeba.org/sentences/show/451378
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-where-are-you-from
+    lesson: 3
+    key: where-are-you-from
+    original: Woher kommt ihr?
+    ipa: voːhˈeːɾ kˈɔmt iːɾ
+    meaning:
+      en: Where do you come from?
+    audio:
+      url: https://tatoeba.org/audio/download/711776
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #3383785, autor: Pfirsichbaeumchen, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3383785
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-where-do-you-live
+    lesson: 3
+    key: where-do-you-live
+    original: Wo lebst du?
+    ipa: vˌoː lˈeːpst duː
+    meaning:
+      en: Where do you live?
+      pl: Gdzie mieszkasz?
+    audio:
+      url: https://tatoeba.org/audio/download/394825
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #378035, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #353202 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/378035
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-do-you-speak-english
+    lesson: 4
+    key: do-you-speak-english
+    original: Können Sie Englisch?
+    ipa: kˌœnən ziː ˈɛŋlɪʃ
+    meaning:
+      en: Can you speak English?
+    audio: null
+    source: "Tatoeba #9986262, autor: wolfgangth, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/9986262
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-dont-know
+    lesson: 4
+    key: i-dont-know
+    original: Weiß ich nicht.
+    ipa: vˈaɪs ɪç nˈɪçt
+    meaning:
+      en: I don't know.
+      pl: Nie wiem.
+    audio:
+      url: https://tatoeba.org/audio/download/39000
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #530035, autor: kroko, CC BY 2.0 FR; polskie tłumaczenie #348673 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/530035
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-dont-understand
+    lesson: 4
+    key: i-dont-understand
+    original: Ich verstehe nicht.
+    ipa: ɪç fɛɾʃtˈeːə nˈɪçt
+    meaning:
+      en: I do not understand.
+      pl: Nie rozumiem.
+    audio:
+      url: https://tatoeba.org/audio/download/394629
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #455404, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #348672 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/455404
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-understand
+    lesson: 4
+    key: i-understand
+    original: Ich verstehe.
+    ipa: ɪç fɛɾʃtˈeːə
+    meaning:
+      en: I understand.
+      pl: Rozumiem.
+    audio:
+      url: https://tatoeba.org/audio/download/39398
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #547386, autor: Espi, CC BY 2.0 FR; polskie tłumaczenie #363756 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/547386
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-say-again
+    lesson: 4
+    key: say-again
+    original: Könnten Sie das wiederholen?
+    ipa: kˈœntən ziː das viːdɜhˈoːlən
+    meaning:
+      en: Could you repeat that?
+    audio:
+      url: https://tatoeba.org/audio/download/565838
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #1317808, autor: Zaghawa, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1317808
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-speak-slowly
+    lesson: 4
+    key: speak-slowly
+    original: Bitte sprich langsam!
+    ipa: bˈɪtə ʃpɾˈɪç lˈaŋzɑːm
+    meaning:
+      en: Please speak slowly.
+    audio: null
+    source: "Tatoeba #1555959, autor: Pfirsichbaeumchen, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1555959
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-what-does-this-mean
+    lesson: 4
+    key: what-does-this-mean
+    original: Was bedeutet das?
+    ipa: vˈas bədˈɔøtət das
+    meaning:
+      en: What does it mean?
+      pl: Co to znaczy?
+    audio:
+      url: https://tatoeba.org/audio/download/34723
+      author: Yeti
+      license: CC BY 4.0
+    source: "Tatoeba #450015, autor: al_ex_an_der, CC BY 2.0 FR; polskie tłumaczenie #629885 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/450015
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-how-much-is-this
+    lesson: 5
+    key: how-much-is-this
+    original: Was kostet das?
+    ipa: vˈas kˈɔstət das
+    meaning:
+      en: How much is it?
+      pl: Ile to kosztuje?
+    audio:
+      url: https://tatoeba.org/audio/download/561522
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #430928, autor: MikeDee, CC BY 2.0 FR; polskie tłumaczenie #350051 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/430928
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-what-is-this
+    lesson: 5
+    key: what-is-this
+    original: Was ist das hier?
+    ipa: vˈas ɪst das hˈiːɾ
+    meaning:
+      en: What is this?
+    audio:
+      url: https://tatoeba.org/audio/download/210111
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #3421298, autor: pne, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3421298
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-what-time-is-it
+    lesson: 5
+    key: what-time-is-it
+    original: Wie spät ist es?
+    ipa: viː ʃpˈɛːt ɪst ɛs
+    meaning:
+      en: What time is it?
+      pl: Która jest godzina?
+    audio:
+      url: https://tatoeba.org/audio/download/35986
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #478461, autor: Espi, CC BY 2.0 FR; polskie tłumaczenie #2783031 (Chemiczny_Bogdan)"
+    source_url: https://tatoeba.org/sentences/show/478461
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-whats-going-on
+    lesson: 5
+    key: whats-going-on
+    original: Was ist los?
+    ipa: vˈas ɪst lˈoːs
+    meaning:
+      en: What's happening?
+      pl: Co się dzieje?
+    audio:
+      url: https://tatoeba.org/audio/download/394927
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #360789, autor: Wolf, CC BY 2.0 FR; polskie tłumaczenie #361247 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/360789
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-when
+    lesson: 5
+    key: when
+    original: Wann?
+    ipa: vˈan
+    meaning:
+      en: When?
+    audio: null
+    source: "Tatoeba #4738891, autor: tarsier, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4738891
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-where-is-it
+    lesson: 5
+    key: where-is-it
+    original: Wo ist er?
+    ipa: vˈoː ɪst ɛɾ
+    meaning:
+      en: Where is it?
+      pl: Gdzie on jest?
+    audio:
+      url: https://tatoeba.org/audio/download/394409
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #651286, autor: kolonjano, CC BY 2.0 FR; polskie tłumaczenie #2212530 (Mar)"
+    source_url: https://tatoeba.org/sentences/show/651286
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-who-is-that
+    lesson: 5
+    key: who-is-that
+    original: Wer ist das?
+    ipa: vˈeːɾ ɪst das
+    meaning:
+      en: Who's that?
+    audio:
+      url: https://tatoeba.org/audio/download/394314
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #738192, autor: Manfredo, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/738192
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-why
+    lesson: 5
+    key: why
+    original: Warum?
+    ipa: vɑːrˈʊm
+    meaning:
+      en: Why?
+      pl: Dlaczego?
+    audio: null
+    source: "Tatoeba #362667, autor: Wolf, CC BY 2.0 FR; polskie tłumaczenie #363076 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/362667
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-help
+    lesson: 6
+    key: help
+    original: Hilf!
+    ipa: hˈɪlf
+    meaning:
+      en: Help!
+      pl: Pomocy!
+    audio: null
+    source: "Tatoeba #536050, autor: WhiteKnight, CC BY 2.0 FR; polskie tłumaczenie #787823 (damc)"
+    source_url: https://tatoeba.org/sentences/show/536050
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-need-help
+    lesson: 6
+    key: i-need-help
+    original: Ich brauche Hilfe.
+    ipa: ɪç bɾˈaʊxə hˈɪlfə
+    meaning:
+      en: I need help.
+      pl: Potrzebuję pomocy.
+    audio:
+      url: https://tatoeba.org/audio/download/394050
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #913855, autor: Esperantostern, CC BY 2.0 FR; polskie tłumaczenie #1591778 (TopMan)"
+    source_url: https://tatoeba.org/sentences/show/913855
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-want-water
+    lesson: 6
+    key: i-want-water
+    original: Wasser bitte.
+    ipa: vˈasɜ bˈɪtə
+    meaning:
+      en: Water, please.
+    audio: null
+    source: "Tatoeba #1922207, autor: Tino, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1922207
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-hungry
+    lesson: 6
+    key: im-hungry
+    original: Ich bin hungrig!
+    ipa: ɪç bɪn hˈʊŋɡɾɪç
+    meaning:
+      en: I am hungry.
+      pl: Jestem głodny.
+    audio:
+      url: https://tatoeba.org/audio/download/394688
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #439772, autor: xtofu80, CC BY 2.0 FR; polskie tłumaczenie #356518 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/439772
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-thirsty
+    lesson: 6
+    key: im-thirsty
+    original: Ich habe Durst.
+    ipa: ɪç hɑːbə dˈuːɾst
+    meaning:
+      en: I'm thirsty.
+      pl: Jestem spragniony.
+    audio:
+      url: https://tatoeba.org/audio/download/394619
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #461402, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #526803 (Pacio)"
+    source_url: https://tatoeba.org/sentences/show/461402
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-tired
+    lesson: 6
+    key: im-tired
+    original: Ich bin müde.
+    ipa: ɪç bɪn mˈyːdə
+    meaning:
+      en: I'm tired.
+      pl: Jestem zmęczony.
+    audio:
+      url: https://tatoeba.org/audio/download/394623
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #459131, autor: Espi, CC BY 2.0 FR; polskie tłumaczenie #362057 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/459131
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-wait-a-moment
+    lesson: 6
+    key: wait-a-moment
+    original: Warte eine Minute.
+    ipa: vˈaɾtə ˌaɪnə miːnˈuːtə
+    meaning:
+      en: Wait a minute.
+    audio:
+      url: https://tatoeba.org/audio/download/699008
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #6091515, autor: Esperantostern, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/6091515
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-where-is-the-toilet
+    lesson: 6
+    key: where-is-the-toilet
+    original: Wo ist das Klo?
+    ipa: vˌoː ɪst das klˈoː
+    meaning:
+      en: Where is the bathroom?
+    audio:
+      url: https://tatoeba.org/audio/download/593142
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #976178, autor: Esperantostern, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/976178
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-do-you-want-tea
+    lesson: 7
+    key: do-you-want-tea
+    original: Möchtest du Tee?
+    ipa: mˈœçtəst duː tˈeː
+    meaning:
+      en: Do you want some tea?
+      pl: Chcesz herbaty?
+    audio:
+      url: https://tatoeba.org/audio/download/564408
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #2046459, autor: al_ex_an_der, CC BY 2.0 FR; polskie tłumaczenie #8501566 (nusia2302)"
+    source_url: https://tatoeba.org/sentences/show/2046459
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-dont-like-it
+    lesson: 7
+    key: i-dont-like-it
+    original: Das gefällt mir nicht.
+    ipa: das ɡəfˈɛlt miːɾ nˈɪçt
+    meaning:
+      en: I don't like it.
+    audio:
+      url: https://tatoeba.org/audio/download/123841
+      author: mramosch
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #2291719, autor: Pfirsichbaeumchen, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2291719
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-drink-coffee
+    lesson: 7
+    key: i-drink-coffee
+    original: Ich trinke Kaffee.
+    ipa: ɪç tɾˈɪŋkə kˈafeː
+    meaning:
+      en: I drink coffee.
+      pl: Piję kawę.
+    audio:
+      url: https://tatoeba.org/audio/download/690566
+      author: MisterTrouser
+      license: CC BY 4.0
+      source_url: https://tatoeba.org/eng/user/profile/MisterTrouser
+    source: "Tatoeba #1000345, autor: Pfirsichbaeumchen, CC BY 2.0 FR; polskie tłumaczenie #1000606 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/1000345
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-like-it
+    lesson: 7
+    key: i-like-it
+    original: Ich mag das.
+    ipa: ɪç mˈɑːk das
+    meaning:
+      en: I like this.
+      pl: Lubię to.
+    audio:
+      url: https://tatoeba.org/audio/download/469939
+      author: moskytoo
+      license: CC BY-NC 4.0
+    source: "Tatoeba #3650744, autor: Esperantostern, CC BY 2.0 FR; polskie tłumaczenie #7868717 (maria_lysik)"
+    source_url: https://tatoeba.org/sentences/show/3650744
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-its-delicious
+    lesson: 7
+    key: its-delicious
+    original: Das ist köstlich.
+    ipa: das ɪst kˈœstlɪç
+    meaning:
+      en: This is delicious.
+      pl: To jest pyszne.
+    audio:
+      url: https://tatoeba.org/audio/download/66647
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #1172736, autor: Vortarulo, CC BY 2.0 FR; polskie tłumaczenie #8706317 (nusia2302)"
+    source_url: https://tatoeba.org/sentences/show/1172736
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-lets-eat
+    lesson: 7
+    key: lets-eat
+    original: Essen wir etwas!
+    ipa: ˈɛsən viːɾ ˈɛtvɑːs
+    meaning:
+      en: Let's eat.
+    audio:
+      url: https://tatoeba.org/audio/download/203039
+      author: Yeti
+      license: CC BY 4.0
+    source: "Tatoeba #3359873, autor: Pfirsichbaeumchen, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3359873
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-the-bill-please
+    lesson: 7
+    key: the-bill-please
+    original: Die Rechnung bitte.
+    ipa: diː rˈɛçnʊŋ bˈɪtə
+    meaning:
+      en: The check, please.
+      pl: Poproszę rachunek.
+    audio:
+      url: https://tatoeba.org/audio/download/394868
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #368050, autor: xtofu80, CC BY 2.0 FR; polskie tłumaczenie #349380 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/368050
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-great
+    lesson: 8
+    key: great
+    original: Großartig!
+    ipa: ɡɾˈoːsaɾtˌɪç
+    meaning:
+      en: Great!
+      pl: Świetnie!
+    audio:
+      url: https://tatoeba.org/audio/download/496994
+      author: quicksanddiver
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #551808, autor: jakov, CC BY 2.0 FR; polskie tłumaczenie #4791062 (cps)"
+    source_url: https://tatoeba.org/sentences/show/551808
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-dont-think-so
+    lesson: 8
+    key: i-dont-think-so
+    original: Ich denke nicht.
+    ipa: ɪç dˈɛŋkə nˈɪçt
+    meaning:
+      en: I don't think so.
+    audio:
+      url: https://tatoeba.org/audio/download/45200
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #786337, autor: Chris, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/786337
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-think-so
+    lesson: 8
+    key: i-think-so
+    original: Ich stimme dem zu.
+    ipa: ɪç ʃtˈɪmə deːm tsˈuː
+    meaning:
+      en: I think so.
+    audio:
+      url: https://tatoeba.org/audio/download/394062
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #911608, autor: xtofu80, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/911608
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-its-ok
+    lesson: 8
+    key: its-ok
+    original: Es ist in Ordnung.
+    ipa: ɛsɪst ɪn ˈɔɾdnʊŋ
+    meaning:
+      en: It's OK.
+      pl: W porządku.
+    audio:
+      url: https://tatoeba.org/audio/download/566175
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #6626109, autor: Felixjp, CC BY 2.0 FR; polskie tłumaczenie #776334 (lde)"
+    source_url: https://tatoeba.org/sentences/show/6626109
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-me-too
+    lesson: 8
+    key: me-too
+    original: Ich auch.
+    ipa: ɪç ˈaʊx
+    meaning:
+      en: Me, too.
+      pl: Ja także.
+    audio: null
+    source: "Tatoeba #536211, autor: Pfirsichbaeumchen, CC BY 2.0 FR; polskie tłumaczenie #560141 (Bilberry)"
+    source_url: https://tatoeba.org/sentences/show/536211
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-no-way
+    lesson: 8
+    key: no-way
+    original: Unmöglich!
+    ipa: ˈʊnmˌøːklɪç
+    meaning:
+      en: No way!
+      pl: Niemożliwe!
+    audio:
+      url: https://tatoeba.org/audio/download/613
+      author: BraveSentry
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #976, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #350804 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/976
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-of-course
+    lesson: 8
+    key: of-course
+    original: Natürlich.
+    ipa: nɑːtˈyːɾlɪç
+    meaning:
+      en: Of course.
+    audio:
+      url: https://tatoeba.org/audio/download/497052
+      author: quicksanddiver
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #732035, autor: Dejo, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/732035
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-really
+    lesson: 8
+    key: really
+    original: Wirklich?
+    ipa: vˈɪɾklɪç
+    meaning:
+      en: Really?
+      pl: Naprawdę?
+    audio:
+      url: https://tatoeba.org/audio/download/29429
+      author: peschiber
+      license: CC BY-NC 4.0
+    source: "Tatoeba #373376, autor: lilygilder, CC BY 2.0 FR; polskie tłumaczenie #457404 (gregloby)"
+    source_url: https://tatoeba.org/sentences/show/373376
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-thats-right
+    lesson: 8
+    key: thats-right
+    original: So ist es.
+    ipa: zoː ɪst ˈɛs
+    meaning:
+      en: That's right.
+      pl: Tak to już jest.
+    audio:
+      url: https://tatoeba.org/audio/download/28851
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #356298, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #356492 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/356298
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-come-here
+    lesson: 9
+    key: come-here
+    original: Komm her!
+    ipa: kˈɔm hˈeːɾ
+    meaning:
+      en: Come here.
+    audio:
+      url: https://tatoeba.org/audio/download/394045
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #915223, autor: Esperantostern, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/915223
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-have-time
+    lesson: 9
+    key: i-have-time
+    original: Ich habe Zeit.
+    ipa: ɪç hɑːbə tsˈaɪt
+    meaning:
+      en: I have time.
+      pl: Mam czas.
+    audio:
+      url: https://tatoeba.org/audio/download/593367
+      author: driini
+      license: CC BY-NC 4.0
+      source_url: https://tatoeba.org/deu/user/profile/driini
+    source: "Tatoeba #6402217, autor: Hannivar, CC BY 2.0 FR; polskie tłumaczenie #8547693 (nusia2302)"
+    source_url: https://tatoeba.org/sentences/show/6402217
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-busy
+    lesson: 9
+    key: im-busy
+    original: Ich habe zu tun.
+    ipa: ɪç hɑːbə tsuː tˈuːn
+    meaning:
+      en: I'm busy.
+    audio:
+      url: https://tatoeba.org/audio/download/391758
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #2624978, autor: Pfirsichbaeumchen, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2624978
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-lets-go
+    lesson: 9
+    key: lets-go
+    original: Lass uns gehen!
+    ipa: lˈas ʊns ɡˈeːən
+    meaning:
+      en: Let's go!
+      pl: Chodźmy!
+    audio:
+      url: https://tatoeba.org/audio/download/394851
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #370055, autor: xtofu80, CC BY 2.0 FR; polskie tłumaczenie #370067 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/370055
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-see-you-later
+    lesson: 9
+    key: see-you-later
+    original: Wir sehen uns.
+    ipa: viːɾ zˈeːən ˈʊns
+    meaning:
+      en: See you.
+    audio:
+      url: https://tatoeba.org/audio/download/100984
+      author: gretelen
+      license: CC BY-NC 4.0
+    source: "Tatoeba #2073170, autor: Espi, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2073170
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-what-are-you-doing
+    lesson: 9
+    key: what-are-you-doing
+    original: Was machst du?
+    ipa: vˈas mˈaxst duː
+    meaning:
+      en: What are you doing?
+      pl: Co robisz?
+    audio: null
+    source: "Tatoeba #376073, autor: megamanenm, CC BY 2.0 FR; polskie tłumaczenie #349021 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/376073
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-congratulations
+    lesson: 10
+    key: congratulations
+    original: Glückwunsch!
+    ipa: ɡlˈykvʊnʃ
+    meaning:
+      en: Congratulations!
+    audio:
+      url: https://tatoeba.org/audio/download/497261
+      author: quicksanddiver
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #2130790, autor: Vortarulo, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2130790
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-dont-worry
+    lesson: 10
+    key: dont-worry
+    original: Keine Sorge.
+    ipa: kˈaɪnə zˈɔɾɡə
+    meaning:
+      en: Don't worry.
+    audio:
+      url: https://tatoeba.org/audio/download/394226
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #784641, autor: Chris, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/784641
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-good-luck
+    lesson: 10
+    key: good-luck
+    original: Viel Glück!
+    ipa: fˈiːl ɡlˈyk
+    meaning:
+      en: Good luck.
+    audio: null
+    source: "Tatoeba #430426, autor: jerom, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/430426
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-love-you
+    lesson: 10
+    key: i-love-you
+    original: Ich liebe Sie.
+    ipa: ɪç lˈiːbə ziː
+    meaning:
+      en: I love you.
+      pl: Kocham pana.
+    audio:
+      url: https://tatoeba.org/audio/download/394917
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #360916, autor: MUIRIEL, CC BY 2.0 FR; polskie tłumaczenie #360964 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/360916
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-i-miss-you
+    lesson: 10
+    key: i-miss-you
+    original: Du fehlst mir.
+    ipa: duː fˈeːlst mˈiːɾ
+    meaning:
+      en: I miss you.
+    audio:
+      url: https://tatoeba.org/audio/download/394535
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #540957, autor: MUIRIEL, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/540957
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-cold
+    lesson: 10
+    key: im-cold
+    original: Mir ist kalt.
+    ipa: miːɾ ɪst kˈalt
+    meaning:
+      en: I am cold.
+      pl: Zimno mi.
+    audio: null
+    source: "Tatoeba #469788, autor: mamat, CC BY 2.0 FR; polskie tłumaczenie #533810 (orzechowski)"
+    source_url: https://tatoeba.org/sentences/show/469788
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-im-happy
+    lesson: 10
+    key: im-happy
+    original: Ich bin froh.
+    ipa: ɪç bɪn frˈoː
+    meaning:
+      en: I am happy.
+    audio:
+      url: https://tatoeba.org/audio/download/393239
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #1657039, autor: Esperantostern, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1657039
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: de-its-hot
+    lesson: 10
+    key: its-hot
+    original: Es ist heiß.
+    ipa: ɛsɪst hˈaɪs
+    meaning:
+      en: It's hot.
+    audio:
+      url: https://tatoeba.org/audio/download/394693
+      author: Oblomov
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #438749, autor: xtofu80, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/438749
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
