@@ -11,7 +11,7 @@ phrases:
     meaning:
       en: And you?
     audio: null
-    source: "Tatoeba, zdanie #691992 (tłumaczenie ang. #524168), CC BY 2.0 FR"
+    source: "Tatoeba #691992, autor: sysko, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/691992
     status: niezweryfikowane
     generated:
@@ -20,13 +20,16 @@ phrases:
   - id: zh-good-evening
     lesson: 1
     key: good-evening
-    original: 晚上好！
+    original: 晚上好。
     romanization: wǎn shàng hǎo
     meaning:
       en: Good evening.
-    audio: null
-    source: "Tatoeba, zdanie #6559016 (tłumaczenie ang. #333156), CC BY 2.0 FR"
-    source_url: https://tatoeba.org/sentences/show/6559016
+    audio:
+      url: https://tatoeba.org/audio/download/26069
+      author: fucongcong
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #333158, autor: fucongcong, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/333158
     status: niezweryfikowane
     generated:
       - romanization
@@ -39,7 +42,7 @@ phrases:
     meaning:
       en: Good morning!
     audio: null
-    source: "Tatoeba, zdanie #335381 (tłumaczenie ang. #329713), CC BY 2.0 FR"
+    source: "Tatoeba #335381, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/335381
     status: niezweryfikowane
     generated:
@@ -53,7 +56,7 @@ phrases:
     meaning:
       en: Good night!
     audio: null
-    source: "Tatoeba, zdanie #465913 (tłumaczenie ang. #426950), CC BY 2.0 FR"
+    source: "Tatoeba #465913, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/465913
     status: niezweryfikowane
     generated:
@@ -67,7 +70,7 @@ phrases:
     meaning:
       en: Goodbye!
     audio: null
-    source: "Tatoeba, zdanie #336477 (tłumaczenie ang. #516745), CC BY 2.0 FR"
+    source: "Tatoeba #336477, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/336477
     status: niezweryfikowane
     generated:
@@ -81,7 +84,7 @@ phrases:
     meaning:
       en: Hello!
     audio: null
-    source: "Tatoeba, zdanie #4857568 (tłumaczenie ang. #373330), CC BY 2.0 FR"
+    source: "Tatoeba #4857568, autor: musclegirlxyp, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/4857568
     status: niezweryfikowane
     generated:
@@ -95,7 +98,7 @@ phrases:
     meaning:
       en: How are you doing?
     audio: null
-    source: "Tatoeba, zdanie #475781 (tłumaczenie ang. #38926), CC BY 2.0 FR"
+    source: "Tatoeba #475781, autor: minshirui, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/475781
     status: niezweryfikowane
     generated:
@@ -109,7 +112,7 @@ phrases:
     meaning:
       en: I'm fine.
     audio: null
-    source: "Tatoeba, zdanie #794004 (tłumaczenie ang. #257272), CC BY 2.0 FR"
+    source: "Tatoeba #794004, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/794004
     status: niezweryfikowane
     generated:
@@ -121,9 +124,9 @@ phrases:
     original: 明天见！
     romanization: míng tiān jiàn
     meaning:
-      en: See you tomorrow!
+      en: See you tomorrow.
     audio: null
-    source: "Tatoeba, zdanie #10966735 (tłumaczenie ang. #1108683), CC BY 2.0 FR"
+    source: "Tatoeba #10966735, autor: xjjAstrus, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/10966735
     status: niezweryfikowane
     generated:
@@ -137,7 +140,7 @@ phrases:
     meaning:
       en: Excuse me.
     audio: null
-    source: "Tatoeba, zdanie #339975 (tłumaczenie ang. #433504), CC BY 2.0 FR"
+    source: "Tatoeba #339975, autor: sysko, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/339975
     status: niezweryfikowane
     generated:
@@ -151,7 +154,7 @@ phrases:
     meaning:
       en: I'm sorry.
     audio: null
-    source: "Tatoeba, zdanie #472304 (tłumaczenie ang. #38387), CC BY 2.0 FR"
+    source: "Tatoeba #472304, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/472304
     status: niezweryfikowane
     generated:
@@ -165,7 +168,7 @@ phrases:
     meaning:
       en: No.
     audio: null
-    source: "Tatoeba, zdanie #3189864 (tłumaczenie ang. #477061), CC BY 2.0 FR"
+    source: "Tatoeba #3189864, autor: Kiwi, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/3189864
     status: niezweryfikowane
     generated:
@@ -178,8 +181,11 @@ phrases:
     romanization: méi guān xi
     meaning:
       en: No problem.
-    audio: null
-    source: "Tatoeba, zdanie #333730 (tłumaczenie ang. #551443), CC BY 2.0 FR"
+    audio:
+      url: https://tatoeba.org/audio/download/26516
+      author: fucongcong
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #333730, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/333730
     status: niezweryfikowane
     generated:
@@ -193,7 +199,7 @@ phrases:
     meaning:
       en: Please!
     audio: null
-    source: "Tatoeba, zdanie #13174838 (tłumaczenie ang. #7825834), CC BY 2.0 FR"
+    source: "Tatoeba #13174838, autor: atitarev, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/13174838
     status: niezweryfikowane
     generated:
@@ -207,7 +213,7 @@ phrases:
     meaning:
       en: Thank you!
     audio: null
-    source: "Tatoeba, zdanie #374825 (tłumaczenie ang. #374827), CC BY 2.0 FR"
+    source: "Tatoeba #374825, autor: sysko, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/374825
     status: niezweryfikowane
     generated:
@@ -216,13 +222,16 @@ phrases:
   - id: zh-thank-you-very-much
     lesson: 2
     key: thank-you-very-much
-    original: 十分感谢。
-    romanization: shí fēn gǎn xiè
+    original: 非常感谢！
+    romanization: fēi cháng gǎn xiè
     meaning:
       en: Thank you very much.
-    audio: null
-    source: "Tatoeba, zdanie #330585 (tłumaczenie ang. #1839560), CC BY 2.0 FR"
-    source_url: https://tatoeba.org/sentences/show/330585
+    audio:
+      url: https://tatoeba.org/audio/download/27091
+      author: fucongcong
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #334426, autor: fucongcong, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/334426
     status: niezweryfikowane
     generated:
       - romanization
@@ -230,13 +239,16 @@ phrases:
   - id: zh-yes
     lesson: 2
     key: yes
-    original: 是的。
-    romanization: shì de
+    original: 是！
+    romanization: shì
     meaning:
-      en: Yes.
-    audio: null
-    source: "Tatoeba, zdanie #478749 (tłumaczenie ang. #477086), CC BY 2.0 FR"
-    source_url: https://tatoeba.org/sentences/show/478749
+      en: Yes!
+    audio:
+      url: https://tatoeba.org/audio/download/1277320
+      author: LeviHighway
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #13111625, autor: LeviHighway, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/13111625
     status: niezweryfikowane
     generated:
       - romanization
@@ -249,7 +261,7 @@ phrases:
     meaning:
       en: You're welcome.
     audio: null
-    source: "Tatoeba, zdanie #700670 (tłumaczenie ang. #403068), CC BY 2.0 FR"
+    source: "Tatoeba #700670, autor: weipipi, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/700670
     status: niezweryfikowane
     generated:
@@ -262,8 +274,9 @@ phrases:
     romanization: nǐ jǐ suì le
     meaning:
       en: How old are you?
+      pl: Ile masz lat?
     audio: null
-    source: "Tatoeba, zdanie #345427 (tłumaczenie ang. #436243), CC BY 2.0 FR"
+    source: "Tatoeba #345427, autor: zhouj1955, CC BY 2.0 FR; polskie tłumaczenie #349120 (zipangu)"
     source_url: https://tatoeba.org/sentences/show/345427
     status: niezweryfikowane
     generated:
@@ -277,7 +290,7 @@ phrases:
     meaning:
       en: I am a student.
     audio: null
-    source: "Tatoeba, zdanie #7768226 (tłumaczenie ang. #252287), CC BY 2.0 FR"
+    source: "Tatoeba #7768226, autor: jiangche, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/7768226
     status: niezweryfikowane
     generated:
@@ -291,7 +304,7 @@ phrases:
     meaning:
       en: My name is Tom.
     audio: null
-    source: "Tatoeba, zdanie #1850482 (tłumaczenie ang. #1173265), CC BY 2.0 FR"
+    source: "Tatoeba #1850482, autor: patricedenis, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/1850482
     status: niezweryfikowane
     generated:
@@ -305,7 +318,7 @@ phrases:
     meaning:
       en: Nice to meet you.
     audio: null
-    source: "Tatoeba, zdanie #493913 (tłumaczenie ang. #499617), CC BY 2.0 FR"
+    source: "Tatoeba #493913, autor: adjusting, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/493913
     status: niezweryfikowane
     generated:
@@ -319,7 +332,7 @@ phrases:
     meaning:
       en: What's your job?
     audio: null
-    source: "Tatoeba, zdanie #333602 (tłumaczenie ang. #36809), CC BY 2.0 FR"
+    source: "Tatoeba #333602, autor: al, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/333602
     status: niezweryfikowane
     generated:
@@ -333,7 +346,7 @@ phrases:
     meaning:
       en: What is your name?
     audio: null
-    source: "Tatoeba, zdanie #346883 (tłumaczenie ang. #70623), CC BY 2.0 FR"
+    source: "Tatoeba #346883, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/346883
     status: niezweryfikowane
     generated:
@@ -347,7 +360,7 @@ phrases:
     meaning:
       en: Where are you from?
     audio: null
-    source: "Tatoeba, zdanie #374862 (tłumaczenie ang. #370703), CC BY 2.0 FR"
+    source: "Tatoeba #374862, autor: sysko, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/374862
     status: niezweryfikowane
     generated:
@@ -361,7 +374,7 @@ phrases:
     meaning:
       en: Where do you live?
     audio: null
-    source: "Tatoeba, zdanie #136401 (tłumaczenie ang. #370708), CC BY 2.0 FR"
+    source: "Tatoeba #136401, autor: momowuwen, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/136401
     status: niezweryfikowane
     generated:
@@ -375,7 +388,7 @@ phrases:
     meaning:
       en: Can you speak English?
     audio: null
-    source: "Tatoeba, zdanie #342074 (tłumaczenie ang. #26170), CC BY 2.0 FR"
+    source: "Tatoeba #342074, autor: sysko, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/342074
     status: niezweryfikowane
     generated:
@@ -388,8 +401,12 @@ phrases:
     romanization: wǒ bù zhī dào
     meaning:
       en: I don't know.
-    audio: null
-    source: "Tatoeba, zdanie #10 (tłumaczenie ang. #349064), CC BY 2.0 FR"
+      pl: Nie wiem.
+    audio:
+      url: https://tatoeba.org/audio/download/1276696
+      author: LeviHighway
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #10, autor: Sprachprofi, CC BY 2.0 FR; polskie tłumaczenie #348673 (zipangu)"
     source_url: https://tatoeba.org/sentences/show/10
     status: niezweryfikowane
     generated:
@@ -403,7 +420,7 @@ phrases:
     meaning:
       en: I do not understand.
     audio: null
-    source: "Tatoeba, zdanie #340435 (tłumaczenie ang. #376610), CC BY 2.0 FR"
+    source: "Tatoeba #340435, autor: sysko, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/340435
     status: niezweryfikowane
     generated:
@@ -417,7 +434,7 @@ phrases:
     meaning:
       en: I understand.
     audio: null
-    source: "Tatoeba, zdanie #819294 (tłumaczenie ang. #433468), CC BY 2.0 FR"
+    source: "Tatoeba #819294, autor: Martha, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/819294
     status: niezweryfikowane
     generated:
@@ -431,7 +448,7 @@ phrases:
     meaning:
       en: Could you say that again?
     audio: null
-    source: "Tatoeba, zdanie #1050430 (tłumaczenie ang. #1060025), CC BY 2.0 FR"
+    source: "Tatoeba #1050430, autor: tatomeimei, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/1050430
     status: niezweryfikowane
     generated:
@@ -445,7 +462,7 @@ phrases:
     meaning:
       en: Please speak slowly.
     audio: null
-    source: "Tatoeba, zdanie #2076249 (tłumaczenie ang. #403059), CC BY 2.0 FR"
+    source: "Tatoeba #2076249, autor: User5120, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/2076249
     status: niezweryfikowane
     generated:
@@ -459,7 +476,7 @@ phrases:
     meaning:
       en: What does it mean?
     audio: null
-    source: "Tatoeba, zdanie #469553 (tłumaczenie ang. #43211), CC BY 2.0 FR"
+    source: "Tatoeba #469553, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/469553
     status: niezweryfikowane
     generated:
@@ -471,9 +488,9 @@ phrases:
     original: 这个几块？
     romanization: zhè ge jǐ kuài
     meaning:
-      en: How much is this?
+      en: How much is it?
     audio: null
-    source: "Tatoeba, zdanie #10052320 (tłumaczenie ang. #925040), CC BY 2.0 FR"
+    source: "Tatoeba #10052320, autor: GlossaMatik, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/10052320
     status: niezweryfikowane
     generated:
@@ -487,7 +504,7 @@ phrases:
     meaning:
       en: What is this?
     audio: null
-    source: "Tatoeba, zdanie #347292 (tłumaczenie ang. #392210), CC BY 2.0 FR"
+    source: "Tatoeba #347292, autor: zhouj1955, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/347292
     status: niezweryfikowane
     generated:
@@ -501,7 +518,7 @@ phrases:
     meaning:
       en: What time is it?
     audio: null
-    source: "Tatoeba, zdanie #8293429 (tłumaczenie ang. #428402), CC BY 2.0 FR"
+    source: "Tatoeba #8293429, autor: GlossaMatik, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/8293429
     status: niezweryfikowane
     generated:
@@ -515,7 +532,7 @@ phrases:
     meaning:
       en: When?
     audio: null
-    source: "Tatoeba, zdanie #5214215 (tłumaczenie ang. #4625694), CC BY 2.0 FR"
+    source: "Tatoeba #5214215, autor: kanlaon, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/5214215
     status: niezweryfikowane
     generated:
@@ -529,7 +546,7 @@ phrases:
     meaning:
       en: Who's that?
     audio: null
-    source: "Tatoeba, zdanie #9958407 (tłumaczenie ang. #742806), CC BY 2.0 FR"
+    source: "Tatoeba #9958407, autor: GlossaMatik, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/9958407
     status: niezweryfikowane
     generated:
@@ -543,7 +560,7 @@ phrases:
     meaning:
       en: Why?
     audio: null
-    source: "Tatoeba, zdanie #378955 (tłumaczenie ang. #36419), CC BY 2.0 FR"
+    source: "Tatoeba #378955, autor: kellenparker, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/378955
     status: niezweryfikowane
     generated:
@@ -557,7 +574,7 @@ phrases:
     meaning:
       en: Help!
     audio: null
-    source: "Tatoeba, zdanie #459378 (tłumaczenie ang. #435084), CC BY 2.0 FR"
+    source: "Tatoeba #459378, autor: minshirui, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/459378
     status: niezweryfikowane
     generated:
@@ -571,7 +588,7 @@ phrases:
     meaning:
       en: I need your help.
     audio: null
-    source: "Tatoeba, zdanie #385201 (tłumaczenie ang. #257113), CC BY 2.0 FR"
+    source: "Tatoeba #385201, autor: NielDLR, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/385201
     status: niezweryfikowane
     generated:
@@ -583,9 +600,9 @@ phrases:
     original: 我饿了！
     romanization: wǒ è le
     meaning:
-      en: I'm hungry.
+      en: I am hungry.
     audio: null
-    source: "Tatoeba, zdanie #378886 (tłumaczenie ang. #1839531), CC BY 2.0 FR"
+    source: "Tatoeba #378886, autor: dreiundzwanzig, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/378886
     status: niezweryfikowane
     generated:
@@ -599,7 +616,7 @@ phrases:
     meaning:
       en: I'm thirsty.
     audio: null
-    source: "Tatoeba, zdanie #465911 (tłumaczenie ang. #1814), CC BY 2.0 FR"
+    source: "Tatoeba #465911, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/465911
     status: niezweryfikowane
     generated:
@@ -613,7 +630,7 @@ phrases:
     meaning:
       en: I'm tired.
     audio: null
-    source: "Tatoeba, zdanie #397734 (tłumaczenie ang. #1705), CC BY 2.0 FR"
+    source: "Tatoeba #397734, autor: GlossaMatik, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/397734
     status: niezweryfikowane
     generated:
@@ -627,7 +644,7 @@ phrases:
     meaning:
       en: Wait a moment.
     audio: null
-    source: "Tatoeba, zdanie #9007563 (tłumaczenie ang. #410597), CC BY 2.0 FR"
+    source: "Tatoeba #9007563, autor: jacintoo, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/9007563
     status: niezweryfikowane
     generated:
@@ -641,7 +658,7 @@ phrases:
     meaning:
       en: Where is the toilet?
     audio: null
-    source: "Tatoeba, zdanie #493902 (tłumaczenie ang. #38937), CC BY 2.0 FR"
+    source: "Tatoeba #493902, autor: adjusting, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/493902
     status: niezweryfikowane
     generated:
@@ -655,7 +672,7 @@ phrases:
     meaning:
       en: I don't like it.
     audio: null
-    source: "Tatoeba, zdanie #1361974 (tłumaczenie ang. #2271878), CC BY 2.0 FR"
+    source: "Tatoeba #1361974, autor: sadhen, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/1361974
     status: niezweryfikowane
     generated:
@@ -669,7 +686,7 @@ phrases:
     meaning:
       en: This is delicious.
     audio: null
-    source: "Tatoeba, zdanie #3739208 (tłumaczenie ang. #463302), CC BY 2.0 FR"
+    source: "Tatoeba #3739208, autor: egg0073, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/3739208
     status: niezweryfikowane
     generated:
@@ -683,7 +700,7 @@ phrases:
     meaning:
       en: The check, please.
     audio: null
-    source: "Tatoeba, zdanie #338786 (tłumaczenie ang. #1710), CC BY 2.0 FR"
+    source: "Tatoeba #338786, autor: sysko, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/338786
     status: niezweryfikowane
     generated:
@@ -695,9 +712,9 @@ phrases:
     original: 很棒！
     romanization: hěn bàng
     meaning:
-      en: Wonderful!
+      en: Great!
     audio: null
-    source: "Tatoeba, zdanie #5092136 (tłumaczenie ang. #433510), CC BY 2.0 FR"
+    source: "Tatoeba #5092136, autor: mirrorvan, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/5092136
     status: niezweryfikowane
     generated:
@@ -711,7 +728,7 @@ phrases:
     meaning:
       en: That's okay.
     audio: null
-    source: "Tatoeba, zdanie #2265425 (tłumaczenie ang. #2123558), CC BY 2.0 FR"
+    source: "Tatoeba #2265425, autor: shanghainese, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/2265425
     status: niezweryfikowane
     generated:
@@ -725,7 +742,7 @@ phrases:
     meaning:
       en: Me, too.
     audio: null
-    source: "Tatoeba, zdanie #793651 (tłumaczenie ang. #321985), CC BY 2.0 FR"
+    source: "Tatoeba #793651, autor: Vortarulo, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/793651
     status: niezweryfikowane
     generated:
@@ -739,7 +756,7 @@ phrases:
     meaning:
       en: No way!
     audio: null
-    source: "Tatoeba, zdanie #503298 (tłumaczenie ang. #2175), CC BY 2.0 FR"
+    source: "Tatoeba #503298, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/503298
     status: niezweryfikowane
     generated:
@@ -752,8 +769,11 @@ phrases:
     romanization: dāng rán shì de
     meaning:
       en: Of course.
-    audio: null
-    source: "Tatoeba, zdanie #421347 (tłumaczenie ang. #433492), CC BY 2.0 FR"
+    audio:
+      url: https://tatoeba.org/audio/download/988883
+      author: GlossaMatik
+      license: CC BY-NC 4.0
+    source: "Tatoeba #421347, autor: GlossaMatik, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/421347
     status: niezweryfikowane
     generated:
@@ -767,7 +787,7 @@ phrases:
     meaning:
       en: Really?
     audio: null
-    source: "Tatoeba, zdanie #1397360 (tłumaczenie ang. #373216), CC BY 2.0 FR"
+    source: "Tatoeba #1397360, autor: mtdot, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/1397360
     status: niezweryfikowane
     generated:
@@ -781,7 +801,7 @@ phrases:
     meaning:
       en: That's right.
     audio: null
-    source: "Tatoeba, zdanie #4952918 (tłumaczenie ang. #1216015), CC BY 2.0 FR"
+    source: "Tatoeba #4952918, autor: murr, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/4952918
     status: niezweryfikowane
     generated:
@@ -795,7 +815,7 @@ phrases:
     meaning:
       en: Come here!
     audio: null
-    source: "Tatoeba, zdanie #7774362 (tłumaczenie ang. #5295840), CC BY 2.0 FR"
+    source: "Tatoeba #7774362, autor: jiangche, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/7774362
     status: niezweryfikowane
     generated:
@@ -809,7 +829,7 @@ phrases:
     meaning:
       en: I have time.
     audio: null
-    source: "Tatoeba, zdanie #4859550 (tłumaczenie ang. #2245901), CC BY 2.0 FR"
+    source: "Tatoeba #4859550, autor: musclegirlxyp, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/4859550
     status: niezweryfikowane
     generated:
@@ -823,7 +843,7 @@ phrases:
     meaning:
       en: I'm busy.
     audio: null
-    source: "Tatoeba, zdanie #819333 (tłumaczenie ang. #261721), CC BY 2.0 FR"
+    source: "Tatoeba #819333, autor: Martha, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/819333
     status: niezweryfikowane
     generated:
@@ -836,8 +856,11 @@ phrases:
     romanization: zǒu ba
     meaning:
       en: Let's go!
-    audio: null
-    source: "Tatoeba, zdanie #334277 (tłumaczenie ang. #241077), CC BY 2.0 FR"
+    audio:
+      url: https://tatoeba.org/audio/download/26984
+      author: fucongcong
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #334277, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/334277
     status: niezweryfikowane
     generated:
@@ -851,7 +874,7 @@ phrases:
     meaning:
       en: See you later!
     audio: null
-    source: "Tatoeba, zdanie #10696089 (tłumaczenie ang. #360558), CC BY 2.0 FR"
+    source: "Tatoeba #10696089, autor: GlossaMatik, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/10696089
     status: niezweryfikowane
     generated:
@@ -865,7 +888,7 @@ phrases:
     meaning:
       en: What are you doing?
     audio: null
-    source: "Tatoeba, zdanie #420046 (tłumaczenie ang. #16492), CC BY 2.0 FR"
+    source: "Tatoeba #420046, autor: sysko, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/420046
     status: niezweryfikowane
     generated:
@@ -878,8 +901,11 @@ phrases:
     romanization: zhù hè nǐ
     meaning:
       en: Congratulations!
-    audio: null
-    source: "Tatoeba, zdanie #335058 (tłumaczenie ang. #1437), CC BY 2.0 FR"
+    audio:
+      url: https://tatoeba.org/audio/download/27610
+      author: fucongcong
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #335058, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/335058
     status: niezweryfikowane
     generated:
@@ -893,7 +919,7 @@ phrases:
     meaning:
       en: Don't worry.
     audio: null
-    source: "Tatoeba, zdanie #394139 (tłumaczenie ang. #506446), CC BY 2.0 FR"
+    source: "Tatoeba #394139, autor: GlossaMatik, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/394139
     status: niezweryfikowane
     generated:
@@ -907,7 +933,7 @@ phrases:
     meaning:
       en: Good luck.
     audio: null
-    source: "Tatoeba, zdanie #812490 (tłumaczenie ang. #239431), CC BY 2.0 FR"
+    source: "Tatoeba #812490, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/812490
     status: niezweryfikowane
     generated:
@@ -920,8 +946,9 @@ phrases:
     romanization: wǒ ài nǐ
     meaning:
       en: I love you.
+      pl: Kocham cię.
     audio: null
-    source: "Tatoeba, zdanie #139673 (tłumaczenie ang. #1434), CC BY 2.0 FR"
+    source: "Tatoeba #139673, autor: wonkk, CC BY 2.0 FR; polskie tłumaczenie #348818 (zipangu)"
     source_url: https://tatoeba.org/sentences/show/139673
     status: niezweryfikowane
     generated:
@@ -935,7 +962,7 @@ phrases:
     meaning:
       en: I miss you.
     audio: null
-    source: "Tatoeba, zdanie #29 (tłumaczenie ang. #1308), CC BY 2.0 FR"
+    source: "Tatoeba #29, autor: nickyeow, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/29
     status: niezweryfikowane
     generated:
@@ -949,7 +976,7 @@ phrases:
     meaning:
       en: I am cold.
     audio: null
-    source: "Tatoeba, zdanie #471387 (tłumaczenie ang. #436325), CC BY 2.0 FR"
+    source: "Tatoeba #471387, autor: fucongcong, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/471387
     status: niezweryfikowane
     generated:
@@ -963,7 +990,7 @@ phrases:
     meaning:
       en: I am happy.
     audio: null
-    source: "Tatoeba, zdanie #924590 (tłumaczenie ang. #436371), CC BY 2.0 FR"
+    source: "Tatoeba #924590, autor: jessie0422, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/924590
     status: niezweryfikowane
     generated:
@@ -977,7 +1004,7 @@ phrases:
     meaning:
       en: It's hot today.
     audio: null
-    source: "Tatoeba, zdanie #450940 (tłumaczenie ang. #242881), CC BY 2.0 FR"
+    source: "Tatoeba #450940, autor: minshirui, CC BY 2.0 FR"
     source_url: https://tatoeba.org/sentences/show/450940
     status: niezweryfikowane
     generated:

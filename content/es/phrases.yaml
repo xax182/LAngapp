@@ -1,4 +1,1315 @@
 # Frazy do nauki. Każda fraza MUSI mieć "source" i "status".
-# Na razie pusto: wypełni to import z Tatoeba (GitHub Actions) albo Ty, ze swojego źródła.
-# Wzór wpisu: docs/dodawanie-tresci.md
-phrases: []
+# status: zweryfikowane | niezweryfikowane
+# Importer nigdy nie zmienia fraz ze statusem "zweryfikowane" ani z "locked: true".
+# Brak frazy dla klucza z programu = luka, widoczna w aplikacji.
+phrases:
+  - id: es-and-you
+    lesson: 1
+    key: and-you
+    original: ¿Y tú?
+    ipa: i tˈu
+    meaning:
+      en: And you?
+      pl: I ty?
+    audio:
+      url: https://tatoeba.org/audio/download/38888
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #524691, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #524688 (paulina)"
+    source_url: https://tatoeba.org/sentences/show/524691
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-good-evening
+    lesson: 1
+    key: good-evening
+    original: ¡Buenas noches!
+    ipa: bwˈenas nˈotʃes
+    meaning:
+      en: Good evening!
+    audio:
+      url: https://tatoeba.org/audio/download/435945
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #528431, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/528431
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-good-morning
+    lesson: 1
+    key: good-morning
+    original: ¡Buenos días!
+    ipa: bwˈenos ðˈias
+    meaning:
+      en: Good morning!
+      pl: Dzień dobry!
+    audio:
+      url: https://tatoeba.org/audio/download/502597
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #403913, autor: cueyayotl, CC BY 2.0 FR; polskie tłumaczenie #403047 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/403913
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-goodbye
+    lesson: 1
+    key: goodbye
+    original: Adiós.
+    ipa: aðjˈos
+    meaning:
+      en: Goodbye!
+    audio:
+      url: https://tatoeba.org/audio/download/932075
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #850006, autor: Warnerbroder, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/850006
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-hello
+    lesson: 1
+    key: hello
+    original: Hola.
+    ipa: ˈola
+    meaning:
+      en: Hello!
+      pl: Cześć.
+    audio:
+      url: https://tatoeba.org/audio/download/437710
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #431975, autor: Leono, CC BY 2.0 FR; polskie tłumaczenie #405641 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/431975
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-how-are-you
+    lesson: 1
+    key: how-are-you
+    original: ¿Qué tal te va?
+    ipa: kˈe tˈal te βˈa
+    meaning:
+      en: How are you doing?
+    audio:
+      url: https://tatoeba.org/audio/download/442372
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #346243, autor: tatoerique, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/346243
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-fine
+    lesson: 1
+    key: im-fine
+    original: Estoy bien, gracias.
+    ipa: estˈoɪ βjˈen ɡɾˈaθjas
+    meaning:
+      en: I'm fine, thank you.
+    audio:
+      url: https://tatoeba.org/audio/download/37729
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #493008, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/493008
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-see-you-tomorrow
+    lesson: 1
+    key: see-you-tomorrow
+    original: Hasta mañana.
+    ipa: ˌasta maɲˈana
+    meaning:
+      en: See you tomorrow.
+    audio:
+      url: https://tatoeba.org/audio/download/38004
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #497587, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/497587
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-excuse-me
+    lesson: 2
+    key: excuse-me
+    original: Perdone.
+    ipa: peɾðˈone
+    meaning:
+      en: Excuse me.
+    audio:
+      url: https://tatoeba.org/audio/download/502600
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #514802, autor: cueyayotl, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/514802
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-sorry
+    lesson: 2
+    key: im-sorry
+    original: Lo siento.
+    ipa: lo sjˈɛnto
+    meaning:
+      en: I'm sorry.
+      pl: Przepraszam.
+    audio:
+      url: https://tatoeba.org/audio/download/48650
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #942156, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #507551 (orzage)"
+    source_url: https://tatoeba.org/sentences/show/942156
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-no
+    lesson: 2
+    key: no
+    original: No.
+    ipa: nˈo
+    meaning:
+      en: No.
+      pl: Nie.
+    audio:
+      url: https://tatoeba.org/audio/download/36008
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #479870, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #1913501 (Matatjahu)"
+    source_url: https://tatoeba.org/sentences/show/479870
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-no-problem
+    lesson: 2
+    key: no-problem
+    original: ¡Sin problemas!
+    ipa: sim pɾoβlˈemas
+    meaning:
+      en: No problem!
+    audio:
+      url: https://tatoeba.org/audio/download/437209
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #786163, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/786163
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-please
+    lesson: 2
+    key: please
+    original: ¡Por favor!
+    ipa: poɾ faβˈoɾ
+    meaning:
+      en: Please.
+    audio: null
+    source: "Tatoeba #684287, autor: Zifre, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/684287
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-thank-you
+    lesson: 2
+    key: thank-you
+    original: ¡Gracias!
+    ipa: ɡɾˈaθjas
+    meaning:
+      en: Thank you!
+      pl: Dziękuję!
+    audio:
+      url: https://tatoeba.org/audio/download/437708
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #382058, autor: hayastan, CC BY 2.0 FR; polskie tłumaczenie #382586 (esperanto)"
+    source_url: https://tatoeba.org/sentences/show/382058
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-thank-you-very-much
+    lesson: 2
+    key: thank-you-very-much
+    original: Muchas gracias.
+    ipa: mˈutʃas ɣɾˈaθjas
+    meaning:
+      en: Thanks a lot.
+    audio:
+      url: https://tatoeba.org/audio/download/438732
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #3301993, autor: gianich73, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3301993
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-yes
+    lesson: 2
+    key: yes
+    original: Sí.
+    ipa: sˈi
+    meaning:
+      en: Yes.
+      pl: Tak.
+    audio:
+      url: https://tatoeba.org/audio/download/35900
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #477135, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #531792 (orzechowski)"
+    source_url: https://tatoeba.org/sentences/show/477135
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-youre-welcome
+    lesson: 2
+    key: youre-welcome
+    original: Eres bienvenido.
+    ipa: ˈeɾes βjˌembenˈiðo
+    meaning:
+      en: You are welcome.
+    audio:
+      url: https://tatoeba.org/audio/download/502661
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #1448331, autor: peibolvig, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1448331
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-how-old-are-you
+    lesson: 3
+    key: how-old-are-you
+    original: ¿Qué edad tienes?
+    ipa: kˈe eðˈad tjˈenes
+    meaning:
+      en: How old are you?
+    audio:
+      url: https://tatoeba.org/audio/download/441494
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #855403, autor: migueltoledo86, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/855403
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-a-student
+    lesson: 3
+    key: im-a-student
+    original: Soy estudiante.
+    ipa: sˈoɪ ˌestuðjˈante
+    meaning:
+      en: I am a student.
+    audio:
+      url: https://tatoeba.org/audio/download/435976
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #574254, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/574254
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-my-name-is-tom
+    lesson: 3
+    key: my-name-is-tom
+    original: Me llamo Tom.
+    ipa: me ʎˈamo tˈom
+    meaning:
+      en: My name is Tom.
+      pl: Nazywam się Tom.
+    audio:
+      url: https://tatoeba.org/audio/download/799048
+      author: ignacio
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #2351587, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #8750985 (nusia2302)"
+    source_url: https://tatoeba.org/sentences/show/2351587
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-nice-to-meet-you
+    lesson: 3
+    key: nice-to-meet-you
+    original: Un placer conocerte.
+    ipa: ˈum plaθˈeɾ kˌonoθˈeɾte
+    meaning:
+      en: Pleased to meet you.
+    audio:
+      url: https://tatoeba.org/audio/download/798881
+      author: ignacio
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #927348, autor: mrc3306, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/927348
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-what-do-you-do
+    lesson: 3
+    key: what-do-you-do
+    original: ¿En qué trabajas?
+    ipa: en kˈe tɾaβˈaxas
+    meaning:
+      en: What's your job?
+    audio:
+      url: https://tatoeba.org/audio/download/527400
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #345472, autor: tatoerique, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/345472
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-whats-your-name
+    lesson: 3
+    key: whats-your-name
+    original: ¿Cómo se llama?
+    ipa: kˈomo se ʎˈama
+    meaning:
+      en: What is your name?
+      pl: Jak się pan nazywa?
+    audio:
+      url: https://tatoeba.org/audio/download/35413
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #461028, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #349237 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/461028
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-where-are-you-from
+    lesson: 3
+    key: where-are-you-from
+    original: ¿De dónde eres?
+    ipa: de ðˈonde ˈeɾes
+    meaning:
+      en: Where do you come from?
+    audio:
+      url: https://tatoeba.org/audio/download/1627
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #3071, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/3071
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-where-do-you-live
+    lesson: 3
+    key: where-do-you-live
+    original: ¿Dónde vives?
+    ipa: dˈonde βˈiβes
+    meaning:
+      en: Where do you live?
+      pl: Gdzie mieszkasz?
+    audio:
+      url: https://tatoeba.org/audio/download/2034
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #6144, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #353202 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/6144
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-do-you-speak-english
+    lesson: 4
+    key: do-you-speak-english
+    original: ¿Habla usted inglés?
+    ipa: ˈaβla ustˈeð iŋɡlˈes
+    meaning:
+      en: Do you speak English?
+    audio:
+      url: https://tatoeba.org/audio/download/453049
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #340398, autor: tatoerique, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/340398
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-dont-know
+    lesson: 4
+    key: i-dont-know
+    original: No sé.
+    ipa: nˈo sˈe
+    meaning:
+      en: I don't know.
+      pl: Nie wiem.
+    audio:
+      url: https://tatoeba.org/audio/download/438042
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #376608, autor: hayastan, CC BY 2.0 FR; polskie tłumaczenie #348673 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/376608
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-dont-understand
+    lesson: 4
+    key: i-dont-understand
+    original: No entiendo.
+    ipa: nˈo entjˈɛndo
+    meaning:
+      en: I do not understand.
+      pl: Nie rozumiem.
+    audio:
+      url: https://tatoeba.org/audio/download/1521
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #2874, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #348672 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/2874
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-understand
+    lesson: 4
+    key: i-understand
+    original: Lo entiendo.
+    ipa: lo entjˈɛndo
+    meaning:
+      en: I understand.
+    audio:
+      url: https://tatoeba.org/audio/download/435983
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #576615, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/576615
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-say-again
+    lesson: 4
+    key: say-again
+    original: ¿Podrías repetir eso?
+    ipa: poðɾˈias rˌepetˈiɾ ˈeso
+    meaning:
+      en: Could you repeat that?
+    audio:
+      url: https://tatoeba.org/audio/download/453474
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #1252015, autor: marcelostockle, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1252015
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-speak-slowly
+    lesson: 4
+    key: speak-slowly
+    original: Por favor hable despacio.
+    ipa: poɾ faβˈoɾ ˈaβle ðespˈaθjo
+    meaning:
+      en: Please speak slowly.
+    audio:
+      url: https://tatoeba.org/audio/download/797968
+      author: ignacio
+      license: brak licencji (tylko tatoeba.org)
+    source: "Tatoeba #8804682, autor: ignacio, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/8804682
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-what-does-this-mean
+    lesson: 4
+    key: what-does-this-mean
+    original: ¿Qué significa?
+    ipa: kˈe sˌiɡnifˈika
+    meaning:
+      en: What does it mean?
+    audio:
+      url: https://tatoeba.org/audio/download/450030
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #860846, autor: Rafp, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/860846
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-how-much-is-this
+    lesson: 5
+    key: how-much-is-this
+    original: ¿Cuánto es?
+    ipa: kwˈanto ˈes
+    meaning:
+      en: How much is it?
+    audio:
+      url: https://tatoeba.org/audio/download/50348
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #988375, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/988375
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-what-is-this
+    lesson: 5
+    key: what-is-this
+    original: ¿Qué es esto?
+    ipa: kˈe ˈes ˈesto
+    meaning:
+      en: What is this?
+      pl: Co to takiego?
+    audio:
+      url: https://tatoeba.org/audio/download/34714
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #449942, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #1002668 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/449942
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-what-time-is-it
+    lesson: 5
+    key: what-time-is-it
+    original: ¿Qué hora es?
+    ipa: kˈe ˈoɾa ˈes
+    meaning:
+      en: What time is it?
+    audio:
+      url: https://tatoeba.org/audio/download/1502
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #2830, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2830
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-whats-going-on
+    lesson: 5
+    key: whats-going-on
+    original: ¿Qué sucede?
+    ipa: kˈe suθˈeðe
+    meaning:
+      en: What's going on?
+    audio:
+      url: https://tatoeba.org/audio/download/443960
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #2721060, autor: cueyayotl, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2721060
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-when
+    lesson: 5
+    key: when
+    original: ¿Cuando?
+    ipa: kwˈando
+    meaning:
+      en: When?
+    audio: null
+    source: "Tatoeba #5214207, autor: kanlaon, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/5214207
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-where-is-it
+    lesson: 5
+    key: where-is-it
+    original: ¿Dónde está?
+    ipa: dˈonde estˈa
+    meaning:
+      en: Where is it?
+    audio: null
+    source: "Tatoeba #687629, autor: lukaszpp, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/687629
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-who-is-that
+    lesson: 5
+    key: who-is-that
+    original: ¿Quién es?
+    ipa: kjˈen ˈes
+    meaning:
+      en: Who's that?
+    audio:
+      url: https://tatoeba.org/audio/download/39279
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #541328, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/541328
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-why
+    lesson: 5
+    key: why
+    original: ¿Por qué?
+    ipa: poɾ kˈe
+    meaning:
+      en: Why?
+      pl: Dlaczego?
+    audio: null
+    source: "Tatoeba #375872, autor: megamanenm, CC BY 2.0 FR; polskie tłumaczenie #363076 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/375872
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-help
+    lesson: 6
+    key: help
+    original: Ayúdame.
+    ipa: aʝˈuðame
+    meaning:
+      en: Help me!
+    audio:
+      url: https://tatoeba.org/audio/download/38680
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #515909, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/515909
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-need-help
+    lesson: 6
+    key: i-need-help
+    original: Necesito ayuda.
+    ipa: nˌeθesˈito aʝˈuða
+    meaning:
+      en: I need help.
+      pl: Potrzebuję pomocy.
+    audio:
+      url: https://tatoeba.org/audio/download/438252
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #582319, autor: Leono, CC BY 2.0 FR; polskie tłumaczenie #1591778 (TopMan)"
+    source_url: https://tatoeba.org/sentences/show/582319
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-want-water
+    lesson: 6
+    key: i-want-water
+    original: Agua, por favor.
+    ipa: ˈaɣwa poɾ faβˈoɾ
+    meaning:
+      en: Water, please.
+    audio:
+      url: https://tatoeba.org/audio/download/516867
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #2097500, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2097500
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-hungry
+    lesson: 6
+    key: im-hungry
+    original: Ya tengo hambre.
+    ipa: ʝˈa tˈɛŋɡo ˈambɾe
+    meaning:
+      en: I am hungry.
+    audio:
+      url: https://tatoeba.org/audio/download/438264
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #683434, autor: humbertovs, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/683434
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-thirsty
+    lesson: 6
+    key: im-thirsty
+    original: Tengo sed.
+    ipa: tˈɛŋɡo sˈed
+    meaning:
+      en: I'm thirsty.
+    audio: null
+    source: "Tatoeba #455958, autor: lukaszpp, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/455958
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-tired
+    lesson: 6
+    key: im-tired
+    original: Yo estoy cansado.
+    ipa: ʝˈo estˈoɪ kansˈaðo
+    meaning:
+      en: I'm tired.
+    audio:
+      url: https://tatoeba.org/audio/download/439060
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #4587006, autor: cueyayotl, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4587006
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-wait-a-moment
+    lesson: 6
+    key: wait-a-moment
+    original: Espera un minuto.
+    ipa: espˈeɾa ˈun minˈuto
+    meaning:
+      en: Wait a minute.
+    audio:
+      url: https://tatoeba.org/audio/download/442956
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #1237075, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1237075
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-where-is-the-toilet
+    lesson: 6
+    key: where-is-the-toilet
+    original: ¿Dónde está el baño?
+    ipa: dˈonde estˈa el βˈaɲo
+    meaning:
+      en: Where is the bathroom?
+      pl: Gdzie jest łazienka?
+    audio:
+      url: https://tatoeba.org/audio/download/449800
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #338917, autor: tatoerique, CC BY 2.0 FR; polskie tłumaczenie #922411 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/338917
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-dont-like-it
+    lesson: 7
+    key: i-dont-like-it
+    original: No me gusta.
+    ipa: nˈo me ɣˈusta
+    meaning:
+      en: I don't like it.
+    audio:
+      url: https://tatoeba.org/audio/download/516730
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #1968754, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1968754
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-drink-coffee
+    lesson: 7
+    key: i-drink-coffee
+    original: Bebo café.
+    ipa: bˈeβo kafˈe
+    meaning:
+      en: I drink coffee.
+    audio:
+      url: https://tatoeba.org/audio/download/116931
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #2252749, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2252749
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-like-it
+    lesson: 7
+    key: i-like-it
+    original: Me gusta.
+    ipa: me ɣˈusta
+    meaning:
+      en: I like it.
+    audio:
+      url: https://tatoeba.org/audio/download/438278
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #743883, autor: chinopinyin, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/743883
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-its-delicious
+    lesson: 7
+    key: its-delicious
+    original: Es delicioso.
+    ipa: ˈes ðˌeliθjˈoso
+    meaning:
+      en: It's delicious.
+    audio:
+      url: https://tatoeba.org/audio/download/440991
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #2187385, autor: hayastan, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2187385
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-lets-eat
+    lesson: 7
+    key: lets-eat
+    original: Comamos.
+    ipa: komˈamos
+    meaning:
+      en: Let's eat.
+    audio:
+      url: https://tatoeba.org/audio/download/436037
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #750451, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/750451
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-the-bill-please
+    lesson: 7
+    key: the-bill-please
+    original: La cuenta, por favor.
+    ipa: la kwˈɛnta poɾ faβˈoɾ
+    meaning:
+      en: The check, please.
+    audio:
+      url: https://tatoeba.org/audio/download/1522
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #2876, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2876
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-great
+    lesson: 8
+    key: great
+    original: ¡Genial!
+    ipa: xenjˈal
+    meaning:
+      en: Great!
+    audio:
+      url: https://tatoeba.org/audio/download/437725
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #855587, autor: sharin, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/855587
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-dont-think-so
+    lesson: 8
+    key: i-dont-think-so
+    original: No creo.
+    ipa: nˈo kɾˈeo
+    meaning:
+      en: I don't think so.
+    audio: null
+    source: "Tatoeba #644756, autor: darinmex, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/644756
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-think-so
+    lesson: 8
+    key: i-think-so
+    original: Creo que sí.
+    ipa: kɾˈeo ke sˈi
+    meaning:
+      en: I think so.
+    audio:
+      url: https://tatoeba.org/audio/download/438446
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #1437426, autor: peibolvig, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1437426
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-its-ok
+    lesson: 8
+    key: its-ok
+    original: Está bien.
+    ipa: estˈa βjˈen
+    meaning:
+      en: It's OK.
+    audio:
+      url: https://tatoeba.org/audio/download/437740
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #1372070, autor: marcelostockle, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1372070
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-me-too
+    lesson: 8
+    key: me-too
+    original: Yo también.
+    ipa: ʝˈo tambjˈen
+    meaning:
+      en: Me, too.
+    audio:
+      url: https://tatoeba.org/audio/download/436033
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #731630, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/731630
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-no-way
+    lesson: 8
+    key: no-way
+    original: ¡No puede ser!
+    ipa: nˈo pwˈeðe sˈer
+    meaning:
+      en: No way!
+    audio:
+      url: https://tatoeba.org/audio/download/1435
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #2704, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2704
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-of-course
+    lesson: 8
+    key: of-course
+    original: ¡Por supuesto!
+    ipa: poɾ supwˈesto
+    meaning:
+      en: Of course!
+    audio:
+      url: https://tatoeba.org/audio/download/45011
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #777905, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/777905
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-really
+    lesson: 8
+    key: really
+    original: ¿En serio?
+    ipa: en sˈeɾjo
+    meaning:
+      en: Really?
+    audio:
+      url: https://tatoeba.org/audio/download/437706
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #344138, autor: tatoerique, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/344138
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-thats-right
+    lesson: 8
+    key: thats-right
+    original: Eso es.
+    ipa: ˈeso ˈes
+    meaning:
+      en: That's right.
+    audio:
+      url: https://tatoeba.org/audio/download/438223
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #331347, autor: danilo, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/331347
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-come-here
+    lesson: 9
+    key: come-here
+    original: Ven.
+    ipa: bˈen
+    meaning:
+      en: Come here.
+    audio:
+      url: https://tatoeba.org/audio/download/438347
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #1215248, autor: El_mas_capo, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/1215248
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-have-time
+    lesson: 9
+    key: i-have-time
+    original: Tengo tiempo.
+    ipa: tˈɛŋɡo tjˈempo
+    meaning:
+      en: I have time.
+    audio:
+      url: https://tatoeba.org/audio/download/439086
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #4859590, autor: cueyayotl, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/4859590
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-busy
+    lesson: 9
+    key: im-busy
+    original: Estoy ocupado.
+    ipa: estˈoɪ ˌokupˈaðo
+    meaning:
+      en: I'm busy.
+    audio:
+      url: https://tatoeba.org/audio/download/39688
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #562694, autor: darinmex, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/562694
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-lets-go
+    lesson: 9
+    key: lets-go
+    original: Vámonos.
+    ipa: bˈamonos
+    meaning:
+      en: Let's go!
+    audio:
+      url: https://tatoeba.org/audio/download/41531
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #627825, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/627825
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-see-you-later
+    lesson: 9
+    key: see-you-later
+    original: ¡Hasta luego!
+    ipa: ˌasta luˈeɣo
+    meaning:
+      en: See you later!
+    audio:
+      url: https://tatoeba.org/audio/download/437709
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #427036, autor: hayastan, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/427036
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-what-are-you-doing
+    lesson: 9
+    key: what-are-you-doing
+    original: ¿Qué haces?
+    ipa: kˈe ˈaθes
+    meaning:
+      en: What are you doing?
+      pl: Co robisz?
+    audio:
+      url: https://tatoeba.org/audio/download/829467
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #4052592, autor: Georgelliot, CC BY 2.0 FR; polskie tłumaczenie #349021 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/4052592
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-congratulations
+    lesson: 10
+    key: congratulations
+    original: ¡Felicidades!
+    ipa: fˌeliθiðˈaðes
+    meaning:
+      en: Congratulations!
+    audio:
+      url: https://tatoeba.org/audio/download/1397
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #2642, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2642
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-dont-worry
+    lesson: 10
+    key: dont-worry
+    original: No te preocupes.
+    ipa: nˈo te pɾˌeokˈupes
+    meaning:
+      en: Don't worry about it.
+      pl: Nie martw się.
+    audio:
+      url: https://tatoeba.org/audio/download/1321
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #2513, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #350045 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/2513
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-good-luck
+    lesson: 10
+    key: good-luck
+    original: ¡Mucho éxito!
+    ipa: mˈutʃo ˈeksito
+    meaning:
+      en: Good luck!
+    audio:
+      url: https://tatoeba.org/audio/download/502789
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #2000015, autor: marcelostockle, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/2000015
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-love-you
+    lesson: 10
+    key: i-love-you
+    original: Te quiero.
+    ipa: te kjˈeɾo
+    meaning:
+      en: I love you.
+      pl: Kocham cię.
+    audio:
+      url: https://tatoeba.org/audio/download/1394
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #2639, autor: Shishir, CC BY 2.0 FR; polskie tłumaczenie #348818 (zipangu)"
+    source_url: https://tatoeba.org/sentences/show/2639
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-i-miss-you
+    lesson: 10
+    key: i-miss-you
+    original: Te echo de menos.
+    ipa: te ˈetʃo ðe mˈenos
+    meaning:
+      en: I miss you.
+    audio:
+      url: https://tatoeba.org/audio/download/35031
+      author: marcelostockle
+      license: CC BY-NC 4.0
+    source: "Tatoeba #454574, autor: Shishir, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/454574
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-cold
+    lesson: 10
+    key: im-cold
+    original: Tengo frío.
+    ipa: tˈɛŋɡo fɾˈio
+    meaning:
+      en: I am cold.
+    audio:
+      url: https://tatoeba.org/audio/download/34189
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #436326, autor: lukaszpp, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/436326
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-im-happy
+    lesson: 10
+    key: im-happy
+    original: Estoy contento.
+    ipa: estˈoɪ kontˈɛnto
+    meaning:
+      en: I am happy.
+    audio:
+      url: https://tatoeba.org/audio/download/34192
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #436372, autor: lukaszpp, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/436372
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).
+  - id: es-its-hot
+    lesson: 10
+    key: its-hot
+    original: Hoy hace calor.
+    ipa: ˈoɪ ˈaθe kalˈoɾ
+    meaning:
+      en: It's hot today.
+    audio:
+      url: https://tatoeba.org/audio/download/440913
+      author: arh
+      license: CC BY-NC-ND 3.0
+    source: "Tatoeba #345513, autor: tatoerique, CC BY 2.0 FR"
+    source_url: https://tatoeba.org/sentences/show/345513
+    status: niezweryfikowane
+    generated:
+      - ipa
+    notes: IPA wygenerowane przez eSpeak NG (przybliżenie).

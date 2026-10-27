@@ -1,4 +1,5 @@
 # Frazy do nauki. Każda fraza MUSI mieć "source" i "status".
-# Na razie pusto: wypełni to import z Tatoeba (GitHub Actions) albo Ty, ze swojego źródła.
-# Wzór wpisu: docs/dodawanie-tresci.md
+# status: zweryfikowane | niezweryfikowane
+# Importer nigdy nie zmienia fraz ze statusem "zweryfikowane" ani z "locked: true".
+# Brak frazy dla klucza z programu = luka, widoczna w aplikacji.
 phrases: []
