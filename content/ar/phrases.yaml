@@ -47,6 +47,18 @@ phrases:
     source_url: https://tatoeba.org/sentences/show/7524255
     status: niezweryfikowane
     notes: "Kod Tatoeba: apc. Sprawdź, czy to dialekt palestyński."
+  - id: ar-excuse-me
+    lesson: 2
+    key: excuse-me
+    original: لو سمحتي
+    romanization: law samaḥti
+    meaning:
+      en: please, excuse me
+    audio: null
+    source: Wiktionary, hasło „لو سمحتي” (South Levantine Arabic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%D9%84%D9%88_%D8%B3%D9%85%D8%AD%D8%AA%D9%8A#South_Levantine_Arabic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem. Wiktionary nie podaje, czy to odmiana palestyńska.
   - id: ar-no
     lesson: 2
     key: no
@@ -179,3 +191,25 @@ phrases:
     source_url: https://tatoeba.org/sentences/show/10218761
     status: niezweryfikowane
     notes: "Kod Tatoeba: ajp. Sprawdź, czy to dialekt palestyński."
+  - id: ar-wikt-alternative-form-of--halla-now
+    lesson: 11
+    original: هلا
+    romanization: halla
+    meaning:
+      en: alternative form of هلق (hallaʔ, “now”)
+    audio: null
+    source: Wiktionary, hasło „هلا” (North Levantine Arabic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%D9%87%D9%84%D8%A7#North_Levantine_Arabic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem. Wiktionary nie podaje, czy to odmiana palestyńska.
+  - id: ar-wikt-how-are-you-to-a-man
+    lesson: 11
+    original: كيفك
+    romanization: kīfak?
+    meaning:
+      en: how are you? (to a man)
+    audio: null
+    source: Wiktionary, hasło „كيفك” (North Levantine Arabic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%D9%83%D9%8A%D9%81%D9%83#North_Levantine_Arabic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem. Wiktionary nie podaje, czy to odmiana palestyńska.

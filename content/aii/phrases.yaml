@@ -16,6 +16,84 @@ phrases:
     source_url: https://en.wiktionary.org/wiki/%DC%AA%DC%A1%DC%AB%DC%98%DC%9F_%DC%92%DC%AA%DC%9D%DC%9F%DC%90#Assyrian_Neo-Aramaic
     status: niezweryfikowane
     notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-goodbye
+    lesson: 1
+    key: goodbye
+    original: ܐܠܗܐ ܥܡܘܟ
+    romanization: allāhā ˁamōḵ
+    ipa: "[ʔalaːhaː‿ʕammoːx]"
+    meaning:
+      en: Literally, “May God be with you”; God be with you, goodbye, farewell
+    audio: null
+    source: Wiktionary, hasło „ܐܠܗܐ ܥܡܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%90%DC%A0%DC%97%DC%90_%DC%A5%DC%A1%DC%98%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-how-are-you
+    lesson: 1
+    key: how-are-you
+    original: ܕܐܟܝ ܝܘܬ
+    romanization: dāḵī ìwet?
+    ipa: "[dɑːxiː‿iːwɪt.]"
+    meaning:
+      en: How are you? (singular masculine)
+    audio: null
+    source: Wiktionary, hasło „ܕܐܟܝ ܝܘܬ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%95%DC%90%DC%9F%DC%9D_%DC%9D%DC%98%DC%AC#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-please
+    lesson: 2
+    key: please
+    original: ܐܢ ܒܣܡܐ ܠܘܟ
+    romanization: in bāsmā lōḵ
+    ipa: "[ʔɪn.‿bɑːsmɑː‿loːx.]"
+    meaning:
+      en: please, if you please
+    audio: null
+    source: Wiktionary, hasło „ܐܢ ܒܣܡܐ ܠܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%90%DC%A2_%DC%92%DC%A3%DC%A1%DC%90_%DC%A0%DC%98%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-thank-you
+    lesson: 2
+    key: thank-you
+    original: ܬܘܕܝ
+    romanization: tawdī
+    ipa: "[tɑw.diː]"
+    meaning:
+      en: thank you, thanks
+    audio: null
+    source: Wiktionary, hasło „ܬܘܕܝ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%AC%DC%98%DC%95%DC%9D#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-youre-welcome
+    lesson: 2
+    key: youre-welcome
+    original: ܠܐ ܟܐ ܕܩܪܐ
+    romanization: lā kē dāqrā
+    ipa: "[lɑːkeː‿dɑːqrɑː]"
+    meaning:
+      en: Literally, “It dosen’t cost”; you're welcome, no worries
+    audio: null
+    source: Wiktionary, hasło „ܠܐ ܟܐ ܕܩܪܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%9F%DC%90_%DC%95%DC%A9%DC%AA%DC%90#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-nice-to-meet-you
+    lesson: 3
+    key: nice-to-meet-you
+    original: ܚܕܐ ܠܝ ܒܚܙܝܬܘܟ
+    romanization: ḥdē lī bḥzāytōḵ
+    ipa: "[xədeː‿liː‿bəxzaj.tuxː]"
+    meaning:
+      en: pleased to meet you, nice to meet you (literally “I became happy by your sight”)
+    audio: null
+    source: Wiktionary, hasło „ܚܕܐ ܠܝ ܒܚܙܝܬܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%9A%DC%95%DC%90_%DC%A0%DC%9D_%DC%92%DC%9A%DC%99%DC%9D%DC%AC%DC%98%DC%9F#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
   - id: aii-what-time-is-it
     lesson: 5
     key: what-time-is-it
@@ -27,6 +105,32 @@ phrases:
     audio: null
     source: Wiktionary, hasło „ܫܥܬ ܟܡܐ ܝܠܗ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
     source_url: https://en.wiktionary.org/wiki/%DC%AB%DC%A5%DC%AC_%DC%9F%DC%A1%DC%90_%DC%9D%DC%A0%DC%97#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-whats-going-on
+    lesson: 5
+    key: whats-going-on
+    original: ܡܐ ܐܝܬ ܡܐ ܠܝܬ
+    romanization: mā īṯ mā layt
+    ipa: "[mɑː‿ʔiːθ‿mɑː‿layt.]"
+    meaning:
+      en: what's up?; what's going on?; how are you?
+    audio: null
+    source: Wiktionary, hasło „ܡܐ ܐܝܬ ܡܐ ܠܝܬ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A1%DC%90_%DC%90%DC%9D%DC%AC_%DC%A1%DC%90_%DC%A0%DC%9D%DC%AC#Assyrian_Neo-Aramaic
+    status: niezweryfikowane
+    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
+  - id: aii-thats-right
+    lesson: 8
+    key: thats-right
+    original: ܠܐ ܝܠܗ ܗܕܟ
+    romanization: lā ìlēh hādaḵ?
+    ipa: "[laː‿jleː‿haːdax]"
+    meaning:
+      en: isn’t it so?; don’t you agree?
+    audio: null
+    source: Wiktionary, hasło „ܠܐ ܝܠܗ ܗܕܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
+    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%9D%DC%A0%DC%97_%DC%97%DC%95%DC%9F#Assyrian_Neo-Aramaic
     status: niezweryfikowane
     notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
   - id: aii-wikt-a-hand-cannot-clap-by-itself-cooperation
@@ -99,54 +203,6 @@ phrases:
     source_url: https://en.wiktionary.org/wiki/%DC%9B%DC%97%DC%AA%DC%98%DC%9F_%DC%92%DC%AA%DC%9D%DC%9F%DC%90#Assyrian_Neo-Aramaic
     status: niezweryfikowane
     notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
-  - id: aii-wikt-how-are-you-singular-masculine
-    lesson: 11
-    original: ܕܐܟܝ ܝܘܬ
-    romanization: dāḵī ìwet?
-    ipa: "[dɑːxiː‿iːwɪt.]"
-    meaning:
-      en: How are you? (singular masculine)
-    audio: null
-    source: Wiktionary, hasło „ܕܐܟܝ ܝܘܬ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
-    source_url: https://en.wiktionary.org/wiki/%DC%95%DC%90%DC%9F%DC%9D_%DC%9D%DC%98%DC%AC#Assyrian_Neo-Aramaic
-    status: niezweryfikowane
-    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
-  - id: aii-wikt-isn-t-it-so-don-t-you-agree
-    lesson: 11
-    original: ܠܐ ܝܠܗ ܗܕܟ
-    romanization: lā ìlēh hādaḵ?
-    ipa: "[laː‿jleː‿haːdax]"
-    meaning:
-      en: isn’t it so?; don’t you agree?
-    audio: null
-    source: Wiktionary, hasło „ܠܐ ܝܠܗ ܗܕܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
-    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%9D%DC%A0%DC%97_%DC%97%DC%95%DC%9F#Assyrian_Neo-Aramaic
-    status: niezweryfikowane
-    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
-  - id: aii-wikt-literally-it-dosen-t-cost-youre-welcome-
-    lesson: 11
-    original: ܠܐ ܟܐ ܕܩܪܐ
-    romanization: lā kē dāqrā
-    ipa: "[lɑːkeː‿dɑːqrɑː]"
-    meaning:
-      en: Literally, “It dosen’t cost”; you're welcome, no worries
-    audio: null
-    source: Wiktionary, hasło „ܠܐ ܟܐ ܕܩܪܐ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
-    source_url: https://en.wiktionary.org/wiki/%DC%A0%DC%90_%DC%9F%DC%90_%DC%95%DC%A9%DC%AA%DC%90#Assyrian_Neo-Aramaic
-    status: niezweryfikowane
-    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
-  - id: aii-wikt-literally-may-god-be-with-you-god-be-wit
-    lesson: 11
-    original: ܐܠܗܐ ܥܡܘܟ
-    romanization: allāhā ˁamōḵ
-    ipa: "[ʔalaːhaː‿ʕammoːx]"
-    meaning:
-      en: Literally, “May God be with you”; God be with you, goodbye, farewell
-    audio: null
-    source: Wiktionary, hasło „ܐܠܗܐ ܥܡܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
-    source_url: https://en.wiktionary.org/wiki/%DC%90%DC%A0%DC%97%DC%90_%DC%A5%DC%A1%DC%98%DC%9F#Assyrian_Neo-Aramaic
-    status: niezweryfikowane
-    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
   - id: aii-wikt-literally-may-god-heal-you-get-well-soon
     lesson: 11
     original: ܐܠܗܐ ܡܒܣܡ ܠܘܟ
@@ -183,18 +239,6 @@ phrases:
     source_url: https://en.wiktionary.org/wiki/%DC%AB%DC%A0%DC%A1%DC%90#Assyrian_Neo-Aramaic
     status: niezweryfikowane
     notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
-  - id: aii-wikt-pleased-to-meet-you-nice-to-meet-you-lit
-    lesson: 11
-    original: ܚܕܐ ܠܝ ܒܚܙܝܬܘܟ
-    romanization: ḥdē lī bḥzāytōḵ
-    ipa: "[xədeː‿liː‿bəxzaj.tuxː]"
-    meaning:
-      en: pleased to meet you, nice to meet you (literally “I became happy by your sight”)
-    audio: null
-    source: Wiktionary, hasło „ܚܕܐ ܠܝ ܒܚܙܝܬܘܟ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
-    source_url: https://en.wiktionary.org/wiki/%DC%9A%DC%95%DC%90_%DC%A0%DC%9D_%DC%92%DC%9A%DC%99%DC%9D%DC%AC%DC%98%DC%9F#Assyrian_Neo-Aramaic
-    status: niezweryfikowane
-    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
   - id: aii-wikt-stop-talking-shut-up-shut-it-be-quiet
     lesson: 11
     original: ܫܬܘܩ
@@ -205,18 +249,6 @@ phrases:
     audio: null
     source: Wiktionary, hasło „ܫܬܘܩ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
     source_url: https://en.wiktionary.org/wiki/%DC%AB%DC%AC%DC%98%DC%A9#Assyrian_Neo-Aramaic
-    status: niezweryfikowane
-    notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
-  - id: aii-wikt-thank-you-thanks
-    lesson: 11
-    original: ܬܘܕܝ
-    romanization: tawdī
-    ipa: "[tɑw.diː]"
-    meaning:
-      en: thank you, thanks
-    audio: null
-    source: Wiktionary, hasło „ܬܘܕܝ” (Assyrian Neo-Aramaic), CC BY-SA 3.0, przez kaikki.org
-    source_url: https://en.wiktionary.org/wiki/%DC%AC%DC%98%DC%95%DC%9D#Assyrian_Neo-Aramaic
     status: niezweryfikowane
     notes: Z rozmówek Wiktionary; sprawdź z native speakerem.
   - id: aii-wikt-there-is-no-proverb-made-in-falsehood
