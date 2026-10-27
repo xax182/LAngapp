@@ -20,6 +20,8 @@ describe('import z Wiktionary', () => {
       { word: 'ܫܠܵܡܵܐ', lang: 'Assyrian Neo-Aramaic', pos: 'intj', senses: [{ glosses: ['hello'], categories: [{ name: 'Assyrian Neo-Aramaic phrasebook' }] }], forms: [{ form: 'šlāmā', tags: ['romanization'] }], sounds: [{ ipa: '/ʃlaːmaː/' }, { audio: 'X.ogg', ogg_url: 'https://upload.wikimedia.org/x.ogg' }] },
       { word: 'ܬܵܘܕܝܼ', lang: 'Assyrian Neo-Aramaic', pos: 'intj', senses: [{ glosses: ['thank you'], categories: ['Assyrian Neo-Aramaic phrasebook'] }] },
       { word: 'ܐܲܝܟܵܐ ܝܼܠܹܗ ܒܹܝܬܵܐ', lang: 'Assyrian Neo-Aramaic', pos: 'phrase', senses: [{ glosses: ['where is the house?'], categories: ['Assyrian Neo-Aramaic phrasebook'] }] },
+      { word: 'ܕܐܟܝ ܝܘܬ', lang: 'Assyrian Neo-Aramaic', pos: 'phrase', senses: [{ glosses: ['How are you? (singular masculine)'], categories: ['Assyrian Neo-Aramaic phrasebook'] }] },
+      { word: 'ܐܝܕܐ', lang: 'Assyrian Neo-Aramaic', pos: 'phrase', senses: [{ glosses: ['a hand cannot clap by itself'], categories: ['Assyrian Neo-Aramaic proverbs'] }] },
       { word: 'ܟܬ݂ܵܒ݂ܵܐ', lang: 'Assyrian Neo-Aramaic', pos: 'noun', senses: [{ glosses: ['book'] }] },
     ];
     const file = join(dir, 'aii.jsonl');
@@ -35,6 +37,8 @@ describe('import z Wiktionary', () => {
     expect(out.find((p: { key?: string }) => p.key === 'thank-you').source).toBe('moje');
     // Fraza spoza programu -> lekcja 11; zwykłe słowo (nie rozmówki) pominięte.
     expect(out.find((p: { lesson: number }) => p.lesson === 11).meaning.en).toBe('where is the house?');
-    expect(out).toHaveLength(3);
+    // Dopisek w nawiasie nie przeszkadza w dopasowaniu; przysłowie pominięte.
+    expect(out.find((p: { key?: string }) => p.key === 'how-are-you').original).toBe('ܕܐܟܝ ܝܘܬ');
+    expect(out).toHaveLength(4);
   });
 });

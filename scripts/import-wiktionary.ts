@@ -8,7 +8,7 @@
 // npm run import:wiktionary [-- aii ar]
 // Plik JSONL można też podać ręcznie: WIKT_FILE_aii=sciezka.jsonl
 
-import { createReadStream, createWriteStream, existsSync, mkdirSync, readFileSync } from 'node:fs';
+import { createReadStream, createWriteStream, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { createInterface } from 'node:readline';
 import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
@@ -48,13 +48,18 @@ const catNames = (e: WiktEntry): string[] =>
     typeof c === 'string' ? c : c.name,
   );
 
-async function getJsonl(code: string): Promise<{ path: string; langName: string } | null> {
+/** Wszystkie dostępne pliki dla języka (Wiktionary zmieniało nazwy odmian lewantyńskich). */
+async function getJsonl(code: string): Promise<{ path: string; langName: string }[]> {
   const manual = process.env[`WIKT_FILE_${code}`];
-  if (manual) return { path: manual, langName: LANGS[code][0] };
+  if (manual) return [{ path: manual, langName: LANGS[code][0] }];
   mkdirSync(CACHE, { recursive: true });
+  const found: { path: string; langName: string }[] = [];
   for (const name of LANGS[code]) {
     const path = `${CACHE}/${name.replace(/\s/g, '')}.jsonl`;
-    if (existsSync(path)) return { path, langName: name };
+    if (existsSync(path)) {
+      found.push({ path, langName: name });
+      continue;
+    }
     const urls = [
       `https://kaikki.org/dictionary/${encodeURIComponent(name)}/kaikki.org-dictionary-${name.replace(/[\s-]/g, '')}.jsonl`,
       `https://kaikki.org/dictionary/${encodeURIComponent(name)}/kaikki.org-dictionary-${name.replace(/\s/g, '')}.jsonl`,
@@ -64,11 +69,19 @@ async function getJsonl(code: string): Promise<{ path: string; langName: string 
       if (res?.ok && res.body) {
         console.log(`Pobrano ${url}`);
         await pipeline(Readable.fromWeb(res.body as never), createWriteStream(path));
-        return { path, langName: name };
+        found.push({ path, langName: name });
+        break;
       }
     }
   }
-  return null;
+  return found;
+}
+
+/** Warianty znaczenia do dopasowania: bez dopisków w nawiasach, każda część po „;” i „,”. */
+export function glossVariants(gloss: string): string[] {
+  const base = gloss.replace(/\([^)]*\)/g, ' ');
+  const parts = [gloss, base, ...base.split(/[;,]/)];
+  return [...new Set(parts.map(loose).filter(Boolean))];
 }
 
 export function toPhrase(e: WiktEntry, code: string, key: string | null, lesson: number, langName: string): Phrase | null {
@@ -116,36 +129,52 @@ async function main() {
   for (const l of lessons) for (const it of l.items) for (const v of it.match) byGloss.set(loose(v), { key: it.key, lesson: l.id });
 
   const wanted = process.argv.slice(2).filter((a) => LANGS[a]);
+  const report: string[] = [`# Raport importu z Wiktionary (${new Date().toISOString().slice(0, 10)})`, ''];
   for (const code of wanted.length ? wanted : Object.keys(LANGS)) {
-    const src = await getJsonl(code);
-    if (!src) {
-      console.log(`${code}: nie udało się pobrać danych z kaikki.org.`);
-      continue;
-    }
+    const sources = await getJsonl(code);
     const out: Phrase[] = [];
     const usedKeys = new Set<string>();
     const usedIds = new Set<string>();
-    const rl = createInterface({ input: createReadStream(src.path), crlfDelay: Infinity });
-    for await (const line of rl) {
-      if (!line.trim()) continue;
-      const e = JSON.parse(line) as WiktEntry;
-      const cats = catNames(e);
-      const phrasebook = cats.some((c) => /phrasebook/i.test(c));
-      if (!phrasebook && e.pos !== 'phrase') continue;
-      const glosses = (e.senses ?? []).flatMap((s) => s.glosses ?? []);
-      const hit = glosses.map((g) => byGloss.get(loose(g))).find((h) => h && !usedKeys.has(h.key));
-      if (!hit && !phrasebook) continue; // dodatkowe bierzemy tylko z rozmówek
-      const p = toPhrase(e, code, hit?.key ?? null, hit?.lesson ?? EXTRA_LESSON, src.langName);
-      if (!p || usedIds.has(p.id)) continue;
-      usedIds.add(p.id);
-      if (hit) usedKeys.add(hit.key);
-      out.push(p);
+    const stats: string[] = [];
+    for (const src of sources) {
+      let entries = 0;
+      let candidates = 0;
+      const rl = createInterface({ input: createReadStream(src.path), crlfDelay: Infinity });
+      for await (const line of rl) {
+        if (!line.trim()) continue;
+        entries++;
+        const e = JSON.parse(line) as WiktEntry;
+        const cats = catNames(e);
+        const phrasebook = cats.some((c) => /phrasebook/i.test(c));
+        if (!phrasebook && e.pos !== 'phrase') continue;
+        if (cats.some((c) => /proverb|idiom/i.test(c))) continue; // przysłowia i idiomy nie są rozmówkami
+        candidates++;
+        const glosses = (e.senses ?? []).flatMap((s) => s.glosses ?? []);
+        const hit = glosses
+          .flatMap(glossVariants)
+          .map((g) => byGloss.get(g))
+          .find((h) => h && !usedKeys.has(h.key));
+        if (!hit && !phrasebook) continue; // dodatkowe bierzemy tylko z rozmówek
+        const p = toPhrase(e, code, hit?.key ?? null, hit?.lesson ?? EXTRA_LESSON, src.langName);
+        if (!p || usedIds.has(p.id)) continue;
+        usedIds.add(p.id);
+        if (hit) usedKeys.add(hit.key);
+        out.push(p);
+      }
+      stats.push(`${src.langName}: ${entries} haseł, ${candidates} fraz/rozmówek`);
     }
     const path = `content/${code}/phrases.yaml`;
-    const res = mergeImported(readPhrases(path).phrases, out, { replace: false });
+    // Wcześniejsze, niesprawdzone frazy z Wiktionary zastępujemy nowym importem (inne źródła i zweryfikowane zostają).
+    const kept = readPhrases(path).phrases.filter(
+      (p) => !(p.source.startsWith('Wiktionary') && p.status !== 'zweryfikowane' && !(p as Phrase & { locked?: boolean }).locked),
+    );
+    const res = mergeImported(kept, out, { replace: false });
     writePhrases(path, { phrases: res.phrases });
-    console.log(`${code}: z Wiktionary ${out.length} fraz (${usedKeys.size} wypełnia luki), dodano ${res.added}.`);
+    const line = `${code}: ${sources.length ? stats.join('; ') : 'brak danych na kaikki.org'} → ${out.length} fraz (${usedKeys.size} w programie), dodano ${res.added}.`;
+    console.log(line);
+    report.push(`- ${line}`);
   }
+  writeFileSync('content/import-wiktionary-raport.md', report.join('\n') + '\n');
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
