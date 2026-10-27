@@ -9,7 +9,7 @@ on:
   # Import fraz zapisuje zmiany tokenem GitHub Actions, a taki zapis nie uruchamia innych akcji,
   # więc publikujemy po zakończeniu importu.
   workflow_run:
-    workflows: ['Import Tatoeba']
+    workflows: ['Import Tatoeba', 'Import Wiktionary']
     types: [completed]
 
 permissions:

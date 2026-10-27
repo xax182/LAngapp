@@ -1,0 +1,44 @@
+# Import rozmówek z Wiktionary (Suret, lewantyński). Uruchamiasz ręcznie: Actions -> "Import Wiktionary" -> Run workflow.
+# Nowe i zmienione frazy trafiają od razu do gałęzi main (frazy "zweryfikowane" nigdy nie są nadpisywane).
+name: Import Wiktionary
+
+on:
+  workflow_dispatch:
+    inputs:
+      languages:
+        description: 'Języki (puste = aii i ar)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run import:wiktionary -- ${{ github.event.inputs.languages }}
+      - id: check
+        run: npm run content && npm test
+        continue-on-error: true
+      # Testy OK -> zmiany idą na main. Błąd -> na gałąź wiktionary-import do sprawdzenia (main zostaje bez zmian).
+      - name: Zapisz zmiany
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          if git diff --cached --quiet; then echo "Bez zmian."; exit 0; fi
+          git commit -m "Import rozmówek z Wiktionary"
+          if [ "${{ steps.check.outcome }}" = "success" ]; then
+            git push
+          else
+            git push --force origin HEAD:wiktionary-import
+            echo "::error::Testy nie przeszły. Import zapisany na gałęzi wiktionary-import."
+            exit 1
+          fi

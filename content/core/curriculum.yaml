@@ -198,3 +198,7 @@ lessons:
         match: ["Congratulations!", "Congratulations."]
       - key: good-luck
         match: ["Good luck!", "Good luck."]
+  - id: 11
+    title: Rozmówki dodatkowe
+    # Frazy spoza wspólnego programu (np. z rozmówek Wiktionary). Bez kluczy, więc bez luk.
+    items: []

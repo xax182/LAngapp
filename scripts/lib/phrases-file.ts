@@ -27,8 +27,12 @@ export function writePhrases(path: string, file: PhrasesFile) {
   writeFileSync(path, HEADER + YAML.stringify({ phrases: sorted }, { lineWidth: 0 }));
 }
 
-/** Dokłada lub podmienia frazy z importu; frazy chronione zostają bez zmian. */
-export function mergeImported(existing: Phrase[], imported: Phrase[]): { phrases: Phrase[]; added: number; updated: number } {
+/** Dokłada lub podmienia frazy z importu; frazy chronione zostają bez zmian. replace: false = tylko dokłada brakujące. */
+export function mergeImported(
+  existing: Phrase[],
+  imported: Phrase[],
+  { replace = true }: { replace?: boolean } = {},
+): { phrases: Phrase[]; added: number; updated: number } {
   const byKey = new Map(existing.map((p) => [p.key ?? p.id, p]));
   let added = 0;
   let updated = 0;
@@ -39,7 +43,7 @@ export function mergeImported(existing: Phrase[], imported: Phrase[]): { phrases
     if (!old) {
       byKey.set(k, p);
       added++;
-    } else if (!protectedPhrase && JSON.stringify(old) !== JSON.stringify(p)) {
+    } else if (replace && !protectedPhrase && JSON.stringify(old) !== JSON.stringify(p)) {
       byKey.set(k, p);
       updated++;
     }

@@ -13,7 +13,8 @@
     "test:e2e": "playwright test",
     "import:zh": "node scripts/import-zh-npm.ts",
     "import:tatoeba": "node scripts/import-tatoeba.ts",
-    "build:tones": "node scripts/build-tone-drills.ts"
+    "build:tones": "node scripts/build-tone-drills.ts",
+    "import:wiktionary": "node scripts/import-wiktionary.ts"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
